@@ -1,0 +1,10 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ntu304/public_html/
+    - /bin/cp -R images $DEPLOYPATH
+    - /bin/cp -R styles $DEPLOYPATH
+    - /bin/cp *.php $DEPLOYPATH
+    - /bin/cp *.png $DEPLOYPATH
+    - /bin/cp *.jpg $DEPLOYPATH
+    - /bin/cp list_banned_words.txt $DEPLOYPATH
