@@ -1,10 +1,13 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/ntu304/public_html/
+    - export DEPLOYPATH=/home/casualntc/public_html/
     - /bin/cp -R images $DEPLOYPATH
     - /bin/cp -R styles $DEPLOYPATH
     - /bin/cp *.php $DEPLOYPATH
     - /bin/cp *.png $DEPLOYPATH
     - /bin/cp *.jpg $DEPLOYPATH
     - /bin/cp list_banned_words.txt $DEPLOYPATH
+    - /bin/cp *.html $DEPLOYPATH
+    - /bin/cp *.css $DEPLOYPATH
+    - /bin/cp *.js $DEPLOYPATH
