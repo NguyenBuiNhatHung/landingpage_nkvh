@@ -47,14 +47,16 @@
         color: deepskyblue; /* Màu xanh nước biển */
     }
     .owl-carousel{
-        height: 1000px;
+        height: 100vh;
     }
 
     .item {
-        height: 90%;
+        height: 100vh;
         position: relative; /* Để có thể chèn hình ảnh đè lên nếu cần */
-        text-align: left; /* Căn trái cho nội dung */
+        text-align: left;
+        background: linear-gradient(135deg, #00f260, #0575e6); background-size: 400% 400%; animation: gradientAnimation 5s ease infinite; /* Căn trái cho nội dung */
     }
+    @keyframes gradientAnimation { 0% { background-position: 0% 50%; } 50% { background-position: 100% 50%; } 100% { background-position: 0% 50%; } }
     .carousel-caption {
         position: absolute;
         top: 50%; /* Đặt ở giữa theo chiều dọc */
@@ -82,12 +84,12 @@
 }
 @media only screen and (max-width 768px) {
     .item img {
-        height: 1000px; /* Tăng chiều cao tối đa trên màn hình di động */
+        height: 100vh; /* Tăng chiều cao tối đa trên màn hình di động */
         object-fit: cover; /*Đảm bảo hình ảnh bao phủ */
         object-position: right; /* Chỉ lấy phần bên phải của hình ảnh */
     }
     .owl-carousel{
-        height: 1000px;
+        height: 100vh;
     }
 }
 </style>

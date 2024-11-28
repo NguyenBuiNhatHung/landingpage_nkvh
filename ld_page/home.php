@@ -51,24 +51,21 @@
 
     <!-- home -->
     <div class="owl-carousel owl-theme">
-        <div class="item h-3">
-            <img src="../asset/images/img2.png">
+        <div class="item">
             <div class="carousel-caption">
                 <h3>Diagnosis</h3>
                 <p>Personal care for your healthy living</p>
                 <a href="#" class="btn btn-primary">Book Now</a>
             </div>
         </div>
-        <div class="item h-3">
-            <img src="../asset/images/img2.png"> 
+        <div class="item">
             <div class="carousel-caption">
                 <h3>Wellness</h3>
                 <p>Your health is our priority</p>
                 <a href="#" class="btn btn-primary">Learn More</a>
             </div>
         </div>
-        <div class="item h-3">
-            <img src="../asset/images/img2.png">
+        <div class="item">
             <div class="carousel-caption">
                 <h3>Care</h3>
                 <p>Exceptional care for exceptional people</p>
@@ -77,6 +74,8 @@
         </div>
     </div>
     <!-- hết home -->
+
+
 
 
     <?php require "../asset/js/home.php"; ?><!-- import file javascript -->
