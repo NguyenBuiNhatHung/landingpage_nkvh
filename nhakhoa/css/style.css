@@ -1,5 +1,29 @@
 /*** Spinner Start ***/
 /*** Spinner ***/
+
+
+
+
+.owl-theme .nav-btn {
+    color: #fff;
+    background-color: #0072C6;
+    padding: 15px;
+    border-radius: 50%;
+    font-size: 18px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.owl-theme .prev-slide {
+    left: -10px;
+}
+
+.owl-theme .next-slide {
+    right: -10px;
+}
+
 #spinner {
     opacity: 0;
     visibility: hidden;
@@ -1226,7 +1250,7 @@
     background: var(--bs-dark) !important;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
     .h-md-25 {
         height: 25%;
     }
@@ -1234,7 +1258,6 @@
     .w-md-25 {
         width: 25%;
     }
-
 
 }
 
