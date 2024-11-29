@@ -95,11 +95,11 @@
     </div>
 
 
-    <div id="gioithieu wow fadeInUp" data-wow-delay="0.5s">
+    <div id="gioithieu wow fadeInUp">
         <img class="w-100" src="img/carousel-4.jpg" alt="">
     </div>
     <!-- Navbar & Hero End -->
-    <div class="container mt-lg-5 mt-2 wow fadeInLeft" data-wow-delay="0.1s";>
+    <div class="container mt-lg-5 mt-2 wow fadeInLeft";>
         <div class="row justify-content-center">
             <div class="col-12 col-md-auto mb-2 text-center"> <button class="btn btn-primary btn-lg">ĐĂNG KÝ NHẬN ƯU ĐÃI
                     NGAY</button> </div>
@@ -199,25 +199,25 @@
     </div>
 
     <div id="rangsu">
-        <img class="w-100 wow fadeInUp" data-wow-delay="0.7s" src="img/rang-su.jpg" alt="">
+        <img class="w-100 wow fadeInUp" src="img/rang-su.jpg" alt="">
     </div>
     <div>
-        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" data-wow-delay="1s" src="img/banggia.jpg" alt="">
+        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" src="img/banggia.jpg" alt="">
     </div>
 
     <div>
-        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" data-wow-delay="1s" src="img/quytrinh.jpg" alt="">
+        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" src="img/quytrinh.jpg" alt="">
     </div>
 
     <div id="implant">
-        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" data-wow-delay="1s" src="img/implant.jpg" alt="">
+        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" src="img/implant.jpg" alt="">
     </div>
 
     <div>
-        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" data-wow-delay="1s" src="img/khuyenmai.jpg" alt="">
+        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" src="img/khuyenmai.jpg" alt="">
     </div>
     <div>
-        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" data-wow-delay="1s"  src="img/implant2.jpg" alt="">
+        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" src="img/implant2.jpg" alt="">
     </div>
 
     <!-- Team End -->
