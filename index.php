@@ -199,37 +199,37 @@
     </div>
 
     <div id="rangsu">
-        <img class="w-100 wow fadeInUp" data-wow-delay="0.7s" src="img/rang-su.jpg" alt="">
+        <img class="w-100 wow fadeInLeft" src="img/rang-su.jpg" alt="">
     </div>
     <div>
-        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" data-wow-delay="1s" src="img/banggia.jpg" alt="">
+        <img class="w-100 wow fadeInRight" src="img/banggia.jpg" alt="">
     </div>
 
     <div>
-        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" data-wow-delay="1s" src="img/quytrinh.jpg" alt="">
+        <img class="w-100 wow fadeInLeft" src="img/quytrinh.jpg" alt="">
     </div>
 
     <div id="implant">
-        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" data-wow-delay="1s" src="img/implant.jpg" alt="">
+        <img class="w-100 wow fadeInRight" src="img/implant.jpg" alt="">
     </div>
 
     <div>
-        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" data-wow-delay="1s" src="img/khuyenmai.jpg" alt="">
+        <img class="w-100 wow fadeInLeft" src="img/khuyenmai.jpg" alt="">
     </div>
     <div>
-        <img class="w-100 mt-1 mt-lg-3 wow fadeInUp" data-wow-delay="1s"  src="img/implant2.jpg" alt="">
+        <img class="w-100 wow fadeInRight" src="img/implant2.jpg" alt="">
     </div>
 
     <!-- Team End -->
 
     <!-- Book Appointment Start -->
-    <div id="dathen" style="background: linear-gradient(135deg,#00AEEF, #0072C6 );" class="container-fluid appointment py-5 mt-1">
+    <div id="dathen" style="background: linear-gradient(135deg,#00AEEF, #0072C6 );" class="container-fluid appointment py-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2">
                     <div style="color: white;" class="section-title text-start">
-                        <h2 style="color: rgb(241, 238, 15);font-family: Arial, Helvetica, sans-serif;" class="pe-3 mb-0 display-4">OUR COMMITMENT</h2>
-                        <h6 style="color: white; font-family: Arial, Helvetica, sans-serif;" class="display-6 mb-4">ALL
+                        <h2 style="color: rgb(241, 238, 15);font-family: Arial, Helvetica, sans-serif;" class="pe-3 mb-0 display-4 wow fadeInLeft">OUR COMMITMENT</h2>
+                        <h6 style="color: white; font-family: Arial, Helvetica, sans-serif;" class="display-6 mb-4 wow fadeInLeft">ALL
                             OUR EFFORTS ARE FOR THE CUSTOMER
                             SATISFACTION</h6>
                         <div class="row g-4">
@@ -322,17 +322,16 @@
         </div>
     </div>
     <div>
-        <img class="w-100 mt-1 mt-lg-3" src="img/experience.jpg" alt="">
+        <img class="w-100 mt-lg-3 wow fadeInLeft" src="img/experience.jpg" alt="">
     </div>
 
     <!-- Book Appointment End -->
 
     <!-- Modal Video Youtube 3 rows -->
     <div id="khachhang" class="m-2">
-        <h2
-            style="color: #0072C6; text-align: center;font-weight: bold; margin-top: 10px;font-family: Arial, Helvetica, sans-serif;">
+        <h2 style="color: #0072C6; text-align: center;font-weight: bold; margin-top: 10px;font-family: Arial, Helvetica, sans-serif;" class="wow fadeInLeft">
             TRẢI NGHIỆM CỦA KHÁCH HÀNG</h2>
-        <div class="owl-carousel owl-theme owl-vd">
+        <div class="owl-carousel owl-theme owl-vd wow fadeInRight">
             <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
                     frameborder="0" allowfullscreen></iframe></div>
             <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
