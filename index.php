@@ -348,7 +348,7 @@
     </div>
 
     <!-- Testimonial Start -->
-    <div class="container-fluid testimonial py-5 wow zoomInDown" data-wow-delay="0.1s">
+    <div class="container-fluid testimonial py-5 wow fadeInLeft" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="section-title mb-5">
                 <h5 class="display-6 mb-4">HÌNH ẢNH KHÁCH HÀNG TRƯỚC VÀ SAU ĐIỀU TRỊ</h5>
@@ -374,7 +374,7 @@
     </div>
     <!-- Testimonial End -->
     <div>
-        <img class="w-100 mt-1 mt-lg-3" src="img/full_month_restoration_cost.jpg" alt="">
+        <img class="w-100 wow fadeInRight" src="img/full_month_restoration_cost.jpg" alt="">
     </div>
     <div class="container-fluid py-5" style="background-color: #00AEEF;">
         <h3 class="text-center text-white font-weight-bold my-4"> NỤ CƯỜI TRƯỚC VÀ SAU KHI ĐIỀU TRỊ CỦA KHÁCH HÀNG </h3>
