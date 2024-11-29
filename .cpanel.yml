@@ -1,7 +1,7 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/casualntc/public_html/
+    - export DEPLOYPATH=/home/dentistryvpsttt/public_html/
     - /bin/cp -R * $DEPLOYPATH
     # - /bin/cp -R img $DEPLOYPATH
     # - /bin/cp -R css $DEPLOYPATH
