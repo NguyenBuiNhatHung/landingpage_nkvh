@@ -1,6 +1,10 @@
-/*** Spinner Start ***/
+<style>
+    /*** Spinner Start ***/
 /*** Spinner ***/
-
+body{
+    width: 100%;
+    margin: 0;
+}
 
 .owl-theme .nav-btn {
     color: #fff;
@@ -1265,3 +1269,4 @@
 }
 
 /*** copyright end ***/
+</style>

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require "css/style.php";?>
+
 <head>
     <meta charset="utf-8">
     <title>Nha Khoa Việt Hàn</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta content="" name="keywords">
     <meta content="" name="description">
 
@@ -28,7 +28,7 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Template Stylesheet -->
-    <!-- <link href="css/style.css" rel="stylesheet"> -->
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
 <body>
@@ -73,8 +73,9 @@
 
 
     <!-- Navbar & Hero Start -->
-    <div class="container-fluid position-relative p-0">
-        <nav style="background: linear-gradient(to right, #add8e6, white, #add8e6);" class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+    <div class="container-fluid position-relative">
+        <nav style="background: linear-gradient(to right, #add8e6, white, #add8e6);"
+            class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
             <a href="index.html" class="navbar-brand p-0">
                 <img src="img/logo.jpg" alt="Logo">
             </a>
@@ -93,12 +94,15 @@
             </div>
         </nav>
     </div>
-
-
-    <div id="gioithieu">
-        <img class="w-100" src="img/carousel-4.jpg" alt="">
-    </div>
     <!-- Navbar & Hero End -->
+
+    <div id="gioithieu" style="margin-top: 1%;">
+        <img class="w-100 mt-lg-5 mt-1" src="img/carousel-4.jpg" alt="">
+    </div>
+
+
+
+
     <div class="container mt-lg-5 mt-2" ;>
         <div class="row justify-content-center">
             <div class="col-12 col-md-auto mb-3 text-center"> <button class="btn btn-primary btn-lg">ĐĂNG KÝ NHẬN ƯU ĐÃI
@@ -120,81 +124,82 @@
     <div id="bacsi" class="container-fluid team py-5">
         <div class="container py-5">
             <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
-                <!-- <div class="sub-style">
+                <div class="sub-style">
                     <h3 class="sub-title px-3 mb-0">Meet our team</h3>
-                </div> -->
+                </div>
                 <h5 class="display-6 mb-4">ĐỘI NGŨ BÁC SĨ CHUYÊN SÂU</h5>
             </div>
-            <div class="owl-carousel owl-bs">
-                <div class="item">
-                    <div class="team-item rounded overflow-hidden">
-                        <div class="team-img rounded-top h-100">
-                            <img src="img/bs1.jpg" class="img-fluid rounded-top w-100" alt="">
+            <div class="row g-5 justify-content-center ">
+                <div class="col-12 col-md-4 col-lg-2 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="team-item rounded">
+                        <div class="team-img rounded-top h-100"> <img src="img/bs1.jpg"
+                                class="img-fluid rounded-top w-100" alt="">
                         </div>
                         <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
-                            <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
+                            <h5>Bác sĩ: Khổng Văn Quân</h5>
+                            <p class="mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="team-item rounded overflow-hidden">
-                        <div class="team-img rounded-top h-100">
-                            <img src="img/bs2.jpg" class="img-fluid rounded-top w-100" alt="">
+                <div class="col-12 col-md-4 col-lg-2 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="team-item rounded">
+                        <div class="team-img rounded-top h-100"> <img src="img/bs2.jpg"
+                                class="img-fluid rounded-top w-100" alt="">
                         </div>
                         <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
-                            <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
+                            <h5>Bác sĩ: Khổng Văn Quân</h5>
+                            <p class="mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="team-item rounded overflow-hidden">
-                        <div class="team-img rounded-top h-100">
-                            <img src="img/bs3.jpg" class="img-fluid rounded-top w-100" alt="">
+                <div class="col-12 col-md-4 col-lg-2 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="team-item rounded">
+                        <div class="team-img rounded-top h-100"> <img src="img/bs3.jpg"
+                                class="img-fluid rounded-top w-100" alt="">
                         </div>
                         <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
-                            <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
+                            <h5>Bác sĩ: Khổng Văn Quân</h5>
+                            <p class="mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="team-item rounded overflow-hidden">
-                        <div class="team-img rounded-top h-100">
-                            <img src="img/bs4.jpg" class="img-fluid rounded-top w-100" alt="">
+                <div class="col-12 col-md-4 col-lg-2 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="team-item rounded">
+                        <div class="team-img rounded-top h-100"> <img src="img/bs4.jpg"
+                                class="img-fluid rounded-top w-100" alt="">
+
                         </div>
                         <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
-                            <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
+                            <h5>Bác sĩ: Khổng Văn Quân</h5>
+                            <p class="mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="team-item rounded overflow-hidden">
-                        <div class="team-img rounded-top h-100">
-                            <img src="img/bs5.jpg" class="img-fluid rounded-top w-100" alt="">
+                <div class="col-12 col-md-4 col-lg-2 wow fadeInUp" data-wow-delay="0.9s">
+                    <div class="team-item rounded">
+                        <div class="team-img rounded-top h-100"> <img src="img/bs5.jpg"
+                                class="img-fluid rounded-top w-100" alt="">
+
                         </div>
                         <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
-                            <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
+                            <h5>Bác sĩ: Khổng Văn Quân</h5>
+                            <p class="mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
                         </div>
                     </div>
                 </div>
-                <div class="item">
-                    <div class="team-item rounded overflow-hidden">
-                        <div class="team-img rounded-top h-100">
-                            <img src="img/bs6.jpg" class="img-fluid rounded-top w-100" alt="">
+                <div class="col-12 col-md-4 col-lg-2 wow fadeInUp" data-wow-delay="1.1s">
+                    <div class="team-item rounded">
+                        <div class="team-img rounded-top h-100"> <img src="img/bs6.jpg"
+                                class="img-fluid rounded-top w-100" alt="">
+
                         </div>
                         <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
-                            <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
+                            <h5>Bác sĩ: Khổng Văn Quân</h5>
+                            <p class="mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
                         </div>
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
 
@@ -334,7 +339,7 @@
         <h2
             style="color: #0072C6; text-align: center;font-weight: bold; margin-top: 10px;font-family: Arial, Helvetica, sans-serif;">
             TRẢI NGHIỆM CỦA KHÁCH HÀNG</h2>
-        <div class="owl-carousel owl-theme owl-vd">
+        <div class="owl-carousel owl-theme">
             <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
                     frameborder="0" allowfullscreen></iframe></div>
             <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
@@ -522,8 +527,8 @@
 
 
         <!-- Template Javascript -->
-        <!-- <script src="js/main.js"></script> -->
-        <?php require "js/main.php"; ?>
+        <script src="js/main.js"></script>
+
 </body>
 
 </html>

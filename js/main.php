@@ -1,4 +1,5 @@
-(function ($) {
+<script>
+    (function ($) {
     "use strict";
 
     // Spinner
@@ -89,7 +90,7 @@
                      items: 2 
                     }, 
                 1000: {
-                        items: 2
+                        items: 3
                 } } 
             }); 
         });
@@ -162,3 +163,5 @@
 
 })(jQuery);
 
+
+</script>
