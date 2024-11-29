@@ -4,8 +4,11 @@
 body{
     width: 100%;
     margin: 0;
+    background-color: rgb(177, 218, 232);
 }
-
+.fadeInUp{
+    animation-duration: 2s;
+}
 .owl-theme .nav-btn {
     color: #fff;
     background-color: #0072C6;
