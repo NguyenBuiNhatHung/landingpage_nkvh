@@ -2,15 +2,15 @@
 deployment:
   tasks:
     - export DEPLOYPATH=/home/casualntc/public_html/
-    - /bin/cp -R img $DEPLOYPATH
-    - /bin/cp -R css $DEPLOYPATH
-    - /bin/cp -R js $DEPLOYPATH
-    - /bin/cp -R lib $DEPLOYPATH
-    - /bin/cp -R scss $DEPLOYPATH
-    - /bin/cp *.php $DEPLOYPATH
-    - /bin/cp *.jpg $DEPLOYPATH
-    - /bin/cp list_banned_words.txt $DEPLOYPATH
-    - /bin/cp *.html $DEPLOYPATH
-    - /bin/cp *.css $DEPLOYPATH
-    - /bin/cp *.js $DEPLOYPATH
-    - /bin/cp *.txt $DEPLOYPATH
+    - /bin/cp -R * $DEPLOYPATH
+    # - /bin/cp -R img $DEPLOYPATH
+    # - /bin/cp -R css $DEPLOYPATH
+    # - /bin/cp -R js $DEPLOYPATH
+    # - /bin/cp -R lib $DEPLOYPATH
+    # - /bin/cp -R scss $DEPLOYPATH
+    # - /bin/cp *.php $DEPLOYPATH
+    # - /bin/cp *.jpg $DEPLOYPATH
+    # - /bin/cp list_banned_words.txt $DEPLOYPATH
+    # - /bin/cp *.html $DEPLOYPATH
+    # - /bin/cp *.css $DEPLOYPATH
+    # - /bin/cp *.js $DEPLOYPATH
