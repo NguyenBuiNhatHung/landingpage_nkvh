@@ -8,7 +8,6 @@ deployment:
     - /bin/cp -R lib $DEPLOYPATH
     - /bin/cp -R scss $DEPLOYPATH
     - /bin/cp *.php $DEPLOYPATH
-    - /bin/cp *.png $DEPLOYPATH
     - /bin/cp *.jpg $DEPLOYPATH
     - /bin/cp list_banned_words.txt $DEPLOYPATH
     - /bin/cp *.html $DEPLOYPATH
