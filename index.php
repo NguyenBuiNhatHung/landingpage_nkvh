@@ -229,8 +229,7 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2">
                     <div style="color: white;" class="section-title text-start">
-                        <h2 style="color: rgb(241, 238, 15);font-family: Arial, Helvetica, sans-serif;"
-                            class="sub-title pe-3 mb-0 display-4">OUR COMMITMENT</h2>
+                        <h2 style="color: rgb(241, 238, 15);font-family: Arial, Helvetica, sans-serif;" class="pe-3 mb-0 display-4">OUR COMMITMENT</h2>
                         <h6 style="color: white; font-family: Arial, Helvetica, sans-serif;" class="display-6 mb-4">ALL
                             OUR EFFORTS ARE FOR THE CUSTOMER
                             SATISFACTION</h6>
