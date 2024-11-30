@@ -30,16 +30,17 @@
                 items: 1,
                 loop: true,
                 margin: 10,
+                autoplay:true,
                 nav: false,
                 responsive: {
                     0: {
                         items: 1
                     },
                     600: {
-                        items: 2
+                        items: 1
                     },
                     1000: {
-                        items: 4
+                        items: 3
                     }
                 }
             });
@@ -99,7 +100,7 @@
                 loop: true,
                 margin: 10,
                 nav: true,
-                navText: ["<div class='nav-btn prev-slide'><</div>", "<div class='nav-btn next-slide'>></div>"],
+                navText: ["<div class='nav-btn prev-slide'>&lt;</div>", "<div class='nav-btn next-slide'>&gt;</div>"],
                 responsive: {
                     0: {
                         items: 1

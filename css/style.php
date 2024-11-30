@@ -140,11 +140,11 @@
     }
 
     .owl-theme .prev-slide {
-        left: -10px;
+        left: -8px;
     }
 
     .owl-theme .next-slide {
-        right: -10px;
+        right: -8px;
     }
 
     #spinner {

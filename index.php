@@ -38,11 +38,15 @@
             <span class="sr-only">Loading...</span>
         </div>
     </div>
-    <button id="myBtn" class="d-none">Open Popup</button> <!-- The Popup -->
-    <div id="myPopup" class="popup col-12"> <!-- Popup content -->
-        <div class="popup-content col-10 col-md-5" style="background-image: url('img/popup.jpg')"> <span class="close">&times;</span>
+    <button id="myBtn" class="d-none">Open Popup</button>
+    <div id="myPopup" class="popup col-12">
+        <div class="popup-content col-10 col-md-5" style="background-image: url('img/popup.jpg')"> <span
+                class="close">&times;</span>
             <h2><span class="yellow">SCHEDULE</span> A FREE <br> X-RAY AND DENTAL CHECK-UP</h2>
-            <form class="form-container" method="POST" action="process.php"> <input type="text" name="name" placeholder="Your Name" required> <input type="text" name="phone" placeholder="Phone number" required> <input type="email" name="email" placeholder="Your Email" required> <input type="text" name="country" placeholder="Your Current Country" required> <select name="app" required>
+            <form class="form-container" method="POST" action="process.php"> <input type="text" name="name"
+                    placeholder="Your Name" required> <input type="text" name="phone" placeholder="Phone number"
+                    required> <input type="email" name="email" placeholder="Your Email" required> <input type="text"
+                    name="country" placeholder="Your Current Country" required> <select name="app" required>
                     <option value="" disabled selected>Your Available App</option>
                     <option style="color:black" value="WhatsApp">WhatsApp</option>
                     <option style="color:black" value="Viber">Viber</option>
@@ -56,18 +60,18 @@
         var popup = document.getElementById("myPopup");
         var btn = document.getElementById("myBtn");
         var span = document.getElementsByClassName("close")[0];
-        btn.onclick = function() {
+        btn.onclick = function () {
             popup.style.display = "block";
         }
-        span.onclick = function() {
+        span.onclick = function () {
             popup.style.display = "none";
         }
-        window.onclick = function(event) {
+        window.onclick = function (event) {
             if (event.target == popup) {
                 popup.style.display = "none";
             }
         }
-        window.onload = function() {
+        window.onload = function () {
             popup.style.display = "block";
         }
     </script>
@@ -150,7 +154,8 @@
         <div id="dk"
             class="col-9 col-md-5 row justify-content-center wow fadeInLeft mx-auto d-flex align-items-center justify-content-center">
             <div class="col-12 col-md-auto mb-2 text-center">
-                <button style="font-family: Arial, Helvetica, sans-serif;" class="btn btn-primary btn-lg fadeInUp button-submit">ĐĂNG
+                <button style="font-family: Arial, Helvetica, sans-serif;"
+                    class="btn btn-primary btn-lg fadeInUp button-submit">ĐĂNG
                     KÝ NHẬN ƯU ĐÃI NGAY</button>
             </div>
             <div class="col-12 col-md-auto text-center">
@@ -165,7 +170,8 @@
         </div>
         <h3 style="font-family: Arial, Helvetica, sans-serif;" class="col-12 text-center pt-3 pt-md-5 "><b
                 class="font-size-3"> 5 GIÁ TRỊ CỐT LÕI TẠI NHA KHOA VIỆT HÀN</b></h3>
-        <div style="font-family: Arial, Helvetica, sans-serif;" class="col-11 d-flex d-inline-block justify-content-between p-1 text-center mx-auto">
+        <div style="font-family: Arial, Helvetica, sans-serif;"
+            class="col-11 d-flex d-inline-block justify-content-between p-1 text-center mx-auto">
             <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
                 <h5>Chuyên môn hàng đầu</h5>
                 <p style="text-align: justify;">Chúng tôi tự hào vì 100% bác sĩ tại Nha Khoa Việt Hàn đều là những
@@ -204,15 +210,16 @@
     </div>
     <!--Hết giá trị cốt lõi -->
     <!-- cam kết -->
-    <div style="background-color:rgb(0, 166, 218);" class="pb-5 fadeInUp pt-1 wow fadeInRight">
-        <h3 style="font-family: Arial, Helvetica, sans-serif;font-size: 2.5rem; color:white;" class="col-12 text-center pt-3 pt-md-5 pl-5 pr-5"><b
-                class="font-size-3 wow fadeInLeft">CAM KẾT CỦA CHÚNG TÔI VỚI KHÁCH HÀNG</b></h3>
-        <div class="d-flex flex-column mx-auto wow fadeInRight">
-            <div class="row d-flex flex-column flex-md-row justify-content-around m-md-5 wow fadeInRight">
+    <div style="background-color:rgb(0, 166, 218);" class="pb-5 fadeInUp pt-1 wow fadeInRight col-12">
+        <h3 style="font-family: Arial, Helvetica, sans-serif;font-size: 2.5rem; color:white;"
+            class="col-12 text-center pt-3 pt-md-5"> <b class="wow fadeInLeft">CAM KẾT CỦA CHÚNG TÔI VỚI KHÁCH HÀNG</b>
+        </h3>
+        <div class="container">
+            <div class="row justify-content-around wow fadeInRight">
                 <div class="col-md-5 col-10 mt-5"> <img src="img/ck1.jpg" class="img-fluid" alt="Ảnh Cam Kết 1"> </div>
                 <div class="col-md-5 col-10 mt-5"> <img src="img/ck2.jpg" class="img-fluid" alt="Ảnh Cam Kết 2"> </div>
             </div>
-            <div class="row d-flex flex-column flex-md-row justify-content-around m-md-5 wow fadeInRight">
+            <div class="row justify-content-around wow fadeInRight">
                 <div class="col-md-5 col-10 mt-5"> <img src="img/ck3.jpg" class="img-fluid" alt="Ảnh Cam Kết 3"> </div>
                 <div class="col-md-5 col-10 mt-5"> <img src="img/ck4.jpg" class="img-fluid" alt="Ảnh Cam Kết 4"> </div>
             </div>
@@ -391,10 +398,13 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="text-center align-items-center col-12 col-md-6 mx-auto my-auto countdown-timer" style="background-color: white; border-radius: 10px; padding: 20px;">
-                                <h3 style="font-family: Arial, Helvetica, sans-serif; color:red;">CHỈ CÒN 30 SUẤT ƯU ĐÃI CUỐI CÙNG</h3>
+                            <div class="text-center align-items-center col-12 col-md-6 mx-auto my-auto countdown-timer"
+                                style="background-color: white; border-radius: 10px; padding: 20px;">
+                                <h3 style="font-family: Arial, Helvetica, sans-serif; color:red;">CHỈ CÒN 30 SUẤT ƯU ĐÃI
+                                    CUỐI CÙNG</h3>
                                 <p style="color:green;">Thời hạn đăng ký chỉ còn</p>
-                                <div class="d-flex flex-row justify-content-around flex-wrap fadeInUp countdown-container" style="color: green; font-weight: bold;">
+                                <div class="d-flex flex-row justify-content-around flex-wrap fadeInUp countdown-container"
+                                    style="color: green; font-weight: bold;">
                                     <div id="countdown" class="countdown-container">
                                         <div id="days" class="countdown-item">00<br><span>Ngày</span></div>
                                         <div id="hours" class="countdown-item">00<br><span>Giờ</span></div>
@@ -463,217 +473,228 @@
     <!-- Book Appointment End -->
     <!-- Modal Video Youtube 3 rows -->
     <div id="khachhang" class="m-2">
-        <h2 style="color: #0072C6; text-align: center;font-weight: bold; margin-top: 10px;font-family: Arial, Helvetica, sans-serif;"
-            class="wow fadeInLeft">
-            TRẢI NGHIỆM CỦA KHÁCH HÀNG</h2>
+        <h2 style="color: #0072C6; text-align: center; font-weight: bold; margin-top: 10px; font-family: Arial, Helvetica, sans-serif;"
+            class="wow fadeInLeft"> TRẢI NGHIỆM CỦA KHÁCH HÀNG </h2>
         <div class="owl-carousel owl-theme owl-vd wow fadeInRight">
-            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
-                    frameborder="0" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/2brNKbAMA9c"
-                    frameborder="0" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/JQX2d6N6Ye0"
-                    frameborder="0" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/CzWkYoqz2Kw"
-                    frameborder="0" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/h6ypjKqPaR0"
-                    frameborder="0" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/kGrK7IzXwH4"
-                    frameborder="0" allowfullscreen></iframe></div>
+            <div class="item"> <iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
+                    frameborder="0" allowfullscreen></iframe> </div>
+            <div class="item"> <iframe width="100%" height="315" src="https://www.youtube.com/embed/2brNKbAMA9c"
+                    frameborder="0" allowfullscreen></iframe> </div>
+            <div class="item"> <iframe width="100%" height="315" src="https://www.youtube.com/embed/JQX2d6N6Ye0"
+                    frameborder="0" allowfullscreen></iframe> </div>
+            <div class="item"> <iframe width="100%" height="315" src="https://www.youtube.com/embed/CzWkYoqz2Kw"
+                    frameborder="0" allowfullscreen></iframe> </div>
+            <div class="item"> <iframe width="100%" height="315" src="https://www.youtube.com/embed/h6ypjKqPaR0"
+                    frameborder="0" allowfullscreen></iframe> </div>
+            <div class="item"> <iframe width="100%" height="315" src="https://www.youtube.com/embed/kGrK7IzXwH4"
+                    frameborder="0" allowfullscreen></iframe> </div>
         </div>
-    </div>
-    <!-- Testimonial Start -->
-    <div id="bacsi" class="container-fluid team py-5">
-        <div class="container py-5">
-            <div class="section-title mb-5 fadeInUp">
-                <!-- <div class="sub-style">
-                    <h3 class="sub-title px-3 mb-0">Meet our team</h3>
-                </div> -->
-                <h2 class="mb-4">HÌNH ẢNH KHÁCH HÀNG TRƯỚC VÀ SAU ĐIỀU TRỊ</h2>
-            </div>
-            <div class="owl-carousel owl-bs">
-                <div class="item">
-                    <div class="team-item rounded overflow-hidden">
-                        <div class="team-img rounded-top h-100">
-                            <img src="img/before_after1.jpg" class="img-fluid rounded-top w-100" alt="">
+        <!-- Testimonial Start -->
+        <div id="bacsi" style="background-color:rgb(0, 174, 239)" class="container-fluid team py-5 mt-2">
+            <div class="container py-5">
+                <div class="section-title mb-5 fadeInUp">
+                    <h2 style="color: rgb(241, 238, 15)" class="mb-4">HÌNH ẢNH KHÁCH HÀNG TRƯỚC VÀ SAU ĐIỀU TRỊ</h2>
+                </div>
+                <div class="owl-carousel owl-bs">
+                    <div class="item">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="team-img rounded-top h-100">
+                                <img src="img/before_after1.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="team-item rounded overflow-hidden">
-                        <div class="team-img rounded-top h-100">
-                            <img src="img/before_after2.jpg" class="img-fluid rounded-top w-100" alt="">
+                    <div class="item">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="team-img rounded-top h-100">
+                                <img src="img/before_after2.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="team-item rounded overflow-hidden">
-                        <div class="team-img rounded-top h-100">
-                            <img src="img/before_after3.jpg" class="img-fluid rounded-top w-100" alt="">
+                    <div class="item">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="team-img rounded-top h-100">
+                                <img src="img/before_after3.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="team-item rounded overflow-hidden">
-                        <div class="team-img rounded-top h-100">
-                            <img src="img/before_after1.jpg" class="img-fluid rounded-top w-100" alt="">
+                    <div class="item">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="team-img rounded-top h-100">
+                                <img src="img/before_after1.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="team-item rounded overflow-hidden">
-                        <div class="team-img rounded-top h-100">
-                            <img src="img/before_after2.jpg" class="img-fluid rounded-top w-100" alt="">
+                    <div class="item">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="team-img rounded-top h-100">
+                                <img src="img/before_after2.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="item">
-                    <div class="team-item rounded overflow-hidden">
-                        <div class="team-img rounded-top h-100">
-                            <img src="img/before_after3.jpg" class="img-fluid rounded-top w-100" alt="">
+                    <div class="item">
+                        <div class="team-item rounded overflow-hidden">
+                            <div class="team-img rounded-top h-100">
+                                <img src="img/before_after3.jpg" class="img-fluid rounded-top w-100" alt="">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Testimonial End -->
-    <div>
-        <img class="w-100 wow fadeInRight" src="img/full_month_restoration_cost.jpg" alt="">
-    </div>
-    <div class="container-fluid py-5 wow fadeInLeft" style="background-color: #00AEEF;">
-        <h3 class="text-center text-white font-weight-bold my-4"> NỤ CƯỜI TRƯỚC VÀ SAU KHI ĐIỀU TRỊ CỦA KHÁCH HÀNG </h3>
-        <div class="d-flex justify-content-center align-items-center flex-wrap" style="height: calc(100% - 70px);">
-            <div class="col-md-7 text-center text-white mb-3">
-                <p class="px-3" style="text-align: justify;"> Bác sĩ Tính chữa trị tốt, nhân viên nhiệt tình. Phòng khám
-                    sạch sẽ. Máy dụng cụ để bác sĩ làm việc thấy rất chỉnh chu, sạch. Nhân viên phụ tá nhẹ nhàng với
-                    mình. Cảm giác thoải mái khi đến đây. Tôi rất vui và sẽ giới thiệu người thân, bạn bè đến đây ủng
-                    hộ. </p>
+        <div>
+            <img class="w-100 wow fadeInRight" src="img/full_month_restoration_cost.jpg" alt="">
+        </div>
+        <div class="container-fluid py-5 wow fadeInLeft" style="background-color: #00AEEF;">
+            <h3 class="text-center text-white font-weight-bold my-4"> NỤ CƯỜI TRƯỚC VÀ SAU KHI ĐIỀU TRỊ CỦA KHÁCH HÀNG
+            </h3>
+            <div class="d-flex justify-content-center align-items-center flex-wrap" style="height: calc(100% - 70px);">
+                <div class="col-md-7 text-center text-white mb-3">
+                    <p class="px-3" style="text-align: justify;"> Bác sĩ Tính chữa trị tốt, nhân viên nhiệt tình. Phòng
+                        khám
+                        sạch sẽ. Máy dụng cụ để bác sĩ làm việc thấy rất chỉnh chu, sạch. Nhân viên phụ tá nhẹ nhàng với
+                        mình. Cảm giác thoải mái khi đến đây. Tôi rất vui và sẽ giới thiệu người thân, bạn bè đến đây
+                        ủng
+                        hộ. </p>
+                </div>
+                <div class="col-md-5 d-flex justify-content-center">
+                    <div class="row w-100">
+                        <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid"
+                                src="img/khach1.jpg" alt="Khách hàng trước điều trị"> </div>
+                        <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid"
+                                src="img/khach2.jpg" alt="Khách hàng sau điều trị"> </div>
+                        <div style="text-align: center; color:white; font-weight: bold;margin-bottom: 10px;">
+                            <p class="font-weight-bold mb-1">Chú Hoàng Văn Sửu</p>
+                            <p class="mb-1">64 tuổi, Nha Trang</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="col-md-5 d-flex justify-content-center">
-                <div class="row w-100">
-                    <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid" src="img/khach1.jpg"
-                            alt="Khách hàng trước điều trị"> </div>
-                    <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid" src="img/khach2.jpg"
-                            alt="Khách hàng sau điều trị"> </div>
-                    <div style="text-align: center; color:white; font-weight: bold;margin-bottom: 10px;">
-                        <p class="font-weight-bold mb-1">Chú Hoàng Văn Sửu</p>
-                        <p class="mb-1">64 tuổi, Nha Trang</p>
+            <div style="height: 400px;" class="container-fluid py-5 position-relative">
+                <img class="w-100 h-100" src="img/kientao.jpg" alt=""
+                    style="object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
+                <div class="overlay position-absolute w-100 h-100"
+                    style="background: rgba(255, 255, 255, 0.5); top: 0; left: 0; z-index: 2;"></div>
+                <div class="container position-relative text-center text-black mt-5" style="z-index: 3;">
+                    <h4 style="font-weight: bold; font-size: large;" class="display-6 mt-5">KIẾN TẠO NỤ CƯỜI RẠNG RỠ
+                        CÙNG
+                        NHA
+                        KHOA VIỆT HÀN</h4>
+                    <p class="lead mt-5">Đặt lịch hẹn tư vấn chuyên sâu và thăm khám miễn phí với các chuyên gia nha
+                        khoa
+                        hàng
+                        đầu của chúng tôi tại đây.</p>
+                    <a href="#dathen" style="margin-top: 30px;" class="btn btn-primary btn-lg">ĐẶT HẸN NGAY</a>
+                </div>
+            </div>
+        </div>
+        <!-- Footer Start -->
+        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+            <div class="container py-5">
+                <div class="row g-5">
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <img style="height: auto; width: 50%;" src="img/logo.jpg" alt="">
+                            <p style="font-family: Arial, Helvetica, sans-serif; text-align: justify;">
+                                Nha Khoa Việt Hàn được xây
+                                dựng đúng theo
+                                tiêu chuẩn Hiệp hội Nha Khoa Quốc tế và là Trung
+                                Tâm Nha Khoa Nha Trang hiện đại nhất. Đảm bảo quy trình khoa học vô trùng theo tiêu
+                                chuẩn
+                                Châu Âu, với các phòng điều trị siêu vô trùng đem đến một không gian thoáng đãng an toàn
+                                tuyệt đối.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Thông tin liên hệ</h4>
+                            <a href=""><i class="bi bi-geo-alt-fill me-2 text-primary"></i>60 Quang Trung - Nha
+                                Trang</a>
+                            <a href="tel:0787505577"><i class="bi bi-telephone-fill me-2 text-primary"></i>Hotline: 0787
+                                505
+                                577</a>
+                            <a href="tel:0989668818"><i class="bi bi-telephone-fill me-2 text-primary"></i>Tư vấn khách
+                                Việt
+                                Kiều:
+                                0989 66
+                                88 18</a>
+                            <a href="mailto:booking@nhakhoaviethan.vn">
+                                <i class="bi bi-envelope-fill me-2 text-primary"></i>
+                                booking@nhakhoaviethan.vn
+                            </a>
+                            <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Thứ 2 - Thứ 7: Từ 8:00 -
+                                18:30</a>
+                            <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Chủ nhật: Từ 8:00 - 17:00</a>
+                        </div>
+                        <div class="d-flex flex-row mt-3 social-icons">
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                                href="https://www.facebook.com/NhakhoaVietHanNhaTrangKhanhHoa/"><i
+                                    class="fab fa-facebook-f"></i></a>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                                href="https://www.instagram.com/nhakhoaviethan.nhatrang/"><i
+                                    class="fab fa-instagram"></i></a>
+                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                                href="https://www.youtube.com/channel/UCQyVTyBNw_IhF2Dnmpd33NA"><i
+                                    class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <h4 class="mb-4 text-white">Dịch vụ</h4>
+                            <a href="#implant"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Trồng răng
+                                Implant</a>
+                            <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i> Niềng răng thẩm
+                                mỹ</a>
+                            <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Phục hình sứ</a>
+                            <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Tẩy trắng
+                                răng</a>
+                            <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Nha khoa tổng
+                                quát</a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-lg-6 col-xl-3">
+                        <div class="footer-item d-flex flex-column">
+                            <iframe
+                                src="https://maps.google.com/maps?q=Nha%20Khoa%20Vi%E1%BB%87t%20H%C3%A0n%20Nha%20Trang&amp;t=m&amp;z=16&amp;output=embed&amp;iwloc=near"
+                                class="footer-map" allowfullscreen="" loading="lazy">
+                            </iframe>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div style="height: 400px;" class="container-fluid py-5 position-relative">
-            <img class="w-100 h-100" src="img/kientao.jpg" alt=""
-                style="object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
-            <div class="overlay position-absolute w-100 h-100"
-                style="background: rgba(255, 255, 255, 0.5); top: 0; left: 0; z-index: 2;"></div>
-            <div class="container position-relative text-center text-black mt-5" style="z-index: 3;">
-                <h4 style="font-weight: bold; font-size: large;" class="display-6 mt-5">KIẾN TẠO NỤ CƯỜI RẠNG RỠ CÙNG
-                    NHA
-                    KHOA VIỆT HÀN</h4>
-                <p class="lead mt-5">Đặt lịch hẹn tư vấn chuyên sâu và thăm khám miễn phí với các chuyên gia nha khoa
-                    hàng
-                    đầu của chúng tôi tại đây.</p>
-                <a href="#dathen" style="margin-top: 30px;" class="btn btn-primary btn-lg">ĐẶT HẸN NGAY</a>
-            </div>
-        </div>
-    </div>
-    <!-- Footer Start -->
-    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <img style="height: auto; width: 50%;" src="img/logo.jpg" alt="">
-                        <p style="font-family: Arial, Helvetica, sans-serif; text-align: justify;">
-                            Nha Khoa Việt Hàn được xây
-                            dựng đúng theo
-                            tiêu chuẩn Hiệp hội Nha Khoa Quốc tế và là Trung
-                            Tâm Nha Khoa Nha Trang hiện đại nhất. Đảm bảo quy trình khoa học vô trùng theo tiêu
-                            chuẩn
-                            Châu Âu, với các phòng điều trị siêu vô trùng đem đến một không gian thoáng đãng an toàn
-                            tuyệt đối.</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="mb-4 text-white">Thông tin liên hệ</h4>
-                        <a href=""><i class="bi bi-geo-alt-fill me-2 text-primary"></i>60 Quang Trung - Nha
-                            Trang</a>
-                        <a href="tel:0787505577"><i class="bi bi-telephone-fill me-2 text-primary"></i>Hotline: 0787 505 577</a>
-                        <a href="tel:0989668818"><i class="bi bi-telephone-fill me-2 text-primary"></i>Tư vấn khách Việt Kiều:
-                            0989 66
-                            88 18</a>
-                        <a href="mailto:booking@nhakhoaviethan.vn">
-                            <i class="bi bi-envelope-fill me-2 text-primary"></i>
-                            booking@nhakhoaviethan.vn
-                        </a>
-                        <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Thứ 2 - Thứ 7: Từ 8:00 -
-                            18:30</a>
-                        <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Chủ nhật: Từ 8:00 - 17:00</a>
-                    </div>
-                    <div class="d-flex flex-row mt-3 social-icons">
-                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.facebook.com/NhakhoaVietHanNhaTrangKhanhHoa/"><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.instagram.com/nhakhoaviethan.nhatrang/"><i class="fab fa-instagram"></i></a>
-                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.youtube.com/channel/UCQyVTyBNw_IhF2Dnmpd33NA"><i class="fab fa-youtube"></i></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <h4 class="mb-4 text-white">Dịch vụ</h4>
-                        <a href="#implant"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Trồng răng
-                            Implant</a>
-                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i> Niềng răng thẩm
-                            mỹ</a>
-                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Phục hình sứ</a>
-                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Tẩy trắng
-                            răng</a>
-                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Nha khoa tổng
-                            quát</a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-6 col-xl-3">
-                    <div class="footer-item d-flex flex-column">
-                        <iframe
-                            src="https://maps.google.com/maps?q=Nha%20Khoa%20Vi%E1%BB%87t%20H%C3%A0n%20Nha%20Trang&amp;t=m&amp;z=16&amp;output=embed&amp;iwloc=near"
-                            class="footer-map" allowfullscreen="" loading="lazy">
-                        </iframe>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Footer End -->
+        <!-- Footer End -->
 
-    <!-- Copyright Start -->
-    <div class="container-fluid copyright py-4">
-        <div class="container">
-            <div class="row g-4 align-items-center">
-                <div class="col-md-6 text-center text-md-start mb-md-0">
-                    <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Nha Khoa Viet Han</a>, All right reserved.</span>
-                </div>
-                <div class="col-md-6 text-center text-md-end text-white">
-                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                    Designed By <a class="border-bottom" href="https://devttt.com/">DEVTTT</a>
+        <!-- Copyright Start -->
+        <div class="container-fluid copyright py-4">
+            <div class="container">
+                <div class="row g-4 align-items-center">
+                    <div class="col-md-6 text-center text-md-start mb-md-0">
+                        <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Nha Khoa
+                                Viet
+                                Han</a>, All right reserved.</span>
+                    </div>
+                    <div class="col-md-6 text-center text-md-end text-white">
+                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                        Designed By <a class="border-bottom" href="https://devttt.com/">DEVTTT</a>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Copyright End -->
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
-    <!-- JavaScript Libraries -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <!-- Template Javascript -->
-    <!-- <script src="js/main.js"></script> -->
-    <?php require "js/main.php"; ?>
+        <!-- Copyright End -->
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <!-- Template Javascript -->
+        <!-- <script src="js/main.js"></script> -->
+        <?php require "js/main.php"; ?>
 </body>
 
 </html>
