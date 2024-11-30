@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php require "css/style.php";?>
+<?php require "css/style.php"; ?>
+
 <head>
     <meta charset="utf-8">
     <title>Nha Khoa Việt Hàn</title>
@@ -74,7 +75,8 @@
 
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
-        <nav style="background: linear-gradient(to right, #add8e6, white, #add8e6);" class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
+        <nav style="background: linear-gradient(to right, #add8e6, white, #add8e6);"
+            class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
             <a href="index.html" class="navbar-brand p-0">
                 <img src="img/logo.jpg" alt="Logo">
             </a>
@@ -95,17 +97,56 @@
     </div>
 
 
-    <div id="gioithieu wow fadeInUp" data-wow-delay="0.5s">
-        <img class="w-100" src="img/carousel-4.jpg" alt="">
+    <div id="gioithieu">
+        <img class="w-100 wow fadeInUp" src="img/carousel-4.jpg" alt="">
     </div>
+
+    <!-- Giá trị cốt lõi -->
+    <div style="background:linear-gradient(to right, #add8e6, white, #add8e6);" class="pb-5 fadeInUp">
+        <h3 style="font-family: Arial, Helvetica, sans-serif;" class="col-12 text-center pt-3 pt-md-5 "><b
+                class="font-size-3"> 5 GIÁ TRỊ CỐT LÕI TẠI NHA KHOA VIỆT HÀN</b></h3>
+        <div class="col-11 d-flex d-inline-block justify-content-between p-1 text-center mx-auto">
+            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
+                <h6>1.Chuyên môn hàng đầu</h6>
+                Chúng tôi tự hào vì 100% bác sĩ tại Nha Khoa Việt Hàn đều là những chuyên gia chính quy chuyên khoa Răng
+                Hàm Mặt. Điều này đảm bảo rằng mỗi dịch vụ chúng tôi cung cấp đều đạt tiêu chuẩn y tế cao nhất, mang lại
+                sự an tâm cho khách hàng.
+            </div>
+            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
+                <h6>2.Sức khỏe bệnh nhân là ưu tiên tuyệt đối</h6>
+                Chúng tôi luôn đặt sức khỏe và sự an toàn của bệnh nhân lên hàng đầu. Mọi quyết định, mọi hành động đều
+                hướng tới việc mang lại giải pháp điều trị tốt nhất cho khách hàng.
+            </div>
+            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
+                <h6>3.Tận tâm và trung thực</h6>
+                Chúng tôi cam kết phục vụ khách hàng với sự chân thành, minh bạch. Chăm sóc khách hàng như chính người
+                thân trong gia đình mình.
+            </div>
+            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
+                <h6>4.Luôn đổi mới và phát triển</h6>
+                Chúng tôi không ngừng học hỏi, cải tiến trang thiết bị và công nghệ. Nâng cao năng lực bản thân để đáp
+                ứng nhu cầu ngày càng cao của khách hàng và thị trường.
+            </div>
+            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
+                <h6>5.Đề cao trách nhiệm xã hội </h6>
+                Chúng tôi tự hào khi được đóng góp tích cực vào cộng đồng và xã hội. Bằng việc thực hiện các hoạt động
+                thiện nguyện, chia sẻ yêu thương với những hoàn cảnh khó khăn.
+            </div>
+        </div>
+    </div>
+
+
+    <!--Hết giá trị cốt lõi -->
+
+
     <!-- Navbar & Hero End -->
-    <div class="container mt-lg-5 mt-2 wow fadeInLeft";>
+    <div class="container mt-lg-5 mt-2 wow" ;>
         <div class="row justify-content-center">
-            <div class="col-12 col-md-auto mb-2 text-center"> <button class="btn btn-primary btn-lg">ĐĂNG KÝ NHẬN ƯU ĐÃI
-                    NGAY</button> </div>
+            <div class="col-12 col-md-auto mb-2 text-center"> <button style="font-family: Arial, Helvetica, sans-serif;" class="btn btn-primary btn-lg fadeInUp">ĐĂNG KÝ
+                    NHẬN ƯU ĐÃI NGAY</button> </div>
             <div class="col-12 col-md-auto text-center">
-                <p class="h5">Thời gian ưu đãi có hạn</p>
-                <div class="d-flex flex-row justify-content-center">
+                <p class="h5 fadeInUp">Thời gian ưu đãi có hạn</p>
+                <div class="d-flex flex-row justify-content-center fadeInUp">
                     <div class="p-2 border rounded">00</div>
                     <div class="p-2 border rounded">07</div>
                     <div class="p-2 border rounded">34</div>
@@ -119,7 +160,7 @@
     <!-- Team Start -->
     <div id="bacsi" class="container-fluid team py-5">
         <div class="container py-5">
-            <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="section-title mb-5 fadeInUp">
                 <!-- <div class="sub-style">
                     <h3 class="sub-title px-3 mb-0">Meet our team</h3>
                 </div> -->
@@ -133,7 +174,8 @@
                         </div>
                         <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
                             <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
+                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -144,7 +186,8 @@
                         </div>
                         <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
                             <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
+                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -155,7 +198,8 @@
                         </div>
                         <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
                             <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
+                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -166,7 +210,8 @@
                         </div>
                         <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
                             <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
+                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -177,7 +222,8 @@
                         </div>
                         <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
                             <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
+                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -188,7 +234,8 @@
                         </div>
                         <div class="team-content text-center border border-primary border-top-0 rounded-bottom p-4">
                             <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh</p>
+                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -223,13 +270,16 @@
     <!-- Team End -->
 
     <!-- Book Appointment Start -->
-    <div id="dathen" style="background: linear-gradient(135deg,#00AEEF, #0072C6 );" class="container-fluid appointment py-5">
+    <div id="dathen" style="background: linear-gradient(135deg,#00AEEF, #0072C6 );"
+        class="container-fluid appointment py-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2">
                     <div style="color: white;" class="section-title text-start">
-                        <h2 style="color: rgb(241, 238, 15);font-family: Arial, Helvetica, sans-serif;" class="pe-3 mb-0 display-4 wow fadeInLeft">OUR COMMITMENT</h2>
-                        <h6 style="color: white; font-family: Arial, Helvetica, sans-serif;" class="display-6 mb-4 wow fadeInLeft">ALL
+                        <h2 style="color: rgb(241, 238, 15);font-family: Arial, Helvetica, sans-serif;"
+                            class="pe-3 mb-0 display-4 wow fadeInLeft">OUR COMMITMENT</h2>
+                        <h6 style="color: white; font-family: Arial, Helvetica, sans-serif;"
+                            class="display-6 mb-4 wow fadeInLeft">ALL
                             OUR EFFORTS ARE FOR THE CUSTOMER
                             SATISFACTION</h6>
                         <div class="row g-4">
@@ -322,14 +372,15 @@
         </div>
     </div>
     <div>
-        <img class="w-100 mt-lg-3 wow fadeInLeft" src="img/experience.jpg" alt="">
+        <img class="w-100 wow fadeInLeft" src="img/experience.jpg" alt="">
     </div>
 
     <!-- Book Appointment End -->
 
     <!-- Modal Video Youtube 3 rows -->
     <div id="khachhang" class="m-2">
-        <h2 style="color: #0072C6; text-align: center;font-weight: bold; margin-top: 10px;font-family: Arial, Helvetica, sans-serif;" class="wow fadeInLeft">
+        <h2 style="color: #0072C6; text-align: center;font-weight: bold; margin-top: 10px;font-family: Arial, Helvetica, sans-serif;"
+            class="wow fadeInLeft">
             TRẢI NGHIỆM CỦA KHÁCH HÀNG</h2>
         <div class="owl-carousel owl-theme owl-vd wow fadeInRight">
             <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
@@ -338,7 +389,7 @@
                     frameborder="0" allowfullscreen></iframe></div>
             <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
                     frameborder="0" allowfullscreen></iframe></div>
-                <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
+            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
                     frameborder="0" allowfullscreen></iframe></div>
             <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
                     frameborder="0" allowfullscreen></iframe></div>
@@ -415,112 +466,111 @@
         </div>
     </div>
 
-        <!-- Footer Start -->
-        <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-5">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <img style="height: auto; width: 50%;" src="img/logo.jpg" alt="">
-                            <p style="font-family: Arial, Helvetica, sans-serif; text-align: justify;">
-                                Nha Khoa Việt Hàn được xây
-                                dựng đúng theo
-                                tiêu chuẩn Hiệp hội Nha Khoa Quốc tế và là Trung
-                                Tâm Nha Khoa Nha Trang hiện đại nhất. Đảm bảo quy trình khoa học vô trùng theo tiêu
-                                chuẩn
-                                Châu Âu, với các phòng điều trị siêu vô trùng đem đến một không gian thoáng đãng an toàn
-                                tuyệt đối.</p>
+    <!-- Footer Start -->
+    <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+        <div class="container py-5">
+            <div class="row g-5">
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <img style="height: auto; width: 50%;" src="img/logo.jpg" alt="">
+                        <p style="font-family: Arial, Helvetica, sans-serif; text-align: justify;">
+                            Nha Khoa Việt Hàn được xây
+                            dựng đúng theo
+                            tiêu chuẩn Hiệp hội Nha Khoa Quốc tế và là Trung
+                            Tâm Nha Khoa Nha Trang hiện đại nhất. Đảm bảo quy trình khoa học vô trùng theo tiêu
+                            chuẩn
+                            Châu Âu, với các phòng điều trị siêu vô trùng đem đến một không gian thoáng đãng an toàn
+                            tuyệt đối.</p>
 
-                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Thông tin liên hệ</h4>
-                            <a href=""><i class="bi bi-geo-alt-fill me-2 text-primary"></i>60 Quang Trung - Nha
-                                Trang</a>
-                            <a href=""><i class="bi bi-telephone-fill me-2 text-primary"></i>Hotline: 0787 505 577</a>
-                            <a href=""><i class="bi bi-telephone-fill me-2 text-primary"></i>Tư vấn khách Việt Kiều:
-                                0989 66
-                                88 18</a>
-                            <a href=""><i
-                                    class="bi bi-envelope-fill me-2 text-primary"></i>booking@nhakhoaviethan.vn</a>
-                            <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Thứ 2 - Thứ 7: Từ 8:00 -
-                                18:30</a>
-                            <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Chủ nhật: Từ 8:00 - 17:00</a>
-                        </div>
-                        <div class="d-flex flex-row justify-content-around mt-3">
-                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
-                                    class="fab fa-facebook-f"></i></a>
-                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
-                                    class="fab fa-instagram"></i></a>
-                            <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
-                                    class="fab fa-youtube"></i></a>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Thông tin liên hệ</h4>
+                        <a href=""><i class="bi bi-geo-alt-fill me-2 text-primary"></i>60 Quang Trung - Nha
+                            Trang</a>
+                        <a href=""><i class="bi bi-telephone-fill me-2 text-primary"></i>Hotline: 0787 505 577</a>
+                        <a href=""><i class="bi bi-telephone-fill me-2 text-primary"></i>Tư vấn khách Việt Kiều:
+                            0989 66
+                            88 18</a>
+                        <a href=""><i class="bi bi-envelope-fill me-2 text-primary"></i>booking@nhakhoaviethan.vn</a>
+                        <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Thứ 2 - Thứ 7: Từ 8:00 -
+                            18:30</a>
+                        <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Chủ nhật: Từ 8:00 - 17:00</a>
+                    </div>
+                    <div class="d-flex flex-row justify-content-around mt-3">
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
+                                class="fab fa-instagram"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
+                                class="fab fa-youtube"></i></a>
 
-                        </div>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="mb-4 text-white">Dịch vụ</h4>
-                            <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Trồng răng
-                                Implant</a>
-                            <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i> Niềng răng thẩm
-                                mỹ</a>
-                            <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Phục hình sứ</a>
-                            <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Tẩy trắng
-                                răng</a>
-                            <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Nha khoa tổng
-                                quát</a>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <h4 class="mb-4 text-white">Dịch vụ</h4>
+                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Trồng răng
+                            Implant</a>
+                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i> Niềng răng thẩm
+                            mỹ</a>
+                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Phục hình sứ</a>
+                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Tẩy trắng
+                            răng</a>
+                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Nha khoa tổng
+                            quát</a>
                     </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <iframe
-                                src="https://maps.google.com/maps?q=Nha%20Khoa%20Vi%E1%BB%87t%20H%C3%A0n%20Nha%20Trang&amp;t=m&amp;z=16&amp;output=embed&amp;iwloc=near"
-                                class="footer-map" allowfullscreen="" loading="lazy">
-                            </iframe>
-                        </div>
+                </div>
+                <div class="col-md-6 col-lg-6 col-xl-3">
+                    <div class="footer-item d-flex flex-column">
+                        <iframe
+                            src="https://maps.google.com/maps?q=Nha%20Khoa%20Vi%E1%BB%87t%20H%C3%A0n%20Nha%20Trang&amp;t=m&amp;z=16&amp;output=embed&amp;iwloc=near"
+                            class="footer-map" allowfullscreen="" loading="lazy">
+                        </iframe>
                     </div>
                 </div>
             </div>
         </div>
-        <!-- Footer End -->
+    </div>
+    <!-- Footer End -->
 
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-4">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your
-                                Site
-                                Name</a>, All right reserved.</span>
-                    </div>
-                    <div class="col-md-6 text-center text-md-end text-white">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By <a class="border-bottom" href="https://devttt.com/">DEVTTT</a>
-                    </div>
+    <!-- Copyright Start -->
+    <div class="container-fluid copyright py-4">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-md-6 text-center text-md-start mb-md-0">
+                    <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your
+                            Site
+                            Name</a>, All right reserved.</span>
+                </div>
+                <div class="col-md-6 text-center text-md-end text-white">
+                    <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                    <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                    <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                    Designed By <a class="border-bottom" href="https://devttt.com/">DEVTTT</a>
                 </div>
             </div>
         </div>
-        <!-- Copyright End -->
+    </div>
+    <!-- Copyright End -->
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
-
-
-        <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
 
 
-        <!-- Template Javascript -->
-        <!-- <script src="js/main.js"></script> -->
-        <?php require "js/main.php"; ?>
+    <!-- JavaScript Libraries -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+
+    <!-- Template Javascript -->
+    <!-- <script src="js/main.js"></script> -->
+    <?php require "js/main.php"; ?>
 </body>
 
 </html>

@@ -5,9 +5,7 @@ body{
     width: 100%;
     margin: 0;
     background-color: rgb(177, 218, 232);
-}
-.fadeInUp{
-    animation-duration: 2s;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .owl-theme .nav-btn {
     color: #fff;
@@ -35,7 +33,10 @@ body{
     transition: opacity .5s ease-out, visibility 0s linear .5s;
     z-index: 99999;
 }
-
+.cl{
+    background-color: white;
+    border-radius: 10px;
+}
 
 
 #spinner.show {
