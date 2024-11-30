@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Nha Khoa Việt Hàn</title>
+    <title>Nha Khoa Việt Hàn - Nha Trang 5 Sao Đạt Chuẩn Uy Tín Nha Trang</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -56,34 +56,26 @@
         </div>
     </div>
     <script>
-        // Get the popup 
         var popup = document.getElementById("myPopup");
-        // Get the button that opens the popup 
         var btn = document.getElementById("myBtn");
-        // Get the <span> element that closes the popup 
         var span = document.getElementsByClassName("close")[0];
-        // When the user clicks the button, open the popup 
         btn.onclick = function() {
             popup.style.display = "block";
         }
-        // When the user clicks on <span> (x), close the popup 
         span.onclick = function() {
             popup.style.display = "none";
         }
-        // When the user clicks anywhere outside of the popup, close it 
         window.onclick = function(event) {
             if (event.target == popup) {
                 popup.style.display = "none";
             }
         }
-        // Automatically open the popup when the page loads 
         window.onload = function() {
             popup.style.display = "block";
         }
     </script>
 
     <!-- Spinner End -->
-
 
     <!-- Topbar Start -->
     <!-- <div class="container-fluid bg-dark px-5 d-none d-lg-block">
@@ -118,7 +110,7 @@
     <div class="container-fluid position-relative p-0">
         <nav style="background: linear-gradient(to right, #add8e6, white, #add8e6);"
             class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
-            <a href="index.html" class="navbar-brand p-0">
+            <a href="index.php" class="navbar-brand p-0">
                 <img src="img/logo.jpg" alt="Logo">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -147,12 +139,12 @@
         <div id="dk"
             class="col-9 col-md-5 row justify-content-center wow fadeInLeft mx-auto d-flex align-items-center justify-content-center">
             <div class="col-12 col-md-auto mb-2 text-center">
-                <button style="font-family: Arial, Helvetica, sans-serif;" class="btn btn-primary btn-lg fadeInUp">ĐĂNG
+                <button style="font-family: Arial, Helvetica, sans-serif;" class="btn btn-primary btn-lg fadeInUp button-submit">ĐĂNG
                     KÝ NHẬN ƯU ĐÃI NGAY</button>
             </div>
             <div class="col-12 col-md-auto text-center">
                 <p class="h5 fadeInUp">Thời gian ưu đãi có hạn</p>
-                <div class="d-flex flex-row justify-content-center fadeInUp">
+                <div class="d-flex flex-row justify-content-center fadeInUp time-line">
                     <div class="p-2 border rounded">00</div>
                     <div class="p-2 border rounded">07</div>
                     <div class="p-2 border rounded">34</div>
@@ -162,7 +154,7 @@
         </div>
         <h3 style="font-family: Arial, Helvetica, sans-serif;" class="col-12 text-center pt-3 pt-md-5 "><b
                 class="font-size-3"> 5 GIÁ TRỊ CỐT LÕI TẠI NHA KHOA VIỆT HÀN</b></h3>
-        <div class="col-11 d-flex d-inline-block justify-content-between p-1 text-center mx-auto">
+        <div style="font-family: Arial, Helvetica, sans-serif;" class="col-11 d-flex d-inline-block justify-content-between p-1 text-center mx-auto">
             <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
                 <h6>Chuyên môn hàng đầu</h6>
                 <p style="text-align: justify;">Chúng tôi tự hào vì 100% bác sĩ tại Nha Khoa Việt Hàn đều là những
@@ -200,27 +192,37 @@
         </div>
     </div>
     <!--Hết giá trị cốt lõi -->
-
-
     <!-- cam kết -->
     <div style="background-color:rgb(0, 166, 218);" class="pb-5 fadeInUp pt-1 wow fadeInRight">
         <h3 style="font-family: Arial, Helvetica, sans-serif;font-size: 2.5rem; color:white;" class="col-12 text-center pt-3 pt-md-5 pl-5 pr-5"><b
                 class="font-size-3 wow fadeInLeft">CAM KẾT CỦA CHÚNG TÔI VỚI KHÁCH HÀNG</b></h3>
         <div class="d-flex flex-column mx-auto wow fadeInRight">
             <div class="row d-flex flex-column flex-md-row justify-content-around m-md-5 wow fadeInRight">
-                <div class="col-md-5 col-10 mt-5"> <img src="img/ck1.png" class="img-fluid" alt="Ảnh 1"> </div>
-                <div class="col-md-5 col-10 mt-5"> <img src="img/ck1.png" class="img-fluid" alt="Ảnh 2"> </div>
+                <div class="col-md-5 col-10 mt-5"> <img src="img/ck1.jpg" class="img-fluid" alt="Ảnh Cam Kết 1"> </div>
+                <div class="col-md-5 col-10 mt-5"> <img src="img/ck2.jpg" class="img-fluid" alt="Ảnh Cam Kết 2"> </div>
             </div>
             <div class="row d-flex flex-column flex-md-row justify-content-around m-md-5 wow fadeInRight">
-                <div class="col-md-5 col-10 mt-5"> <img src="img/ck1.png" class="img-fluid" alt="Ảnh 1"> </div>
-                <div class="col-md-5 col-10 mt-5"> <img src="img/ck1.png" class="img-fluid" alt="Ảnh 2"> </div>
-            </div>  
+                <div class="col-md-5 col-10 mt-5"> <img src="img/ck3.jpg" class="img-fluid" alt="Ảnh Cam Kết 3"> </div>
+                <div class="col-md-5 col-10 mt-5"> <img src="img/ck4.jpg" class="img-fluid" alt="Ảnh Cam Kết 4"> </div>
+            </div>
         </div>
     </div>
     <!-- hết cam kết -->
 
+    <div class="m-2">
+        <h2 style="color: #0072C6; text-align: center;font-weight: bold; margin-top: 10px;font-family: Arial, Helvetica, sans-serif;"
+            class="wow fadeInLeft">
+            DỊCH VỤ NHA KHOA CHUYÊN SÂU</h2>
+        <div class="owl-carousel owl-dv wow fadeInRight">
+            <div class="item"><img width="100%" height="315" src="img/dv1.jpg"></div>
+            <div class="item"><img width="100%" height="315" src="img/dv2.jpg"></div>
+            <div class="item"><img width="100%" height="315" src="img/dv3.jpg"></div>
+            <div class="item"><img width="100%" height="315" src="img/dv4.jpg"></div>
+        </div>
+    </div>
+
     <!-- Team Start -->
-    
+
 
     <div id="rangsu">
         <img class="w-100 wow fadeInLeft" src="img/rang-su.jpg" alt="">
@@ -380,7 +382,27 @@
                                         </p>
                                     </div>
                                 </div>
+
                             </div>
+                            <div class="text-center align-items-center col-12 col-md-5 mx-auto my-auto countdown-timer" style="background-color: white; border-radius: 10px; padding: 20px;">
+                                <h3 style="font-family: Arial, Helvetica, sans-serif; color:red;">CHỈ CÒN 30 SUẤT ƯU ĐÃI CUỐI CÙNG</h3>
+                                <p style="color:green;">Thời hạn đăng ký chỉ còn</p>
+                                <div class="d-flex flex-row justify-content-around flex-wrap fadeInUp" style="color: green; font-weight: bold;">
+                                    <div class="p-2 border rounded text-center">
+                                        02 ngày
+                                    </div>
+                                    <div class="p-2 border rounded text-center">
+                                        15 giờ
+                                    </div>
+                                    <div class="p-2 border rounded text-center">
+                                        54 phút
+                                    </div>
+                                    <div class="p-2 border rounded text-center">
+                                        13 giây
+                                    </div>
+                                </div>
+                            </div>
+
                         </div>
                     </div>
                 </div>
@@ -448,15 +470,15 @@
         <div class="owl-carousel owl-theme owl-vd wow fadeInRight">
             <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
                     frameborder="0" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
+            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/2brNKbAMA9c"
                     frameborder="0" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
+            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/JQX2d6N6Ye0"
                     frameborder="0" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
+            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/CzWkYoqz2Kw"
                     frameborder="0" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
+            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/h6ypjKqPaR0"
                     frameborder="0" allowfullscreen></iframe></div>
-            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
+            <div class="item"><iframe width="100%" height="315" src="https://www.youtube.com/embed/kGrK7IzXwH4"
                     frameborder="0" allowfullscreen></iframe></div>
         </div>
     </div>
@@ -594,15 +616,12 @@
                             18:30</a>
                         <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Chủ nhật: Từ 8:00 - 17:00</a>
                     </div>
-                    <div class="d-flex flex-row justify-content-around mt-3">
-                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
-                                class="fab fa-facebook-f"></i></a>
-                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
-                                class="fab fa-instagram"></i></a>
-                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i
-                                class="fab fa-youtube"></i></a>
-
+                    <div class="d-flex flex-row mt-3 social-icons">
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.facebook.com/NhakhoaVietHanNhaTrangKhanhHoa/"><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.instagram.com/nhakhoaviethan.nhatrang/"><i class="fab fa-instagram"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.youtube.com/channel/UCQyVTyBNw_IhF2Dnmpd33NA"><i class="fab fa-youtube"></i></a>
                     </div>
+
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
@@ -636,9 +655,7 @@
         <div class="container">
             <div class="row g-4 align-items-center">
                 <div class="col-md-6 text-center text-md-start mb-md-0">
-                    <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Your
-                            Site
-                            Name</a>, All right reserved.</span>
+                    <span class="text-white"><a href="#"><i class="fas fa-copyright text-light me-2"></i>Nha Khoa Viet Han</a>, All right reserved.</span>
                 </div>
                 <div class="col-md-6 text-center text-md-end text-white">
                     <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
