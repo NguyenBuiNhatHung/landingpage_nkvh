@@ -4,6 +4,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="icon" href="img/logo1.jpg" type="image/x-icon">
     <title>Nha Khoa Việt Hàn - Nha Trang 5 Sao Đạt Chuẩn Uy Tín Nha Trang</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
@@ -23,13 +24,9 @@
     <!-- Libraries Stylesheet -->
     <link href="lib/animate/animate.min.css" rel="stylesheet">
     <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-
-
     <!-- Customized Bootstrap Stylesheet -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-
     <!-- Template Stylesheet -->
-    <!-- <link href="css/style.css" rel="stylesheet"> -->
 </head>
 
 <body>
@@ -47,11 +44,11 @@
             <h2><span class="yellow">SCHEDULE</span> A FREE <br> X-RAY AND DENTAL CHECK-UP</h2>
             <form class="form-container" method="POST" action="process.php"> <input type="text" name="name" placeholder="Your Name" required> <input type="text" name="phone" placeholder="Phone number" required> <input type="email" name="email" placeholder="Your Email" required> <input type="text" name="country" placeholder="Your Current Country" required> <select name="app" required>
                     <option value="" disabled selected>Your Available App</option>
-                    <option value="WhatsApp">WhatsApp</option>
-                    <option value="Viber">Viber</option>
-                    <option value="Skype">Skype</option>
-                    <option value="Zoom">Zoom</option>
-                    <option value="Teams">Teams</option>
+                    <option style="color:black" value="WhatsApp">WhatsApp</option>
+                    <option style="color:black" value="Viber">Viber</option>
+                    <option style="color:black" value="Skype">Skype</option>
+                    <option style="color:black" value="Zoom">Zoom</option>
+                    <option style="color:black" value="Teams">Teams</option>
                 </select> <button type="submit">REGISTER NOW</button> </form>
         </div>
     </div>
@@ -74,37 +71,51 @@
             popup.style.display = "block";
         }
     </script>
+    <div class="elementor-widget-container">
+        <div class="hotline-phone-ring-wrap">
+            <div class="hotline-phone-ring">
+                <div class="hotline-phone-ring-circle"></div>
+                <div class="hotline-phone-ring-circle-fill"></div>
+                <div class="hotline-phone-ring-img-circle">
+                    <a href="tel:0787505577" class="pps-btn-img">
+                        <img src="img/icon_call.jpg" alt="Gọi điện thoại" width="50">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+
+        <div class="hotline-face-ring-wrap">
+            <div class="hotline-phone-ring">
+                <div class="hotline-face-ring-circle"></div>
+                <div class="hotline-face-ring-circle-fill"></div>
+                <div class="hotline-face-ring-img-circle">
+                    <a href="https://www.facebook.com/NhakhoaVietHanNhaTrangKhanhHoa" class="pps-btn-img">
+                        <img src="img/icon_messenger.jpg" alt="Chat Messenger" width="50">
+
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="hotline-zalo-ring-wrap">
+            <div class="hotline-phone-ring">
+                <div class="hotline-zalo-ring-circle"></div>
+                <div class="hotline-zalo-ring-circle-fill"></div>
+                <div class="hotline-zalo-ring-img-circle">
+                    <a href="https://zalo.me/1797913117798518130" class="pps-btn-img">
+                        <img src="img/icon_zalo.jpg" alt="Chat Zalo" width="50">
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
 
     <!-- Spinner End -->
-
-    <!-- Topbar Start -->
-    <!-- <div class="container-fluid bg-dark px-5 d-none d-lg-block">
-        <div class="row gx-0 align-items-center" style="height: 45px;">
-            <div class="col-lg-8 text-center text-lg-start mb-lg-0">
-                <div class="d-flex flex-wrap">
-                    <a href="https://www.google.com/maps/place/Nha+Khoa+Vi%E1%BB%87t+H%C3%A0n+Nha+Trang/@12.249415,109.190758,19z/data=!4m5!3m4!1s0x0:0xec68d95aff148d05!8m2!3d12.2494152!4d109.190758?hl=vi-VN&amp;shorturl=1"
-                        class="text-light me-4"><i class="fas fa-map-marker-alt text-primary me-2"></i>Nha Khoa Việt
-                        Hàn</a>
-                    <a href="#" class="text-light me-4"><i class="fas fa-phone-alt text-primary me-2"></i>0787 505
-                        577</a>
-                    <a href="#" class="text-light me-0"><i
-                            class="fas fa-envelope text-primary me-2"></i>booking@nhakhoaviethan.vn</a>
-                </div>
-            </div>
-            <div class="col-lg-4 text-center text-lg-end">
-                <div class="d-flex align-items-center justify-content-end">
-                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
-                            class="fab fa-instagram"></i></a>
-                    <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i
-                            class="fab fa-youtube"></i></a>
-                </div>
-            </div>
-        </div>
-    </div> -->
-    <!-- Topbar End -->
-
 
     <!-- Navbar & Hero Start -->
     <div class="container-fluid position-relative p-0">
@@ -118,12 +129,12 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="#gioithieu" class="nav-item nav-link active">Giới thiệu</a>
-                    <a href="#bacsi" class="nav-item nav-link">Bác sĩ</a>
-                    <a href="#rangsu" class="nav-item nav-link">Răng sứ</a>
-                    <a href="#implant" class="nav-item nav-link">Implant</a>
-                    <a href="#dathen" class="nav-item nav-link">Đặt hẹn</a>
-                    <a href="#khachhang" class="nav-item nav-link">Khách hàng</a>
+                    <a href="#gioithieu" class="nav-item nav-link active">GIỚI THIỆU</a>
+                    <a href="#bacsi" class="nav-item nav-link">BÁC SĨ</a>
+                    <a href="#rangsu" class="nav-item nav-link">RĂNG SỨ</a>
+                    <a href="#implant" class="nav-item nav-link">IMPLANT</a>
+                    <a href="#dathen" class="nav-item nav-link">ĐẶT HẸN</a>
+                    <a href="#khachhang" class="nav-item nav-link">KHÁCH HÀNG</a>
                 </div>
             </div>
         </nav>
@@ -156,33 +167,33 @@
                 class="font-size-3"> 5 GIÁ TRỊ CỐT LÕI TẠI NHA KHOA VIỆT HÀN</b></h3>
         <div style="font-family: Arial, Helvetica, sans-serif;" class="col-11 d-flex d-inline-block justify-content-between p-1 text-center mx-auto">
             <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h6>Chuyên môn hàng đầu</h6>
+                <h5>Chuyên môn hàng đầu</h5>
                 <p style="text-align: justify;">Chúng tôi tự hào vì 100% bác sĩ tại Nha Khoa Việt Hàn đều là những
                     chuyên gia chính quy chuyên khoa Răng
                     Hàm Mặt. Điều này đảm bảo rằng mỗi dịch vụ chúng tôi cung cấp đều đạt tiêu chuẩn y tế cao nhất, mang
-                    lại
+                    lạiD
                     sự an tâm cho khách hàng.</p>
             </div>
             <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h6>Sức khỏe bệnh nhân là ưu tiên tuyệt đối</h6>
+                <h5>Sức khỏe bệnh nhân là ưu tiên tuyệt đối</h5>
                 <p style="text-align: justify;">Chúng tôi luôn đặt sức khỏe và sự an toàn của bệnh nhân lên hàng đầu.
                     Mọi quyết định, mọi hành động đều
                     hướng tới việc mang lại giải pháp điều trị tốt nhất cho khách hàng.</p>
             </div>
             <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h6>Tận tâm và trung thực</h6>
+                <h5>Tận tâm và trung thực</h5>
                 <p style="text-align: justify;">Chúng tôi cam kết phục vụ khách hàng với sự chân thành, minh bạch. Chăm
                     sóc khách hàng như chính người
                     thân trong gia đình mình.</p>
             </div>
             <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h6>Luôn đổi mới và phát triển</h6>
+                <h5>Luôn đổi mới và phát triển</h5>
                 <p style="text-align: justify;">Chúng tôi không ngừng học hỏi, cải tiến trang thiết bị và công nghệ.
                     Nâng cao năng lực bản thân để đáp
                     ứng nhu cầu ngày càng cao của khách hàng và thị trường.</p>
             </div>
             <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h6>Đề cao trách nhiệm xã hội </h6>
+                <h5>Đề cao trách nhiệm xã hội </h5>
                 <p style="text-align: justify;">
                     Chúng tôi tự hào khi được đóng góp tích cực vào cộng đồng và xã hội. Bằng việc thực hiện các hoạt
                     động
@@ -250,9 +261,6 @@
     <div id="bacsi" class="container-fluid team py-5">
         <div class="container py-5">
             <div class="section-title mb-5 fadeInUp">
-                <!-- <div class="sub-style">
-                    <h3 class="sub-title px-3 mb-0">Meet our team</h3>
-                </div> -->
                 <h5 class="display-6 mb-4">ĐỘI NGŨ BÁC SĨ CHUYÊN SÂU</h5>
             </div>
             <div class="owl-carousel owl-bs">
@@ -382,30 +390,23 @@
                                         </p>
                                     </div>
                                 </div>
-
                             </div>
-                            <div class="text-center align-items-center col-12 col-md-5 mx-auto my-auto countdown-timer" style="background-color: white; border-radius: 10px; padding: 20px;">
+                            <div class="text-center align-items-center col-12 col-md-6 mx-auto my-auto countdown-timer" style="background-color: white; border-radius: 10px; padding: 20px;">
                                 <h3 style="font-family: Arial, Helvetica, sans-serif; color:red;">CHỈ CÒN 30 SUẤT ƯU ĐÃI CUỐI CÙNG</h3>
                                 <p style="color:green;">Thời hạn đăng ký chỉ còn</p>
-                                <div class="d-flex flex-row justify-content-around flex-wrap fadeInUp" style="color: green; font-weight: bold;">
-                                    <div class="p-2 border rounded text-center">
-                                        02 ngày
-                                    </div>
-                                    <div class="p-2 border rounded text-center">
-                                        15 giờ
-                                    </div>
-                                    <div class="p-2 border rounded text-center">
-                                        54 phút
-                                    </div>
-                                    <div class="p-2 border rounded text-center">
-                                        13 giây
+                                <div class="d-flex flex-row justify-content-around flex-wrap fadeInUp countdown-container" style="color: green; font-weight: bold;">
+                                    <div id="countdown" class="countdown-container">
+                                        <div id="days" class="countdown-item">00<br><span>Ngày</span></div>
+                                        <div id="hours" class="countdown-item">00<br><span>Giờ</span></div>
+                                        <div id="minutes" class="countdown-item">00<br><span>Phút</span></div>
+                                        <div id="seconds" class="countdown-item">00<br><span>Giây</span></div>
                                     </div>
                                 </div>
                             </div>
-
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
                     <div style="background-color: white;" class="appointment-form rounded p-5">
                         <h3 style="color: rgb(26, 119, 224); text-align: center;font-family: Arial, Helvetica, sans-serif;"
@@ -459,9 +460,7 @@
     <div>
         <img class="w-100 wow fadeInLeft" src="img/experience.jpg" alt="">
     </div>
-
     <!-- Book Appointment End -->
-
     <!-- Modal Video Youtube 3 rows -->
     <div id="khachhang" class="m-2">
         <h2 style="color: #0072C6; text-align: center;font-weight: bold; margin-top: 10px;font-family: Arial, Helvetica, sans-serif;"
@@ -482,7 +481,6 @@
                     frameborder="0" allowfullscreen></iframe></div>
         </div>
     </div>
-
     <!-- Testimonial Start -->
     <div id="bacsi" class="container-fluid team py-5">
         <div class="container py-5">
@@ -564,9 +562,6 @@
                 </div>
             </div>
         </div>
-
-
-
         <div style="height: 400px;" class="container-fluid py-5 position-relative">
             <img class="w-100 h-100" src="img/kientao.jpg" alt=""
                 style="object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
@@ -583,7 +578,6 @@
             </div>
         </div>
     </div>
-
     <!-- Footer Start -->
     <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
         <div class="container py-5">
@@ -599,7 +593,6 @@
                             chuẩn
                             Châu Âu, với các phòng điều trị siêu vô trùng đem đến một không gian thoáng đãng an toàn
                             tuyệt đối.</p>
-
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
@@ -607,11 +600,14 @@
                         <h4 class="mb-4 text-white">Thông tin liên hệ</h4>
                         <a href=""><i class="bi bi-geo-alt-fill me-2 text-primary"></i>60 Quang Trung - Nha
                             Trang</a>
-                        <a href=""><i class="bi bi-telephone-fill me-2 text-primary"></i>Hotline: 0787 505 577</a>
-                        <a href=""><i class="bi bi-telephone-fill me-2 text-primary"></i>Tư vấn khách Việt Kiều:
+                        <a href="tel:0787505577"><i class="bi bi-telephone-fill me-2 text-primary"></i>Hotline: 0787 505 577</a>
+                        <a href="tel:0989668818"><i class="bi bi-telephone-fill me-2 text-primary"></i>Tư vấn khách Việt Kiều:
                             0989 66
                             88 18</a>
-                        <a href=""><i class="bi bi-envelope-fill me-2 text-primary"></i>booking@nhakhoaviethan.vn</a>
+                        <a href="mailto:booking@nhakhoaviethan.vn">
+                            <i class="bi bi-envelope-fill me-2 text-primary"></i>
+                            booking@nhakhoaviethan.vn
+                        </a>
                         <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Thứ 2 - Thứ 7: Từ 8:00 -
                             18:30</a>
                         <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Chủ nhật: Từ 8:00 - 17:00</a>
@@ -621,12 +617,11 @@
                         <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.instagram.com/nhakhoaviethan.nhatrang/"><i class="fab fa-instagram"></i></a>
                         <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="https://www.youtube.com/channel/UCQyVTyBNw_IhF2Dnmpd33NA"><i class="fab fa-youtube"></i></a>
                     </div>
-
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
                         <h4 class="mb-4 text-white">Dịch vụ</h4>
-                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Trồng răng
+                        <a href="#implant"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Trồng răng
                             Implant</a>
                         <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i> Niềng răng thẩm
                             mỹ</a>
@@ -667,11 +662,8 @@
         </div>
     </div>
     <!-- Copyright End -->
-
     <!-- Back to Top -->
     <a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
-
-
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -679,8 +671,6 @@
     <script src="lib/easing/easing.min.js"></script>
     <script src="lib/waypoints/waypoints.min.js"></script>
     <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-
-
     <!-- Template Javascript -->
     <!-- <script src="js/main.js"></script> -->
     <?php require "js/main.php"; ?>
