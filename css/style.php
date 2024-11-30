@@ -7,6 +7,126 @@ body{
     background-color: rgb(177, 218, 232);
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.popup {
+        display: none;
+        position: fixed;
+        z-index: 9;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
+    }
+
+    /* Popup content */
+    .popup-content {
+        background-color: rgba(255, 255, 255, 0.8);
+        /* Slightly transparent */
+        margin: 10% auto;
+        /* Center the popup */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 40%;
+        /* Set width */
+        height: 80%;
+        /* Set height */
+        max-width: 400px;
+        /* Max width */
+        position: relative;
+        background-size: cover;
+        /* Cover the entire div */
+        border-radius: 15px;
+        /* Rounded corners */
+        overflow: hidden;
+        /* Clip content to rounded corners */
+    }
+
+    /* Close button */
+    .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .close:hover,
+    .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+    }
+
+    /* Form styling */
+    .form-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .form-container input,
+    .form-container select {
+        margin: 10px 0;
+        padding: 10px;
+        font-size: 16px;
+        background-color: rgba(255, 255, 255, 0.5);
+        /* Semi-transparent */
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        /* Rounded corners */
+        color: white;
+        /* Text color */
+    }
+
+    .form-container input::placeholder,
+    .form-container select::placeholder {
+        color: white;
+        /* Placeholder text color */
+    }
+
+    .form-container input:focus,
+    .form-container select:focus {
+        background-color: rgba(255, 255, 255, 0.7);
+        /* Slightly less transparent on focus */
+        outline: none;
+        /* Remove default outline */
+        color: white;
+        /* Text color on focus */
+    }
+
+    .form-container button {
+        padding: 10px 20px;
+        background-color: yellow;
+        color: #00AEEF;
+        /* Blue text */
+        border: none;
+        cursor: pointer;
+        border-radius: 15px;
+        /* More rounded corners */
+        width: fit-content;
+        margin: 0 auto;
+        /* Center the button */
+        font-weight: bold;
+        /* Bold text */
+        font-size: 1.2rem;
+        /* Increase font size */
+    }
+
+    .form-container button:hover {
+        background-color: #ffd700;
+    }
+
+    .popup-content h2 {
+        text-align: center;
+        color: white;
+    }
+
+    .popup-content h2 .yellow {
+        color: yellow;
+    }
+
+
 .owl-theme .nav-btn {
     color: #fff;
     background-color: #0072C6;
@@ -48,7 +168,11 @@ body{
 
 
 /*** Spinner End ***/
-
+#dk{
+    background-color: white;
+    padding:0.5rem;
+    border-radius: 1rem;
+}
 .back-to-top {
     position: fixed;
     right: 30px;
@@ -1205,23 +1329,61 @@ body{
     border: 1px solid var(--bs-white) !important;
 }
 
+
 @media (max-width: 768px) {
-    .d-flex {
-        flex-direction: column;
-        align-items: center;
+        .d-flex{
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .col-md-7,
+        .col-md-5 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .col-md-7,
+        .col-md-5 {
+            width: 100%;
+            text-align: center;
+        }
+
+        .col-6 {
+            width: 100%;
+            margin-bottom: 10px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .col-6 img {
+            width: 100%;
+            /* Adjust this value as needed */
+            height: 100%;
+            /* Maintain aspect ratio */
+        }
+
+        .container.position-relative.text-center.text-black.mt-5 {
+            margin-top: 0;
+        }
+
+        .display-6.mt-5 {
+
+            font-size: 1.5rem;
+        }
+
+        .lead.mt-5 {
+            margin-top: 15px;
+            font-size: 1rem;
+        }
+
+        .btn.btn-primary.btn-lg {
+            margin-bottom: 50px;
+            padding: 10px 20px;
+            font-size: 1rem;
+        }
+
     }
 
-    .col-md-7,
-    .col-md-5 {
-        width: 100%;
-        text-align: center;
-    }
-
-    .col-6 {
-        width: 100%;
-        margin-bottom: 10px;
-    }
-}
 
 /*** Contact End ***/
 

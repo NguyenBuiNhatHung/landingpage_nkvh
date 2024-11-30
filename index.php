@@ -41,6 +41,47 @@
             <span class="sr-only">Loading...</span>
         </div>
     </div>
+    <button id="myBtn" class="d-none">Open Popup</button> <!-- The Popup -->
+    <div id="myPopup" class="popup col-12"> <!-- Popup content -->
+        <div class="popup-content col-10 col-md-5" style="background-image: url('img/popup.jpg')"> <span class="close">&times;</span>
+            <h2><span class="yellow">SCHEDULE</span> A FREE <br> X-RAY AND DENTAL CHECK-UP</h2>
+            <form class="form-container" method="POST" action="process.php"> <input type="text" name="name" placeholder="Your Name" required> <input type="text" name="phone" placeholder="Phone number" required> <input type="email" name="email" placeholder="Your Email" required> <input type="text" name="country" placeholder="Your Current Country" required> <select name="app" required>
+                    <option value="" disabled selected>Your Available App</option>
+                    <option value="WhatsApp">WhatsApp</option>
+                    <option value="Viber">Viber</option>
+                    <option value="Skype">Skype</option>
+                    <option value="Zoom">Zoom</option>
+                    <option value="Teams">Teams</option>
+                </select> <button type="submit">REGISTER NOW</button> </form>
+        </div>
+    </div>
+    <script>
+        // Get the popup 
+        var popup = document.getElementById("myPopup");
+        // Get the button that opens the popup 
+        var btn = document.getElementById("myBtn");
+        // Get the <span> element that closes the popup 
+        var span = document.getElementsByClassName("close")[0];
+        // When the user clicks the button, open the popup 
+        btn.onclick = function() {
+            popup.style.display = "block";
+        }
+        // When the user clicks on <span> (x), close the popup 
+        span.onclick = function() {
+            popup.style.display = "none";
+        }
+        // When the user clicks anywhere outside of the popup, close it 
+        window.onclick = function(event) {
+            if (event.target == popup) {
+                popup.style.display = "none";
+            }
+        }
+        // Automatically open the popup when the page loads 
+        window.onload = function() {
+            popup.style.display = "block";
+        }
+    </script>
+
     <!-- Spinner End -->
 
 
@@ -98,52 +139,17 @@
 
 
     <div id="gioithieu">
-        <img class="w-100 wow fadeInUp" src="img/carousel-4.jpg" alt="">
+        <img class="w-100 wow fadeInRight" src="img/carousel-4.jpg" alt="">
     </div>
 
     <!-- Giá trị cốt lõi -->
-    <div style="background:linear-gradient(to right, #add8e6, white, #add8e6);" class="pb-5 fadeInUp">
-        <h3 style="font-family: Arial, Helvetica, sans-serif;" class="col-12 text-center pt-3 pt-md-5 "><b
-                class="font-size-3"> 5 GIÁ TRỊ CỐT LÕI TẠI NHA KHOA VIỆT HÀN</b></h3>
-        <div class="col-11 d-flex d-inline-block justify-content-between p-1 text-center mx-auto">
-            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h6>1.Chuyên môn hàng đầu</h6>
-                Chúng tôi tự hào vì 100% bác sĩ tại Nha Khoa Việt Hàn đều là những chuyên gia chính quy chuyên khoa Răng
-                Hàm Mặt. Điều này đảm bảo rằng mỗi dịch vụ chúng tôi cung cấp đều đạt tiêu chuẩn y tế cao nhất, mang lại
-                sự an tâm cho khách hàng.
+    <div style="background:linear-gradient(to right, #add8e6, white, #add8e6);" class="pb-5 fadeInUp pt-3">
+        <div id="dk"
+            class="col-9 col-md-5 row justify-content-center wow fadeInLeft mx-auto d-flex align-items-center justify-content-center">
+            <div class="col-12 col-md-auto mb-2 text-center">
+                <button style="font-family: Arial, Helvetica, sans-serif;" class="btn btn-primary btn-lg fadeInUp">ĐĂNG
+                    KÝ NHẬN ƯU ĐÃI NGAY</button>
             </div>
-            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h6>2.Sức khỏe bệnh nhân là ưu tiên tuyệt đối</h6>
-                Chúng tôi luôn đặt sức khỏe và sự an toàn của bệnh nhân lên hàng đầu. Mọi quyết định, mọi hành động đều
-                hướng tới việc mang lại giải pháp điều trị tốt nhất cho khách hàng.
-            </div>
-            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h6>3.Tận tâm và trung thực</h6>
-                Chúng tôi cam kết phục vụ khách hàng với sự chân thành, minh bạch. Chăm sóc khách hàng như chính người
-                thân trong gia đình mình.
-            </div>
-            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h6>4.Luôn đổi mới và phát triển</h6>
-                Chúng tôi không ngừng học hỏi, cải tiến trang thiết bị và công nghệ. Nâng cao năng lực bản thân để đáp
-                ứng nhu cầu ngày càng cao của khách hàng và thị trường.
-            </div>
-            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h6>5.Đề cao trách nhiệm xã hội </h6>
-                Chúng tôi tự hào khi được đóng góp tích cực vào cộng đồng và xã hội. Bằng việc thực hiện các hoạt động
-                thiện nguyện, chia sẻ yêu thương với những hoàn cảnh khó khăn.
-            </div>
-        </div>
-    </div>
-
-
-    <!--Hết giá trị cốt lõi -->
-
-
-    <!-- Navbar & Hero End -->
-    <div class="container mt-lg-5 mt-2 wow" ;>
-        <div class="row justify-content-center">
-            <div class="col-12 col-md-auto mb-2 text-center"> <button style="font-family: Arial, Helvetica, sans-serif;" class="btn btn-primary btn-lg fadeInUp">ĐĂNG KÝ
-                    NHẬN ƯU ĐÃI NGAY</button> </div>
             <div class="col-12 col-md-auto text-center">
                 <p class="h5 fadeInUp">Thời gian ưu đãi có hạn</p>
                 <div class="d-flex flex-row justify-content-center fadeInUp">
@@ -154,10 +160,91 @@
                 </div>
             </div>
         </div>
+        <h3 style="font-family: Arial, Helvetica, sans-serif;" class="col-12 text-center pt-3 pt-md-5 "><b
+                class="font-size-3"> 5 GIÁ TRỊ CỐT LÕI TẠI NHA KHOA VIỆT HÀN</b></h3>
+        <div class="col-11 d-flex d-inline-block justify-content-between p-1 text-center mx-auto">
+            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
+                <h6>Chuyên môn hàng đầu</h6>
+                <p style="text-align: justify;">Chúng tôi tự hào vì 100% bác sĩ tại Nha Khoa Việt Hàn đều là những
+                    chuyên gia chính quy chuyên khoa Răng
+                    Hàm Mặt. Điều này đảm bảo rằng mỗi dịch vụ chúng tôi cung cấp đều đạt tiêu chuẩn y tế cao nhất, mang
+                    lại
+                    sự an tâm cho khách hàng.</p>
+            </div>
+            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
+                <h6>Sức khỏe bệnh nhân là ưu tiên tuyệt đối</h6>
+                <p style="text-align: justify;">Chúng tôi luôn đặt sức khỏe và sự an toàn của bệnh nhân lên hàng đầu.
+                    Mọi quyết định, mọi hành động đều
+                    hướng tới việc mang lại giải pháp điều trị tốt nhất cho khách hàng.</p>
+            </div>
+            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
+                <h6>Tận tâm và trung thực</h6>
+                <p style="text-align: justify;">Chúng tôi cam kết phục vụ khách hàng với sự chân thành, minh bạch. Chăm
+                    sóc khách hàng như chính người
+                    thân trong gia đình mình.</p>
+            </div>
+            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
+                <h6>Luôn đổi mới và phát triển</h6>
+                <p style="text-align: justify;">Chúng tôi không ngừng học hỏi, cải tiến trang thiết bị và công nghệ.
+                    Nâng cao năng lực bản thân để đáp
+                    ứng nhu cầu ngày càng cao của khách hàng và thị trường.</p>
+            </div>
+            <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
+                <h6>Đề cao trách nhiệm xã hội </h6>
+                <p style="text-align: justify;">
+                    Chúng tôi tự hào khi được đóng góp tích cực vào cộng đồng và xã hội. Bằng việc thực hiện các hoạt
+                    động
+                    thiện nguyện, chia sẻ yêu thương với những hoàn cảnh khó khăn.
+                </p>
+            </div>
+        </div>
     </div>
+    <!--Hết giá trị cốt lõi -->
 
+
+    <!-- cam kết -->
+    <div style="background-color:rgb(0, 166, 218);" class="pb-5 fadeInUp pt-1 wow fadeInRight">
+        <h3 style="font-family: Arial, Helvetica, sans-serif;font-size: 2.5rem; color:white;" class="col-12 text-center pt-3 pt-md-5 pl-5 pr-5"><b
+                class="font-size-3 wow fadeInLeft">CAM KẾT CỦA CHÚNG TÔI VỚI KHÁCH HÀNG</b></h3>
+        <div class="d-flex flex-column mx-auto wow fadeInRight">
+            <div class="row d-flex flex-column flex-md-row justify-content-around m-md-5 wow fadeInRight">
+                <div class="col-md-5 col-10 mt-5"> <img src="img/ck1.png" class="img-fluid" alt="Ảnh 1"> </div>
+                <div class="col-md-5 col-10 mt-5"> <img src="img/ck1.png" class="img-fluid" alt="Ảnh 2"> </div>
+            </div>
+            <div class="row d-flex flex-column flex-md-row justify-content-around m-md-5 wow fadeInRight">
+                <div class="col-md-5 col-10 mt-5"> <img src="img/ck1.png" class="img-fluid" alt="Ảnh 1"> </div>
+                <div class="col-md-5 col-10 mt-5"> <img src="img/ck1.png" class="img-fluid" alt="Ảnh 2"> </div>
+            </div>  
+        </div>
+    </div>
+    <!-- hết cam kết -->
 
     <!-- Team Start -->
+    
+
+    <div id="rangsu">
+        <img class="w-100 wow fadeInLeft" src="img/rang-su.jpg" alt="">
+    </div>
+    <div>
+        <img class="w-100 wow fadeInRight" src="img/banggia.jpg" alt="">
+    </div>
+
+    <div>
+        <img class="w-100 wow fadeInLeft" src="img/quytrinh.jpg" alt="">
+    </div>
+
+    <div id="implant">
+        <img class="w-100 wow fadeInRight" src="img/implant.jpg" alt="">
+    </div>
+
+    <div>
+        <img class="w-100 wow fadeInLeft" src="img/khuyenmai.jpg" alt="">
+    </div>
+    <div>
+        <img class="w-100 wow fadeInRight" src="img/implant2.jpg" alt="">
+    </div>
+
+    <!-- Team End -->
     <div id="bacsi" class="container-fluid team py-5">
         <div class="container py-5">
             <div class="section-title mb-5 fadeInUp">
@@ -240,35 +327,8 @@
                     </div>
                 </div>
             </div>
-
-
         </div>
     </div>
-
-    <div id="rangsu">
-        <img class="w-100 wow fadeInLeft" src="img/rang-su.jpg" alt="">
-    </div>
-    <div>
-        <img class="w-100 wow fadeInRight" src="img/banggia.jpg" alt="">
-    </div>
-
-    <div>
-        <img class="w-100 wow fadeInLeft" src="img/quytrinh.jpg" alt="">
-    </div>
-
-    <div id="implant">
-        <img class="w-100 wow fadeInRight" src="img/implant.jpg" alt="">
-    </div>
-
-    <div>
-        <img class="w-100 wow fadeInLeft" src="img/khuyenmai.jpg" alt="">
-    </div>
-    <div>
-        <img class="w-100 wow fadeInRight" src="img/implant2.jpg" alt="">
-    </div>
-
-    <!-- Team End -->
-
     <!-- Book Appointment Start -->
     <div id="dathen" style="background: linear-gradient(135deg,#00AEEF, #0072C6 );"
         class="container-fluid appointment py-5">
@@ -372,6 +432,9 @@
         </div>
     </div>
     <div>
+        <img class="w-100 wow fadeInRight" src="img/trongoi.jpg" alt="">
+    </div>
+    <div>
         <img class="w-100 wow fadeInLeft" src="img/experience.jpg" alt="">
     </div>
 
@@ -399,25 +462,55 @@
     </div>
 
     <!-- Testimonial Start -->
-    <div class="container-fluid testimonial py-5 wow fadeInLeft" data-wow-delay="0.1s">
+    <div id="bacsi" class="container-fluid team py-5">
         <div class="container py-5">
-            <div class="section-title mb-5">
-                <h5 class="display-6 mb-4">HÌNH ẢNH KHÁCH HÀNG TRƯỚC VÀ SAU ĐIỀU TRỊ</h5>
+            <div class="section-title mb-5 fadeInUp">
+                <!-- <div class="sub-style">
+                    <h3 class="sub-title px-3 mb-0">Meet our team</h3>
+                </div> -->
+                <h2 class="mb-4">HÌNH ẢNH KHÁCH HÀNG TRƯỚC VÀ SAU ĐIỀU TRỊ</h2>
             </div>
-            <div class="testimonial-carousel owl-carousel">
-                <div class="testimonial-item">
-                    <div class="testimonial-inner p-5">
-                        <img src="img/before_after1.jpg" class="img-fluid h-50 w-50 h-md-25 w-md-25" alt="">
+            <div class="owl-carousel owl-bs">
+                <div class="item">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="team-img rounded-top h-100">
+                            <img src="img/before_after1.jpg" class="img-fluid rounded-top w-100" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-inner p-5">
-                        <img src="img/before_after2.jpg" class="img-fluid h-50 w-50 h-md-25 w-md-25" alt="">
+                <div class="item">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="team-img rounded-top h-100">
+                            <img src="img/before_after2.jpg" class="img-fluid rounded-top w-100" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="testimonial-item">
-                    <div class="testimonial-inner p-5">
-                        <img src="img/before_after3.jpg" class="img-fluid h-50 w-50 h-md-25 w-md-25" alt="">
+                <div class="item">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="team-img rounded-top h-100">
+                            <img src="img/before_after3.jpg" class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="team-img rounded-top h-100">
+                            <img src="img/before_after1.jpg" class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="team-img rounded-top h-100">
+                            <img src="img/before_after2.jpg" class="img-fluid rounded-top w-100" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="team-item rounded overflow-hidden">
+                        <div class="team-img rounded-top h-100">
+                            <img src="img/before_after3.jpg" class="img-fluid rounded-top w-100" alt="">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -427,12 +520,10 @@
     <div>
         <img class="w-100 wow fadeInRight" src="img/full_month_restoration_cost.jpg" alt="">
     </div>
-    <div class="container-fluid py-5" style="background-color: #00AEEF;">
+    <div class="container-fluid py-5 wow fadeInLeft" style="background-color: #00AEEF;">
         <h3 class="text-center text-white font-weight-bold my-4"> NỤ CƯỜI TRƯỚC VÀ SAU KHI ĐIỀU TRỊ CỦA KHÁCH HÀNG </h3>
         <div class="d-flex justify-content-center align-items-center flex-wrap" style="height: calc(100% - 70px);">
             <div class="col-md-7 text-center text-white mb-3">
-                <p class="font-weight-bold mb-1">Chú Hoàng Văn Sửu</p>
-                <p class="mb-1">64 tuổi, Nha Trang</p>
                 <p class="px-3" style="text-align: justify;"> Bác sĩ Tính chữa trị tốt, nhân viên nhiệt tình. Phòng khám
                     sạch sẽ. Máy dụng cụ để bác sĩ làm việc thấy rất chỉnh chu, sạch. Nhân viên phụ tá nhẹ nhàng với
                     mình. Cảm giác thoải mái khi đến đây. Tôi rất vui và sẽ giới thiệu người thân, bạn bè đến đây ủng
@@ -444,9 +535,14 @@
                             alt="Khách hàng trước điều trị"> </div>
                     <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid" src="img/khach2.jpg"
                             alt="Khách hàng sau điều trị"> </div>
+                    <div style="text-align: center; color:white; font-weight: bold;margin-bottom: 10px;">
+                        <p class="font-weight-bold mb-1">Chú Hoàng Văn Sửu</p>
+                        <p class="mb-1">64 tuổi, Nha Trang</p>
+                    </div>
                 </div>
             </div>
         </div>
+
 
 
         <div style="height: 400px;" class="container-fluid py-5 position-relative">
