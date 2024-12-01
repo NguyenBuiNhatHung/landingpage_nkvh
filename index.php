@@ -60,18 +60,18 @@
         var popup = document.getElementById("myPopup");
         var btn = document.getElementById("myBtn");
         var span = document.getElementsByClassName("close")[0];
-        btn.onclick = function () {
+        btn.onclick = function() {
             popup.style.display = "block";
         }
-        span.onclick = function () {
+        span.onclick = function() {
             popup.style.display = "none";
         }
-        window.onclick = function (event) {
+        window.onclick = function(event) {
             if (event.target == popup) {
                 popup.style.display = "none";
             }
         }
-        window.onload = function () {
+        window.onload = function() {
             popup.style.display = "block";
         }
     </script>
@@ -366,7 +366,7 @@
                                         class="mb-4 d-flex d-inline-block">
                                         <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i>
                                         </h5>
-                                        <p style="font-family: Arial, Helvetica, sans-serif;" class="mb-0">Commitment to
+                                        <p style="font-family: Arial, Helvetica, sans-serif" class="mb-0">Commitment to
                                             100% genuine embryo porcelain teeth.</p>
                                     </div>
                                     <div style="background-color: white; border-radius: 15px; padding: 15%; color: rgb(33, 108, 221);height: 40%;"
@@ -544,28 +544,24 @@
         <div>
             <img class="w-100 wow fadeInRight" src="img/full_month_restoration_cost.jpg" alt="">
         </div>
-        <div class="container-fluid py-5 wow fadeInLeft" style="background-color: #00AEEF;">
+        <div class="container-fluid py-2 wow fadeInLeft" style="background-color: #00AEEF;">
             <h3 class="text-center text-white font-weight-bold my-4"> NỤ CƯỜI TRƯỚC VÀ SAU KHI ĐIỀU TRỊ CỦA KHÁCH HÀNG
             </h3>
             <div class="d-flex justify-content-center align-items-center flex-wrap" style="height: calc(100% - 70px);">
-                <div class="col-md-7 text-center text-white mb-3">
-                    <p class="px-3" style="text-align: justify;"> Bác sĩ Tính chữa trị tốt, nhân viên nhiệt tình. Phòng
-                        khám
-                        sạch sẽ. Máy dụng cụ để bác sĩ làm việc thấy rất chỉnh chu, sạch. Nhân viên phụ tá nhẹ nhàng với
-                        mình. Cảm giác thoải mái khi đến đây. Tôi rất vui và sẽ giới thiệu người thân, bạn bè đến đây
-                        ủng
-                        hộ. </p>
+                <div class="col-md-6 text-center text-white mb-3">
+                    <p class="px-3 custom-paragraph"> Bác sĩ Tính chữa trị tốt, nhân viên nhiệt tình. Phòng khám sạch sẽ. Máy dụng cụ để bác sĩ làm việc thấy rất chỉnh chu, sạch. Nhân viên phụ tá nhẹ nhàng với mình. Cảm giác thoải mái khi đến đây. Tôi rất vui và sẽ giới thiệu người thân, bạn bè đến đây ủng hộ. </p>
                 </div>
-                <div class="col-md-5 d-flex justify-content-center">
+                <div class="col-md-6 d-flex justify-content-center">
                     <div class="row w-100">
-                        <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid"
-                                src="img/khach1.jpg" alt="Khách hàng trước điều trị"> </div>
-                        <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid"
-                                src="img/khach2.jpg" alt="Khách hàng sau điều trị"> </div>
                         <div style="text-align: center; color:white; font-weight: bold;margin-bottom: 10px;">
                             <p class="font-weight-bold mb-1">Chú Hoàng Văn Sửu</p>
                             <p class="mb-1">64 tuổi, Nha Trang</p>
                         </div>
+                        <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid"
+                                src="img/khach1.jpg" alt="Khách hàng trước điều trị"> </div>
+                        <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid"
+                                src="img/khach2.jpg" alt="Khách hàng sau điều trị"> </div>
+
                     </div>
                 </div>
             </div>
@@ -579,7 +575,7 @@
                         CÙNG
                         NHA
                         KHOA VIỆT HÀN</h4>
-                    <p class="lead mt-5">Đặt lịch hẹn tư vấn chuyên sâu và thăm khám miễn phí với các chuyên gia nha
+                    <p style="color:black" class="lead mt-5">Đặt lịch hẹn tư vấn chuyên sâu và thăm khám miễn phí với các chuyên gia nha
                         khoa
                         hàng
                         đầu của chúng tôi tại đây.</p>
@@ -636,6 +632,7 @@
                                 href="https://www.youtube.com/channel/UCQyVTyBNw_IhF2Dnmpd33NA"><i
                                     class="fab fa-youtube"></i></a>
                         </div>
+
                     </div>
                     <div class="col-md-6 col-lg-6 col-xl-3">
                         <div class="footer-item d-flex flex-column">
@@ -674,9 +671,6 @@
                                 Han</a>, All right reserved.</span>
                     </div>
                     <div class="col-md-6 text-center text-md-end text-white">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
                         Designed By <a class="border-bottom" href="https://devttt.com/">DEVTTT</a>
                     </div>
                 </div>

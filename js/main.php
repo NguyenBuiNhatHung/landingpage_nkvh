@@ -30,7 +30,7 @@
                 items: 1,
                 loop: true,
                 margin: 10,
-                autoplay:true,
+                autoplay: true,
                 nav: false,
                 responsive: {
                     0: {
@@ -114,6 +114,8 @@
                 }
             });
         });
+
+
 
         $(document).ready(function() {
             $(".owl-bs").owlCarousel({

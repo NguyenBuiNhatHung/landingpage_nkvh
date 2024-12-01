@@ -8,6 +8,26 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    .custom-paragraph {
+        background-color: #0072C6;
+        color: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .custom-paragraph::before {
+        content: "“";
+        font-size: 30px;
+        color: white;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+    }
+
     .popup {
         display: none;
         position: fixed;
@@ -353,7 +373,7 @@
 
     /*** Navbar ***/
     .navbar-light .navbar-nav .nav-link {
-        font-family: 'Open Sans', sans-serif;
+        font-family: Arial, Helvetica, sans-serif;
         position: relative;
         margin-right: 25px;
         padding: 35px 0;
@@ -388,7 +408,7 @@
     .navbar .dropdown-toggle::after {
         border: none;
         content: "\f107";
-        font-family: "Font Awesome 5 Free";
+        font-family: Arial, Helvetica, sans-serif;
         font-weight: 600;
         vertical-align: middle;
         margin-left: 8px;
@@ -922,7 +942,7 @@
         display: block;
         letter-spacing: 1px;
         line-height: 40px;
-        font-family: Arial;
+        font-family: Arial, Helvetica, sans-serif;
     }
 
     .hotline-bar>a:hover,
@@ -1764,6 +1784,32 @@
 
 
     }
+
+    .social-icons a {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 40px;
+        /* Adjust size as needed */
+        height: 40px;
+        /* Adjust size as needed */
+        text-align: center;
+        border-radius: 50%;
+        margin: 0 5px;
+        /* Adjust spacing as needed */
+        background-color: #007bff;
+        /* Ensure background color matches */
+        color: white;
+        /* Ensure text color is white */
+    }
+
+    .social-icons a i {
+        font-size: 20px;
+        /* Adjust icon size as needed */
+        line-height: 1;
+        /* Ensure line height is appropriate */
+    }
+
 
 
     .time-line {
