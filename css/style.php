@@ -79,10 +79,12 @@
         .overlay-text {
             font-size: 0.7rem;
         }
-        .team-content{
+
+        .team-content {
             font-size: 0.6rem;
         }
-        .team-title{
+
+        .team-title {
             font-size: 0.8rem;
         }
     }
@@ -106,6 +108,7 @@
         top: 10px;
         left: 10px;
     }
+
     #messageBox {
         position: fixed;
         bottom: 260px;
@@ -120,6 +123,7 @@
         opacity: 0;
         transition: opacity 1s ease;
     }
+
     #messageBox.show {
         display: block;
         opacity: 1;
@@ -176,11 +180,14 @@
     }
 
     .notification {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
         position: fixed;
-        top: 90px;
+        top: 100px;
         right: 20px;
-        width: 250px;
-        padding: 15px;
+        width: 300px;
+        padding: 10px 15px;
         background-color: #007bff;
         color: white;
         border-radius: 5px;
@@ -194,7 +201,10 @@
         opacity: 1;
     }
 
-
+    .notification-icon {
+        margin-left: 10px;
+        color: #39b828;
+    }
 
     .popup {
         display: none;
@@ -407,6 +417,12 @@
         color: var(--bs-primary) !important;
     }
 
+    .btn.btn-primaryy:hover {
+        background-color: #0072C6;
+        color: white;
+        box-shadow: inset 0 0 0 2px #0072C6;
+    }
+
     .btn.btn-light {
         box-shadow: inset 0 0 0 0 var(--bs-primary);
     }
@@ -519,6 +535,14 @@
         .topbar {
             display: none;
         }
+
+        #messageBox {
+            width: 250px;
+            left: 5px;
+            bottom: 50px;
+        }
+
+
     }
 
     /*** Topbar End ***/
@@ -1183,18 +1207,21 @@
         }
 
         .hotline-face-ring-wrap {
-            bottom: 60px;
-            /* Adjust position */
+            bottom: 110px;
         }
 
         .hotline-zalo-ring-wrap {
-            bottom: 110px;
-            /* Adjust position */
+            bottom: 160px;
         }
 
         .hotline-phone-ring-wrap {
-            bottom: 160px;
-            /* Adjust position */
+            bottom: 60px;
+        }
+
+        #messageBox {
+            width: 250px;
+            left: 10px;
+            bottom: 200px;
         }
     }
 
@@ -1922,9 +1949,8 @@
         }
 
         .btn.btn-primary.btn-lg {
-            margin-bottom: 50px;
-            padding: 10px 20px;
-            font-size: 1rem;
+            width: 80%;
+            margin: 20px auto;
         }
 
         .social-icons {
@@ -1936,7 +1962,9 @@
         }
 
 
+
     }
+
 
     .social-icons a {
         display: inline-flex;
