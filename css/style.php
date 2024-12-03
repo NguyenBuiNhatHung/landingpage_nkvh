@@ -8,6 +8,85 @@
         font-family: Arial, Helvetica, sans-serif;
     }
 
+    .hover-effect {
+        position: relative;
+        text-align: center;
+        margin-top: 20px;
+        color: black;
+    }
+
+    .hover-effect img {
+        width: 100%;
+        height: auto;
+        transition: transform 0.3s ease, filter 0.3s ease;
+    }
+
+    .hover-effect .overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        background-color: rgba(255, 255, 255, 0.7);
+        /* Điều chỉnh độ mờ của lớp phủ */
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: opacity 0.3s ease, background-color 0.3s ease;
+    }
+
+    .hover-effect:hover img {
+        filter: none;
+        transform: scale(1.1);
+    }
+
+    .hover-effect:hover .overlay {
+        background-color: rgba(0, 0, 0, 0.7);
+        opacity: 0;
+    }
+
+    .icon-key {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+        font-size: 1.2rem;
+    }
+
+    .icon-key i {
+        margin-right: 5px;
+        font-size: 1.5rem;
+    }
+
+    .overlay-text {
+        font-size: 1.2rem;
+        text-align: justify;
+        margin-top: 10px;
+    }
+
+    @media (max-width: 767.98px) {
+        .icon-key {
+            font-size: 1rem;
+        }
+
+        .icon-key i {
+            font-size: 0.9rem;
+        }
+
+        .overlay-text {
+            font-size: 0.7rem;
+        }
+        .team-content{
+            font-size: 0.6rem;
+        }
+        .team-title{
+            font-size: 0.8rem;
+        }
+    }
+
     .custom-paragraph {
         background-color: #0072C6;
         color: white;
@@ -27,6 +106,95 @@
         top: 10px;
         left: 10px;
     }
+    #messageBox {
+        position: fixed;
+        bottom: 260px;
+        left: 20px;
+        width: 350px;
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        font-family: Arial, sans-serif;
+        z-index: 1000;
+        display: none;
+        opacity: 0;
+        transition: opacity 1s ease;
+    }
+    #messageBox.show {
+        display: block;
+        opacity: 1;
+        /* Fully visible */
+    }
+
+    .img-messageBox {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        margin-top: 50px;
+    }
+
+    .header-messageBox {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px;
+        color: black;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+    }
+
+    .header-messageBox span {
+        font-weight: bold;
+        font-size: 14px;
+    }
+
+    .header-messageBox .close {
+        font-size: 20px;
+        cursor: pointer;
+        margin-left: auto;
+    }
+
+    .body-messageBox {
+        padding: 10px;
+        font-size: 14px;
+        color: #333;
+    }
+
+    #messageBox a {
+        display: block;
+        text-align: center;
+        color: #00AEEF;
+        padding: 10px;
+        border-radius: 0 0 10px 10px;
+        text-decoration: none;
+        font-weight: bold;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+    #messageBox a:hover {
+        transform: scale(1.2);
+    }
+
+    .notification {
+        position: fixed;
+        top: 90px;
+        right: 20px;
+        width: 250px;
+        padding: 15px;
+        background-color: #007bff;
+        color: white;
+        border-radius: 5px;
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+        z-index: 1001;
+        opacity: 0;
+        transition: opacity 0.5s ease;
+    }
+
+    .notification.show {
+        opacity: 1;
+    }
+
+
 
     .popup {
         display: none;
@@ -44,27 +212,19 @@
     /* Popup content */
     .popup-content {
         background-color: rgba(255, 255, 255, 0.8);
-        /* Slightly transparent */
         margin: 10% auto;
-        /* Center the popup */
         padding: 20px;
         border: 1px solid #888;
         width: 40%;
-        /* Set width */
-        height: 80%;
-        /* Set height */
+        height: 85%;
         max-width: 400px;
         /* Max width */
         position: relative;
         background-size: cover;
-        /* Cover the entire div */
         border-radius: 15px;
-        /* Rounded corners */
         overflow: hidden;
-        /* Clip content to rounded corners */
     }
 
-    /* Close button */
     .close {
         color: #aaa;
         float: right;
@@ -119,18 +279,13 @@
         padding: 10px 20px;
         background-color: yellow;
         color: #00AEEF;
-        /* Blue text */
         border: none;
         cursor: pointer;
         border-radius: 15px;
-        /* More rounded corners */
         width: fit-content;
         margin: 0 auto;
-        /* Center the button */
         font-weight: bold;
-        /* Bold text */
         font-size: 1.2rem;
-        /* Increase font size */
     }
 
     .form-container button:hover {
@@ -186,8 +341,6 @@
     }
 
 
-
-    /*** Spinner End ***/
     #dk {
         background-color: white;
         padding: 0.5rem;
@@ -250,7 +403,7 @@
     }
 
     .btn.btn-primary:hover {
-        box-shadow: inset 300px 0 0 0 var(--bs-light) !important;
+        box-shadow: inset 600px 0 0 0 var(--bs-light) !important;
         color: var(--bs-primary) !important;
     }
 
@@ -375,17 +528,17 @@
     .navbar-light .navbar-nav .nav-link {
         font-family: Arial, Helvetica, sans-serif;
         position: relative;
-        margin-right: 25px;
-        padding: 35px 0;
+        margin-right: 50px;
+        padding: 20px 0px;
         color: var(--bs-dark) !important;
-        font-size: 16px;
-        font-weight: 400;
+        font-size: 25px;
+        font-weight: 700;
         outline: none;
         transition: .5s;
     }
 
     .sticky-top.navbar-light .navbar-nav .nav-link {
-        padding: 20px 0;
+        padding: 20px 0px;
         color: var(--dark) !important;
     }
 
@@ -678,14 +831,14 @@
 
     .hotline-face-ring-wrap {
         position: fixed;
-        bottom: 160px;
+        bottom: 80px;
         left: 0px;
         z-index: 999999;
     }
 
     .hotline-zalo-ring-wrap {
         position: fixed;
-        bottom: 80px;
+        bottom: 160px;
         left: 0px;
         z-index: 999999;
     }

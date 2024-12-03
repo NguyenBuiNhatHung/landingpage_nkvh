@@ -12,6 +12,24 @@
         };
         spinner(0);
 
+        var popup = document.getElementById("myPopup");
+        var btn = document.getElementById("myBtn");
+        var span = document.getElementsByClassName("close")[0];
+        btn.onclick = function () {
+            popup.style.display = "block";
+        }
+        span.onclick = function () {
+            popup.style.display = "none";
+        }
+        window.onclick = function (event) {
+            if (event.target == popup) {
+                popup.style.display = "none";
+            }
+        }
+        window.onload = function () {
+            setTimeout(function () { btn.click(); }, 10000); // Hiển thị popup sau 10 giây   
+        }
+
 
         // Initiate the wowjs
         new WOW().init();
@@ -30,7 +48,6 @@
                 items: 1,
                 loop: true,
                 margin: 10,
-                autoplay: true,
                 nav: false,
                 responsive: {
                     0: {
@@ -39,8 +56,8 @@
                     600: {
                         items: 1
                     },
-                    1000: {
-                        items: 3
+                    1000: { 
+                        items: 4
                     }
                 }
             });
@@ -122,12 +139,12 @@
                 items: 1,
                 loop: true,
                 autoplay: true,
-                smartSpeed: 1000,
+                smartSpeed: 1500,
                 margin: 10,
                 nav: false,
                 responsive: {
                     0: {
-                        items: 1
+                        items: 2
                     },
                     600: {
                         items: 2
