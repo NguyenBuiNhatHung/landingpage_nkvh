@@ -67,7 +67,9 @@
         </div>
     </div>
     <div class="elementor-widget-container">
-        <div id="notification" class="notification"> <span id="notification-text"></span> </div>
+        <div id="notification" class="notification">
+            <span id="notification-text"></span>
+        </div>
         <script>
             const messages = ["Khách hàng Nguyễn Văn đăng ký tư vấn trồng răng Implant",
                 "Khách hàng Jonathan Nguyễn đặt hẹn bọc răng sứ",
@@ -105,7 +107,6 @@
                     </a>
                 </div>
             </div>
-
         </div>
         <div class="hotline-zalo-ring-wrap">
             <div class="hotline-phone-ring">
@@ -136,15 +137,15 @@
             function closeMessageBox() {
                 const messageBox = document.getElementById('messageBox');
                 messageBox.classList.remove('show');
-                setTimeout(showMessageBox, 15000);
+                setTimeout(showMessageBox, 60000);
             }
 
-            document.getElementById('zaloIcon').onclick = function (event) {
+            document.getElementById('zaloIcon').onclick = function(event) {
                 event.preventDefault();
                 showMessageBox();
             }
 
-            window.onload = function () {
+            window.onload = function() {
                 setTimeout(showMessageBox, 15000);
             }
         </script>
@@ -224,7 +225,7 @@
             class="col-12 text-center pt-3 pt-md-5"> <b class="wow fadeInLeft">DỊCH VỤ NHA KHOA CHUYÊN SÂU</b>
         </h3>
         <div class="container">
-            <div class="row justify-content-around wow fadeInRight">    
+            <div class="row justify-content-around wow fadeInRight">
                 <div class="col-md-5 col-10 mt-5"> <img src="img/dv1.jpg" class="img-fluid" alt="Ảnh Cam Kết 1"> </div>
                 <div class="col-md-5 col-10 mt-5"> <img src="img/dv2.jpg" class="img-fluid" alt="Ảnh Cam Kết 2"> </div>
             </div>
@@ -365,6 +366,44 @@
                             tại Nha Trang, Khánh Hòa cũng như khách hàng Quốc tế.</div>
                     </div> <img src="img/ck4.jpg" class="img-fluid" alt="Ảnh Cam Kết 4">
                 </div>
+                <div class="col-12 text-center">
+                    <div class="col-12 text-center">
+                        <a href="#" class="btn btn-primary btn-lg btn-block"
+                            style="width: 20%; margin-top: 50px; background-color: white; color: #0072C6; font-weight: 900; font-size: 2rem; border-radius: 30px;">
+                            ĐẶT HẸN NGAY
+                        </a>
+                    </div>
+
+                    <style>
+                        /* Include your responsive styles here */
+                        .btn.btn-primaryy.btn-lg {
+                            margin-bottom: 50px;
+                            padding: 10px 20px;
+                            font-size: 1rem;
+                            width: 100%;
+                        }
+
+                        @media (max-width: 768px) {
+                            .btn.btn-primaryy.btn-lg {
+                                padding: 12px 24px;
+                                font-size: 1.25rem;
+                                width: 80%;
+                                margin: 20px auto;
+                            }
+                        }
+
+                        @media (max-width: 576px) {
+                            .btn.btn-primaryy.btn-lg {
+                                padding: 14px 28px;
+                                font-size: 1.5rem;
+                                width: 90%;
+                                margin: 20px auto;
+                            }
+                        }
+                    </style>
+
+                </div>
+
             </div>
         </div>
     </div>
@@ -596,8 +635,8 @@
                                         <option style="color:black" value="Zicronium Implant">Zicronium Implant</option>
                                         <option style="color:black" value="Full Denture">Full Denture</option>
                                     </select>
-                                </div>  
-                                
+                                </div>
+
                                 <div class="col-12">
                                     <button type="button" class="btn btn-primary text-white w-100 py-3 px-5">REGISTER
                                         NOW</button>
@@ -721,7 +760,7 @@
                 các
                 chuyên
                 gia nha khoa hàng đầu của chúng tôi tại đây!</p>
-            <a href="#dathen" style="margin-top: 30px;" class="btn btn-primary btn-lg">ĐẶT HẸN NGAY</a>
+            <a href="#" style="margin-top: 30px; color:white; height: 50px;" class="btn btn-primary btn-lg">LIÊN HỆ TƯ VẤN MIỄN PHÍ</a>
         </div>
     </div>
     </div>
