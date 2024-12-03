@@ -1948,11 +1948,6 @@
             font-size: 1rem;
         }
 
-        .btn.btn-primary.btn-lg {
-            width: 80%;
-            margin: 20px auto;
-        }
-
         .social-icons {
             justify-content: center;
         }

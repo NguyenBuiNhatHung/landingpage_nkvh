@@ -366,45 +366,17 @@
                             tại Nha Trang, Khánh Hòa cũng như khách hàng Quốc tế.</div>
                     </div> <img src="img/ck4.jpg" class="img-fluid" alt="Ảnh Cam Kết 4">
                 </div>
+            </div>
+            <div class="row justify-content-around wow fadeInRight mt-5">
                 <div class="col-12 text-center">
                     <div class="col-12 text-center">
-                        <a href="#" class="btn btn-primary btn-lg btn-block"
-                            style="width: 20%; margin-top: 50px; background-color: white; color: #0072C6; font-weight: 900; font-size: 2rem; border-radius: 30px;">
-                            ĐẶT HẸN NGAY
+                            <a href="#dathen" class="bg-white p-3 p-md-3 rounded font-weight-bolder">
+                                ĐẶT HẸN NGAY
                         </a>
                     </div>
-
-                    <style>
-                        /* Include your responsive styles here */
-                        .btn.btn-primaryy.btn-lg {
-                            margin-bottom: 50px;
-                            padding: 10px 20px;
-                            font-size: 1rem;
-                            width: 100%;
-                        }
-
-                        @media (max-width: 768px) {
-                            .btn.btn-primaryy.btn-lg {
-                                padding: 12px 24px;
-                                font-size: 1.25rem;
-                                width: 80%;
-                                margin: 20px auto;
-                            }
-                        }
-
-                        @media (max-width: 576px) {
-                            .btn.btn-primaryy.btn-lg {
-                                padding: 14px 28px;
-                                font-size: 1.5rem;
-                                width: 90%;
-                                margin: 20px auto;
-                            }
-                        }
-                    </style>
-
                 </div>
-
             </div>
+            
         </div>
     </div>
 
