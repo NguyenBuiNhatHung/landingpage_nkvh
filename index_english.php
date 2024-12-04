@@ -5,7 +5,7 @@
 <head>
     <meta charset="utf-8">
     <link rel="icon" href="img/logo1.jpg" type="image/x-icon">
-    <title>Nha Khoa Việt Hàn - Nha Trang 5 Sao Đạt Chuẩn Uy Tín Nha Trang</title>
+    <title>Viet Han Dentel - Nha Trang 5 Star Dental Clinic Meeting Standards and Trustworthiness</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -71,8 +71,8 @@
             <span id="notification-text"></span>
         </div>
         <script>
-            const messages = ["Khách hàng Nguyễn Văn đăng ký tư vấn trồng răng Implant",
-                "Khách hàng Jonathan Nguyễn đặt hẹn bọc răng sứ",
+            const messages = ["Customer Nguyen Van has registered for dental implant consultation",
+                "Customer Jonathan Nguyen has booked an appointment for dental crowns",
             ];
 
             function showNotification(message) {
@@ -103,7 +103,7 @@
                 <div class="hotline-phone-ring-circle-fill"></div>
                 <div class="hotline-phone-ring-img-circle">
                     <a href="tel:0787505577" class="pps-btn-img">
-                        <img src="img/icon_call.jpg" alt="Gọi điện thoại" width="50">
+                        <img src="img/icon_call.jpg" alt="Call Phone" width="50">
                     </a>
                 </div>
             </div>
@@ -123,8 +123,8 @@
                 <div class="col">
                     <div class="header-messageBox"> <span>VIET HAN DENTAL</span> <span class="close"
                             onclick="closeMessageBox()">&times;</span> </div>
-                    <div class="body-messageBox"> Chào anh/chị, Việt Hàn Dental luôn sẵn sàng hỗ trợ! </div>
-                    <a href="https://zalo.me/1797913117798518130">Gửi tin nhắn</a>
+                    <div class="body-messageBox"> Hello, esteemed customer, Viet Han Dental is always ready to assist you! </div>
+                    <a href="https://zalo.me/1797913117798518130">Send Message</a>
                 </div>
             </div>
         </div>
@@ -183,14 +183,14 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <div class="navbar-nav ms-auto py-0">
-                    <a href="#gioithieu" class="nav-item nav-link">GIỚI THIỆU</a>
-                    <a href="#bacsi" class="nav-item nav-link">BÁC SĨ</a>
-                    <a href="#rangsu" class="nav-item nav-link">RĂNG SỨ</a>
+                    <a href="#gioithieu" class="nav-item nav-link">INTRODUCE</a>
+                    <a href="#bacsi" class="nav-item nav-link">DENTIST</a>
+                    <a href="#rangsu" class="nav-item nav-link">PORCELAIN TEETH</a>
                     <a href="#implant" class="nav-item nav-link">IMPLANT</a>
-                    <a href="#dathen" class="nav-item nav-link">ĐẶT HẸN</a>
-                    <a href="#khachhang" class="nav-item nav-link">KHÁCH HÀNG</a>
-                    <a href="index_english.php" class="nav-item nav-link d-flex d-inline-block">
-                        <p>ENG</p> <img style="max-height:15px" src="https://upload.wikimedia.org/wikipedia/commons/a/a4/Flag_of_the_United_States.svg" alt="Cờ Mỹ">
+                    <a href="#dathen" class="nav-item nav-link">MAKE AN APPOINTMENT</a>
+                    <a href="#khachhang" class="nav-item nav-link">CUSTOMER</a>
+                    <a href="index.php" class="nav-item nav-link d-flex d-inline-block">
+                        <p>VIE</p> <img style="max-height:15px" src="https://upload.wikimedia.org/wikipedia/commons/2/21/Flag_of_Vietnam.svg" alt="Cờ Việt Nam" alt="Cờ Việt Nam">
                     </a>
                 </div>
             </div>
@@ -209,11 +209,10 @@
             class="col-9 col-md-5 row justify-content-center wow fadeInLeft mx-auto d-flex align-items-center justify-content-center">
             <div class="col-12 col-md-auto mb-2 text-center">
                 <a href="#dathen" style="font-family: Arial, Helvetica, sans-serif;"
-                    class="btn btn-primary btn-lg fadeInUp button-submit">ĐĂNG
-                    KÝ NGAY - NHẬN VÉ MÁY BAY KHỨ HỒI MIỄN PHÍ</a>
+                    class="btn btn-primary btn-lg fadeInUp button-submit">REGISTER NOW - RECEIVE FREE ROUND-TRIP FLIGHT TICKETS</a>
             </div>
             <div class="col-12 col-md-auto text-center">
-                <p class="h5 fadeInUp">Thời gian ưu đãi có hạn</p>
+                <p class="h5 fadeInUp">Limited time offer</p>
                 <div class="d-flex flex-row justify-content-center fadeInUp time-line">
                     <div class="p-2 border rounded">00</div>
                     <div class="p-2 border rounded">07</div>
@@ -225,16 +224,16 @@
     </div>
     <div style="background-color:#a1e8ff;" class="pb-5 fadeInUp pt-1 wow fadeInRight col-12">
         <h3 style="font-family: Arial, Helvetica, sans-serif;font-size: 2.5rem; color:white;"
-            class="col-12 text-center pt-3 pt-md-5"> <b class="wow fadeInLeft">DỊCH VỤ NHA KHOA CHUYÊN SÂU</b>
+            class="col-12 text-center pt-3 pt-md-5"> <b class="wow fadeInLeft">SPECIALIZED DENTAL SERVICES</b>
         </h3>
         <div class="container">
             <div class="row justify-content-around wow fadeInRight">
-                <div class="col-md-5 col-10 mt-5"> <img src="img/dv1.jpg" class="img-fluid" alt="Ảnh Cam Kết 1"> </div>
-                <div class="col-md-5 col-10 mt-5"> <img src="img/dv2.jpg" class="img-fluid" alt="Ảnh Cam Kết 2"> </div>
+                <div class="col-md-5 col-10 mt-5"> <img src="img/dv1.jpg" class="img-fluid" alt="Photo Commitment 1"> </div>
+                <div class="col-md-5 col-10 mt-5"> <img src="img/dv2.jpg" class="img-fluid" alt="Photo Commitment 2"> </div>
             </div>
             <div class="row justify-content-around wow fadeInRight">
-                <div class="col-md-5 col-10 mt-5"> <img src="img/dv3.jpg" class="img-fluid" alt="Ảnh Cam Kết 3"> </div>
-                <div class="col-md-5 col-10 mt-5"> <img src="img/dv4.jpg" class="img-fluid" alt="Ảnh Cam Kết 4"> </div>
+                <div class="col-md-5 col-10 mt-5"> <img src="img/dv3.jpg" class="img-fluid" alt="Photo Commitment 3"> </div>
+                <div class="col-md-5 col-10 mt-5"> <img src="img/dv4.jpg" class="img-fluid" alt="Photo Commitment 4"> </div>
             </div>
         </div>
     </div>
@@ -257,7 +256,7 @@
 
     <div id="khachhang" class="m-2">
         <h2 style="color: #0072C6; text-align: center; font-weight: bold; margin-top: 10px; font-family: Arial, Helvetica, sans-serif;"
-            class="wow fadeInLeft"> TRẢI NGHIỆM CỦA KHÁCH HÀNG </h2>
+            class="wow fadeInLeft"> CUSTOMER EXPERIENCE </h2>
         <div class="owl-carousel owl-theme owl-vd wow fadeInRight">
             <div class="item"> <iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"
                     frameborder="0" allowfullscreen></iframe> </div>
@@ -276,41 +275,36 @@
 
     <div style="background:linear-gradient(to right, #add8e6, white, #add8e6);" class="pb-5 fadeInUp pt-3">
         <h3 style="font-family: Arial, Helvetica, sans-serif;" class="col-12 text-center pt-3 pt-md-5 "><b
-                class="font-size-3"> 5 GIÁ TRỊ CỐT LÕI TẠI NHA KHOA VIỆT HÀN</b></h3>
+                class="font-size-3"> 5 CORE VALUES AT VIET HAN DENTAL</b></h3>
         <div style="font-family: Arial, Helvetica, sans-serif;"
             class="col-11 d-flex d-inline-block justify-content-between p-1 text-center mx-auto">
             <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h5>Chuyên môn hàng đầu</h5>
-                <p style="text-align: justify;">Chúng tôi tự hào vì 100% bác sĩ tại Nha Khoa Việt Hàn đều là những
-                    chuyên gia chính quy chuyên khoa Răng
-                    Hàm Mặt. Điều này đảm bảo rằng mỗi dịch vụ chúng tôi cung cấp đều đạt tiêu chuẩn y tế cao nhất, mang
-                    lạiD
-                    sự an tâm cho khách hàng.</p>
+                <h5>Top expertise</h5>
+                <p style="text-align: justify;">We are proud that 100% of the doctors at Viet Han Dental Clinic are doctors
+                    Official specialist in Dentistry
+                    Face Jaw. This ensures that each service we provide meets the highest medical standards
+                    again
+                    peace of mind for customers.</p>
             </div>
             <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h5>Sức khỏe bệnh nhân là ưu tiên tuyệt đối</h5>
-                <p style="text-align: justify;">Chúng tôi luôn đặt sức khỏe và sự an toàn của bệnh nhân lên hàng đầu.
-                    Mọi quyết định, mọi hành động đều
-                    hướng tới việc mang lại giải pháp điều trị tốt nhất cho khách hàng.</p>
+                <h5>Patient health is an absolute priority</h5>
+                <p style="text-align: justify;">We always put patient health and safety first.
+                    Every decision, every action
+                    Aiming to bring the best treatment solutions to customers.</p>
             </div>
             <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h5>Tận tâm và trung thực</h5>
-                <p style="text-align: justify;">Chúng tôi cam kết phục vụ khách hàng với sự chân thành, minh bạch. Chăm
-                    sóc khách hàng như chính người
-                    thân trong gia đình mình.</p>
+                <h5>Dedicated and honest</h5>
+                <p style="text-align: justify;">We are committed to serving customers with sincerity and transparency. We take care of customers as if they were our own family.</p>
             </div>
             <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h5>Luôn đổi mới và phát triển</h5>
-                <p style="text-align: justify;">Chúng tôi không ngừng học hỏi, cải tiến trang thiết bị và công nghệ.
-                    Nâng cao năng lực bản thân để đáp
-                    ứng nhu cầu ngày càng cao của khách hàng và thị trường.</p>
+                <h5>Always innovate and develop</h5>
+                <p style="text-align: justify;">We are constantly learning, improving equipment and technology.
+                    Improving our own capacity to meet the increasing needs of customers and the market.</p>
             </div>
             <div class="col-8 col-md-2 text-center mt-3 border border-white p-3 shadow wow fadeInUp cl">
-                <h5>Đề cao trách nhiệm xã hội </h5>
+                <h5>Promote social responsibility </h5>
                 <p style="text-align: justify;">
-                    Chúng tôi tự hào khi được đóng góp tích cực vào cộng đồng và xã hội. Bằng việc thực hiện các hoạt
-                    động
-                    thiện nguyện, chia sẻ yêu thương với những hoàn cảnh khó khăn.
+                    We are proud to contribute positively to the community and society. By carrying out volunteer activities, sharing love with those in difficult circumstances.
                 </p>
             </div>
         </div>
@@ -319,54 +313,50 @@
     <!-- cam kết -->
     <div style="background-color:rgb(0, 166, 218);" class="pb-5 fadeInUp pt-1 wow fadeInRight col-12">
         <h3 style="font-family: Arial, Helvetica, sans-serif;font-size: 2.5rem; color:white;"
-            class="col-12 text-center pt-3 pt-md-5"> <b class="wow fadeInLeft">TẠI SAO NÊN CHỌN NHA KHOA VIỆT HÀN ?</b>
+            class="col-12 text-center pt-3 pt-md-5"> <b class="wow fadeInLeft">WHY CHOOSE VIET HAN DENTAL CLINIC?</b>
         </h3>
         <div class="container">
             <div class="row justify-content-around wow fadeInRight">
                 <div class="col-lg-5 col-10 mt-5 hover-effect">
                     <div class="overlay">
-                        <div class="icon-key"> <i class="fas fa-user-md"></i> <span>ĐỘI NGŨ BÁC SĨ</span> </div>
-                        <div class="overlay-text">Tại Nha Khoa Việt Hàn, Bác sĩ tốt nghiệp chính quy ngành Răng Hàm Mặt
-                            tại những trường Đại học uy tín nhất tại Việt Nam về ngành y, như Đại Học Y Dược Thành Phố
-                            Hồ Chí Minh, Đại Học Y Dược Hà Nội, Đại Học Y Dược Huế.
-                            Với nhiều năm kinh nghiệm, liên tục học tập nâng cao nghiệp vụ. Các bác sĩ của chúng tôi làm
-                            việc tận tâm với bệnh nhân, đề cao y đức và nhận được rất nhiều sự yêu mến của khách hàng
-                            tại Nha Trang, Khánh Hòa cũng như khách hàng Quốc tế.</div>
+                        <div class="icon-key"> <i class="fas fa-user-md"></i> <span>DENTIST TEAM</span> </div>
+                        <div class="overlay-text">At Viet Han Dental, doctors graduated from the regular Faculty of Dentistry
+                            at the most prestigious universities in Vietnam in the medical field, such as Ho Chi Minh City University of Medicine and Pharmacy, Hanoi University of Medicine and Pharmacy, Hue University of Medicine and Pharmacy.
+                            With many years of experience, continuously studying to improve their skills. Our doctors work
+                            dedicatedly with patients, uphold medical ethics and receive much love from customers
+                            in Nha Trang, Khanh Hoa as well as international customers.</div>
                     </div> <img src="img/ck1.jpg" class="img-fluid" alt="Ảnh Cam Kết 1">
                 </div>
                 <div class="col-lg-5 col-10 mt-5 hover-effect">
                     <div class="overlay">
-                        <div class="icon-key"> <i class="fas fa-users"></i> <span>CHĂM SÓC KHÁCH HÀNG</span> </div>
-                        <div class="overlay-text"> Tại Nha Khoa Việt Hàn, Bác sĩ tốt nghiệp chính quy ngành Răng Hàm Mặt
-                            tại những trường Đại học uy tín nhất tại Việt Nam về ngành y, như Đại Học Y Dược Thành Phố
-                            Hồ Chí Minh, Đại Học Y Dược Hà Nội, Đại Học Y Dược Huế.
-                            Với nhiều năm kinh nghiệm, liên tục học tập nâng cao nghiệp vụ. Các bác sĩ của chúng tôi làm
-                            việc tận tâm với bệnh nhân, đề cao y đức và nhận được rất nhiều sự yêu mến của khách hàng
-                            tại Nha Trang, Khánh Hòa cũng như khách hàng Quốc tế.</div>
+                        <div class="icon-key"> <i class="fas fa-users"></i> <span>CUSTOMER CARE</span> </div>
+                        <div class="overlay-text"> At Viet Han Dental, doctors graduated from the regular Faculty of Dentistry
+                            at the most prestigious universities in Vietnam in the medical field, such as Ho Chi Minh City University of Medicine and Pharmacy, Hanoi University of Medicine and Pharmacy, Hue University of Medicine and Pharmacy.
+                            With many years of experience, continuously studying to improve their skills. Our doctors work
+                            dedicatedly with patients, uphold medical ethics and receive much love from customers
+                            in Nha Trang, Khanh Hoa as well as international customers.</div>
                     </div> <img src="img/ck2.jpg" class="img-fluid" alt="Ảnh Cam Kết 2">
                 </div>
             </div>
             <div class="row justify-content-around wow fadeInRight">
                 <div class="col-lg-5 col-10 mt-5 hover-effect">
                     <div class="overlay">
-                        <div class="icon-key"> <i class="fas fa-cogs"></i> <span>CÔNG NGHỆ, MÁY MÓC</span> </div>
-                        <div class="overlay-text"> Tại Nha Khoa Việt Hàn, Bác sĩ tốt nghiệp chính quy ngành Răng Hàm Mặt
-                            tại những trường Đại học uy tín nhất tại Việt Nam về ngành y, như Đại Học Y Dược Thành Phố
-                            Hồ Chí Minh, Đại Học Y Dược Hà Nội, Đại Học Y Dược Huế.
-                            Với nhiều năm kinh nghiệm, liên tục học tập nâng cao nghiệp vụ. Các bác sĩ của chúng tôi làm
-                            việc tận tâm với bệnh nhân, đề cao y đức và nhận được rất nhiều sự yêu mến của khách hàng
-                            tại Nha Trang, Khánh Hòa cũng như khách hàng Quốc tế.</div>
+                        <div class="icon-key"> <i class="fas fa-cogs"></i> <span>TECHNOLOGY, MACHINERY</span> </div>
+                        <div class="overlay-text"> At Viet Han Dental, doctors graduated from the regular Faculty of Dentistry
+                            at the most prestigious universities in Vietnam in the medical field, such as Ho Chi Minh City University of Medicine and Pharmacy, Hanoi University of Medicine and Pharmacy, Hue University of Medicine and Pharmacy.
+                            With many years of experience, continuously studying to improve their skills. Our doctors work
+                            dedicatedly with patients, uphold medical ethics and receive much love from customers
+                            in Nha Trang, Khanh Hoa as well as international customers.</div>
                     </div> <img src="img/ck3.jpg" class="img-fluid" alt="Ảnh Cam Kết 3">
                 </div>
                 <div class="col-lg-5 col-10 mt-5 hover-effect">
                     <div class="overlay">
-                        <div class="icon-key"> <i class="fas fa-money-bill-wave"></i> <span>CHI PHÍ HỢP LÝ</span> </div>
-                        <div class="overlay-text">Tại Nha Khoa Việt Hàn, Bác sĩ tốt nghiệp chính quy ngành Răng Hàm Mặt
-                            tại những trường Đại học uy tín nhất tại Việt Nam về ngành y, như Đại Học Y Dược Thành Phố
-                            Hồ Chí Minh, Đại Học Y Dược Hà Nội, Đại Học Y Dược Huế.
-                            Với nhiều năm kinh nghiệm, liên tục học tập nâng cao nghiệp vụ. Các bác sĩ của chúng tôi làm
-                            việc tận tâm với bệnh nhân, đề cao y đức và nhận được rất nhiều sự yêu mến của khách hàng
-                            tại Nha Trang, Khánh Hòa cũng như khách hàng Quốc tế.</div>
+                        <div class="icon-key"> <i class="fas fa-money-bill-wave"></i> <span>REASONABLE COST</span> </div>
+                        <div class="overlay-text">At Viet Han Dental, doctors graduated from the regular Faculty of Dentistry
+                            at the most prestigious universities in Vietnam in the medical field, such as Ho Chi Minh City University of Medicine and Pharmacy, Hanoi University of Medicine and Pharmacy, Hue University of Medicine and Pharmacy.
+                            With many years of experience, continuously studying to improve their skills. Our doctors work
+                            dedicatedly with patients, uphold medical ethics and receive much love from customers
+                            in Nha Trang, Khanh Hoa as well as international customers.</div>
                     </div> <img src="img/ck4.jpg" class="img-fluid" alt="Ảnh Cam Kết 4">
                 </div>
             </div>
@@ -374,7 +364,7 @@
                 <div class="col-12 text-center">
                     <div class="col-12 text-center">
                         <a href="#dathen" class="bg-white p-3 p-md-3 rounded font-weight-bolder">
-                            ĐẶT HẸN NGAY
+                            BOOK AN APPOINTMENT NOW
                         </a>
                     </div>
                 </div>
@@ -394,7 +384,7 @@
     <div id="bacsi" class="container-fluid team py-5">
         <div class="container py-5">
             <div class="section-title mb-5 fadeInUp">
-                <h5 class="display-6 mb-4">ĐỘI NGŨ BÁC SĨ CHUYÊN SÂU</h5>
+                <h5 class="display-6 mb-4">TEAM OF SPECIALIZED DENTIST</h5>
             </div>
             <div class="owl-carousel owl-bs">
                 <div class="item">
@@ -403,10 +393,8 @@
                             <img src="img/bs1.jpg" class="img-fluid rounded-circle w-100" alt="">
                         </div>
                         <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                            <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ
-                                Chí
-                                Minh
+                            <h5 class="team-title">Dentist: Khong Van Quan</h5>
+                            <p class="team-description mb-0">Graduated from the Faculty of OHM, University of Medicine and Pharmacy, Ho Chi Minh City
                             </p>
                         </div>
                     </div>
@@ -417,10 +405,8 @@
                             <img src="img/bs2.jpg" class="img-fluid rounded-circle w-100" alt="">
                         </div>
                         <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                            <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ
-                                Chí
-                                Minh
+                            <h5 class="team-title">Dentist: Khong Van Quan</h5>
+                            <p class="team-description mb-0">Graduated from the Faculty of OHM, University of Medicine and Pharmacy, Ho Chi Minh City
                             </p>
                         </div>
                     </div>
@@ -431,10 +417,8 @@
                             <img src="img/bs3.jpg" class="img-fluid rounded-circle w-100" alt="">
                         </div>
                         <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                            <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ
-                                Chí
-                                Minh
+                            <h5 class="team-title">Dentist: Khong Van Quan</h5>
+                            <p class="team-description mb-0">Graduated from the Faculty of OHM, University of Medicine and Pharmacy, Ho Chi Minh City
                             </p>
                         </div>
                     </div>
@@ -445,10 +429,8 @@
                             <img src="img/bs4.jpg" class="img-fluid rounded-circle w-100" alt="">
                         </div>
                         <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                            <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ
-                                Chí
-                                Minh
+                            <h5 class="team-title">Dentist: Khong Van Quan</h5>
+                            <p class="team-description mb-0">Graduated from the Faculty of OHM, University of Medicine and Pharmacy, Ho Chi Minh City
                             </p>
                         </div>
                     </div>
@@ -459,10 +441,9 @@
                             <img src="img/bs5.jpg" class="img-fluid rounded-circle w-100" alt="">
                         </div>
                         <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                            <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ
-                                Chí
-                                Minh
+                            <h5 class="team-title">Dentist: Khong Van Quan</h5>
+                            <p class="team-description mb-0">
+                            <p class="team-description mb-0">Graduated from the Faculty of OHM, University of Medicine and Pharmacy, Ho Chi Minh City
                             </p>
                         </div>
                     </div>
@@ -473,10 +454,8 @@
                             <img src="img/bs6.jpg" class="img-fluid rounded-circle w-100" alt="">
                         </div>
                         <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                            <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                            <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ
-                                Chí
-                                Minh
+                            <h5 class="team-title">Dentist: Khong Van Quan</h5>
+                            <p class="team-description mb-0">Graduated from the Faculty of OHM, University of Medicine and Pharmacy, Ho Chi Minh City
                             </p>
                         </div>
                     </div>
@@ -546,18 +525,15 @@
                             </div>
                             <div class="text-center align-items-center col-12 col-md-6 mx-auto my-auto countdown-timer"
                                 style="background-color: white; border-radius: 10px; padding: 20px;">
-                                <h3 style="font-family: Arial, Helvetica, sans-serif; color:red;">CHỈ CÒN 30
-                                    SUẤT ƯU
-                                    ĐÃI
-                                    CUỐI CÙNG</h3>
-                                <p style="color:green;">Thời hạn đăng ký chỉ còn</p>
+                                <h3 style="font-family: Arial, Helvetica, sans-serif; color:red;">ONLY 30 LAST PROMOTION SEATS LEFT</h3>
+                                <p style="color:green;">Registration deadline is only</p>
                                 <div class="d-flex flex-row justify-content-around flex-wrap fadeInUp countdown-container"
                                     style="color: green; font-weight: bold;">
                                     <div id="countdown" class="countdown-container">
-                                        <div id="ngay" class="countdown-item">00<br><span>Ngày</span></div>
-                                        <div id="gio" class="countdown-item">00<br><span>Giờ</span></div>
-                                        <div id="phut" class="countdown-item">00<br><span>Phút</span></div>
-                                        <div id="giay" class="countdown-item">00<br><span>Giây</span></div>
+                                        <div id="days" class="countdown-item">00<br><span>Days</span></div>
+                                        <div id="hours" class="countdown-item">00<br><span>Hours</span></div>
+                                        <div id="minutes" class="countdown-item">00<br><span>Mins</span></div>
+                                        <div id="seconds" class="countdown-item">00<br><span>Secs</span></div>
                                     </div>
                                 </div>
                             </div>
@@ -634,7 +610,7 @@
     <div id="bacsi" style="background-color:#0077fe" class="container-fluid team py-5 mt-2">
         <div class="container py-5">
             <div class="section-title mb-5 fadeInUp">
-                <h2 style="color: white" class="mb-4">NỤ CƯỜI TRƯỚC VÀ SAU ĐIỀU TRỊ CỦA KHÁCH HÀNG
+                <h2 style="color: white" class="mb-4">CUSTOMER'S SMILE BEFORE AND AFTER TREATMENT
                 </h2>
             </div>
             <div class="owl-carousel owl-bs">
@@ -685,27 +661,18 @@
     </div>
 
     <div class="container-fluid py-2 wow fadeInLeft" style="background-color: #3babff;">
-        <h3 style="font-size: 200%" class="text-center text-white font-weight-bold my-4"> KHÁCH HÀNG NÓI GÌ VỀ
-            CHÚNG
-            TÔI
-            ?
+        <h3 style="font-size: 200%" class="text-center text-white font-weight-bold my-4"> WHAT DO CUSTOMERS SAY ABOUT US?
         </h3>
         <div class="d-flex justify-content-center align-items-center flex-wrap" style="height: calc(100% - 70px);">
             <div class="col-md-6 text-center text-white mb-3">
-                <p class="px-3 custom-paragraph"> Bác sĩ Tính chữa trị tốt, nhân viên nhiệt tình. Phòng khám
-                    sạch
-                    sẽ.
-                    Máy dụng cụ để bác sĩ làm việc thấy rất chỉnh chu, sạch. Nhân viên phụ tá nhẹ nhàng với
-                    mình.
-                    Cảm
-                    giác thoải mái khi đến đây. Tôi rất vui và sẽ giới thiệu người thân, bạn bè đến đây ủng hộ.
+                <p class="px-3 custom-paragraph"> Doctor Tinh treats well, the staff is enthusiastic. The clinic is clean. The equipment used by the doctor is neat and clean. The assistants are gentle with me. I feel comfortable coming here. I am very happy and will introduce my relatives and friends to come here to support.
                 </p>
             </div>
             <div class="col-md-6 d-flex justify-content-center">
                 <div class="row w-100">
                     <div style="text-align: center; color:white; font-weight: bold;margin-bottom: 10px;">
-                        <p class="font-weight-bold mb-1">Chú Hoàng Văn Sửu</p>
-                        <p class="mb-1">64 tuổi, Nha Trang</p>
+                        <p class="font-weight-bold mb-1">Mr Hoang Van Suu</p>
+                        <p class="mb-1">64 years old, Nha Trang</p>
                     </div>
                     <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid" src="img/khach1.jpg"
                             alt="Khách hàng trước điều trị"> </div>
@@ -721,23 +688,18 @@
         <img class="w-100 wow fadeInRight" src="img/full_month_restoration_cost.jpg" alt="">
     </div>
 
-    <div class="container-fluid wow fadeInLeft" style=""></div>
-    <div style="height: 400px;" class="container-fluid py-5 position-relative">
-        <img class="w-100 h-100" src="img/kientao.jpg" alt=""
-            style="object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
-        <div class="overlay position-absolute w-100 h-100"
-            style="background: rgba(255, 255, 255, 0.5); top: 0; left: 0; z-index: 2;"></div>
-        <div class="container position-relative text-center text-black mt-5" style="z-index: 3;">
-            <h4 style="font-weight: bold; font-size: large;" class="display-6 mt-5">BAY VỀ VIỆT NAM KIẾN TẠO NỤ
-                CƯỜI
-                RẶNG RỠ CÙNG NHA KHOA VIỆT HÀN</h4>
-            <p style="color:black" class="lead mt-5">Đặt lịch hẹn tư vấn chuyên sâu và thăm khám miễn phí với
-                các
-                chuyên
-                gia nha khoa hàng đầu của chúng tôi tại đây!</p>
-            <a href="#" style="margin-top: 30px; color:white; height: 50px;" class="btn btn-primary btn-lg">LIÊN HỆ TƯ VẤN MIỄN PHÍ</a>
+    <div class="container-fluid wow fadeInLeft">
+        <div style="height: 400px;" class="container-fluid py-5 position-relative">
+            <img class="w-100 h-100" src="img/kientao.jpg" alt=""
+                style="object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
+            <div class="overlay position-absolute w-100 h-100"
+                style="background: rgba(255, 255, 255, 0.5); top: 0; left: 0; z-index: 2;"></div>
+            <div class="container position-relative text-center text-black mt-5" style="z-index: 3;">
+                <h4 style="font-weight: bold; font-size: large;" class="display-6 mt-5">FLY BACK TO VIETNAM AND CREATE A BRIGHT SMILE WITH VIET HAN DENTAL CLINIC.</h4>
+                <p style="color:black" class="lead mt-5">Schedule an in-depth consultation and free examination with our top dental experts here!</p>
+                <a href="#" style="margin-top: 30px; color:white; height: 50px;" class="btn btn-primary btn-lg">FREE CONSULTATION CONTACT</a>
+            </div>
         </div>
-    </div>
     </div>
     <!-- Footer Start -->
     <div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
@@ -747,35 +709,30 @@
                     <div class="footer-item d-flex flex-column">
                         <img style="height: auto; width: 50%;" src="img/logo.jpg" alt="">
                         <p style="font-family: Arial, Helvetica, sans-serif; text-align: justify;">
-                            Nha Khoa Việt Hàn được xây
-                            dựng đúng theo
-                            tiêu chuẩn Hiệp hội Nha Khoa Quốc tế và là Trung
-                            Tâm Nha Khoa Nha Trang hiện đại nhất. Đảm bảo quy trình khoa học vô trùng theo tiêu
-                            chuẩn
-                            Châu Âu, với các phòng điều trị siêu vô trùng đem đến một không gian thoáng đãng an toàn
-                            tuyệt đối.</p>
+                            Viet Han Dental Clinic is built according to the standards of the International Dental
+                            Association and is the most modern dental center in Nha Trang. Ensuring scientifically
+                            sterile procedures according to European standards, with super-sterile treatment rooms
+                            providing an absolutely safe and airy space.</p>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
-                        <h4 class="mb-4 text-white">Thông tin liên hệ</h4>
+                        <h4 class="mb-4 text-white">Contact Information</h4>
                         <a href=""><i class="bi bi-geo-alt-fill me-2 text-primary"></i>60 Quang Trung - Nha
                             Trang</a>
                         <a href="tel:0787505577"><i class="bi bi-telephone-fill me-2 text-primary"></i>Hotline: 0787
                             505
                             577</a>
-                        <a href="tel:0989668818"><i class="bi bi-telephone-fill me-2 text-primary"></i>Tư vấn khách
-                            Việt
-                            Kiều:
+                        <a href="tel:0989668818"><i class="bi bi-telephone-fill me-2 text-primary"></i>Consulting for
+                            Overseas Vietnamese customers:
                             0989 66
                             88 18</a>
                         <a href="mailto:booking@nhakhoaviethan.vn">
                             <i class="bi bi-envelope-fill me-2 text-primary"></i>
                             booking@nhakhoaviethan.vn
                         </a>
-                        <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Thứ 2 - Thứ 7: Từ 8:00 -
-                            18:30</a>
-                        <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Chủ nhật: Từ 8:00 - 17:00</a>
+                        <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Monday - Saturday: From 8:00 AM to 6:30 PM</a>
+                        <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Sunday: From 8:00 AM to 5:00 PM</a>
                     </div>
                     <div class="d-flex flex-row mt-3 social-icons">
                         <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
@@ -792,16 +749,14 @@
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">
                     <div class="footer-item d-flex flex-column">
-                        <h4 class="mb-4 text-white">Dịch vụ</h4>
-                        <a href="#implant"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Trồng răng
+                        <h4 class="mb-4 text-white">Services</h4>
+                        <a href="#implant"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Dental
                             Implant</a>
-                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i> Niềng răng thẩm
-                            mỹ</a>
-                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Phục hình sứ</a>
-                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Tẩy trắng
-                            răng</a>
-                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Nha khoa tổng
-                            quát</a>
+                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Cosmetic Braces</a>
+                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Porcelain
+                            Restoration</a>
+                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Teeth Whitening</a>
+                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>General Dentistry</a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-6 col-xl-3">

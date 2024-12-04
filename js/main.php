@@ -15,19 +15,21 @@
         var popup = document.getElementById("myPopup");
         var btn = document.getElementById("myBtn");
         var span = document.getElementsByClassName("close")[0];
-        btn.onclick = function () {
+        btn.onclick = function() {
             popup.style.display = "block";
         }
-        span.onclick = function () {
+        span.onclick = function() {
             popup.style.display = "none";
         }
-        window.onclick = function (event) {
+        window.onclick = function(event) {
             if (event.target == popup) {
                 popup.style.display = "none";
             }
         }
-        window.onload = function () {
-            setTimeout(function () { btn.click(); }, 10000); // Hiển thị popup sau 10 giây   
+        window.onload = function() {
+            setTimeout(function() {
+                btn.click();
+            }, 10000); // Hiển thị popup sau 10 giây   
         }
 
 
@@ -56,7 +58,7 @@
                     600: {
                         items: 1
                     },
-                    1000: { 
+                    1000: {
                         items: 4
                     }
                 }
@@ -186,22 +188,35 @@
             }
         });
         var countDownDate = new Date();
-        countDownDate.setDate(countDownDate.getDate() + 3); // 3 days from now 
-        // Update the count down every 1 second 
+        countDownDate.setDate(countDownDate.getDate() + 3);
         var countdownFunction = setInterval(function() {
-                // Get today's date and time 
                 var now = new Date().getTime();
-                // Find the distance between now and the count down date 
-                var distance = countDownDate - now; // Time calculations for days, hours, minutes and seconds 
+                var distance = countDownDate - now;
                 var days = Math.floor(distance / (1000 * 60 * 60 * 24));
                 var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                 var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000); // Display the result in the elements with corresponding ids 
-                document.getElementById("days").innerHTML = days + "<br><span>Ngày</span>";
-                document.getElementById("hours").innerHTML = hours + "<br><span>Giờ</span>";
-                document.getElementById("minutes").innerHTML = minutes + "<br><span>Phút</span>";
-                document.getElementById("seconds").innerHTML = seconds + "<br><span>Giây</span>";
-                // If the count down is finished, write some text 
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                document.getElementById("days").innerHTML = days + "<br><span>Days</span>";
+                document.getElementById("hours").innerHTML = hours + "<br><span>Hours</span>";
+                document.getElementById("minutes").innerHTML = minutes + "<br><span>Mins</span>";
+                document.getElementById("seconds").innerHTML = seconds + "<br><span>Secs</span>";
+                if (distance < 0) {
+                    clearInterval(countdownFunction);
+                    document.getElementById("countdown").innerHTML = "EXPIRED";
+                }
+            },
+            1000);
+        var countdownFunction = setInterval(function() {
+                var now = new Date().getTime();
+                var distance = countDownDate - now;
+                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+                document.getElementById("ngay").innerHTML = days + "<br><span>Ngày</span>";
+                document.getElementById("gio").innerHTML = hours + "<br><span>Giờ</span>";
+                document.getElementById("phut").innerHTML = minutes + "<br><span>Phút</span>";
+                document.getElementById("giay").innerHTML = seconds + "<br><span>Giây</span>";
                 if (distance < 0) {
                     clearInterval(countdownFunction);
                     document.getElementById("countdown").innerHTML = "EXPIRED";

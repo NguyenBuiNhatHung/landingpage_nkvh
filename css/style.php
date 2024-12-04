@@ -1521,9 +1521,6 @@
         margin-bottom: 145px;
     }
 
-    .team .team-item:hover .team-img::before {
-        background: rgba(21, 185, 217, .3);
-    }
 
     .team .team-item .team-content {
         color: var(--bs-primary);
