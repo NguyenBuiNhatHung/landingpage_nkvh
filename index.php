@@ -35,7 +35,7 @@
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+            <span class="sr-only">Đang tải...</span>
         </div>
     </div>
     <button id="myBtn" class="d-none">Open Popup</button>
@@ -43,26 +43,27 @@
         <div class="popup-content col-10 col-md-5" style="background-image: url('img/popup.jpg')"> <span
                 class="close">&times;</span>
             <h2><span class="yellow">SCHEDULE</span> A FREE <br> X-RAY AND DENTAL CHECK-UP</h2>
-            <form class="form-container" method="POST" action="process.php"> <input type="text" name="name"
-                    placeholder="Your Name" required> <input type="text" name="phone" placeholder="Phone number"
-                    required> <input type="email" name="email" placeholder="Your Email" required> <input type="text"
-                    name="country" placeholder="Your Current Country" required> <select name="app" required>
-                    <option value="" disabled selected>Your Available App</option>
-                    <option style="color:black" value="WhatsApp">WhatsApp</option>
-                    <option style="color:black" value="Viber">Viber</option>
-                    <option style="color:black" value="Skype">Skype</option>
+            <form class="form-container" method="POST" action="#">
+                <input type="text" name="name" placeholder="Họ và tên" required>
+                <input type="text" name="phone" placeholder="Số điện thoại" required>
+                <input type="email" name="email" placeholder="Email của bạn" required>
+                <input type="text" name="country" placeholder="Quốc gia" required>
+                <select name="app" required>
+                    <option value="" disabled selected>Ứng dụng có sẵn</option>
+                    <option style="color:black" value="Facebook">Facebook</option>
+                    <option style="color:black" value="Zalo">Zalo</option>
+                    <option style="color:black" value="Instagram">Instagram</option>
                     <option style="color:black" value="Zoom">Zoom</option>
-                    <option style="color:black" value="Teams">Teams</option>
                 </select>
                 <select name="service" required>
-                    <option value="" disabled selected>Consulting Service</option>
+                    <option value="" disabled selected>Dịch vụ cần tư vấn</option>
                     <option style="color:black" value="All on 4">All on 4</option>
                     <option style="color:black" value="All on 6">All on 6</option>
                     <option style="color:black" value="Titanium Implant">Titanium Implant</option>
                     <option style="color:black" value="Zicronium Implant">Zicronium Implant</option>
                     <option style="color:black" value="Full Denture">Full Denture</option>
                 </select>
-                <button type="submit">REGISTER NOW</button>
+                <button type="submit">ĐĂNG KÝ NGAY</button>
             </form>
         </div>
     </div>
@@ -495,11 +496,9 @@
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2">
                     <div style="color: white;" class="section-title text-start">
                         <h2 style="color: rgb(241, 238, 15);font-family: Arial, Helvetica, sans-serif;"
-                            class="pe-3 mb-0 display-4 wow fadeInLeft">OUR COMMITMENT</h2>
+                            class="pe-3 mb-0 display-4 wow fadeInLeft">CAM KẾT CỦA CHÚNG TÔI</h2>
                         <h6 style="color: white; font-family: Arial, Helvetica, sans-serif;"
-                            class="display-6 mb-4 wow fadeInLeft">ALL
-                            OUR EFFORTS ARE FOR THE CUSTOMER
-                            SATISFACTION</h6>
+                            class="display-6 mb-4 wow fadeInLeft">TẤT CẢ SỰ NỖ LỰC CỦA CHÚNG TÔI LÀ VÌ SỰ HÀI LÒNG CỦA KHÁCH HÀNG</h6>
                         <div class="row g-4">
                             <div class="col-sm-6">
                                 <div class="d-flex flex-column h-100">
@@ -508,18 +507,16 @@
                                         <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i>
                                         </h5>
                                         <p style="font-family: Arial, Helvetica, sans-serif" class="mb-0">
-                                            Commitment
-                                            to
-                                            100% genuine embryo porcelain teeth.</p>
+                                            Cam kết Răng sứ phôi thật 100%.</p>
                                     </div>
                                     <div style="background-color: white; border-radius: 15px; padding: 15%; color: rgb(33, 108, 221);height: 40%;"
                                         class="mb-4 d-flex d-inline-block">
                                         <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i>
                                         </h5>
                                         <p style="font-family: Arial, Helvetica, sans-serif;" class="mb-0">
-                                            Commitment
-                                            not to grind teeth too small, to protect teeth ass
-                                            much as possible.</p>
+                                            Cam kết
+                                            không mài răng quá nhỏ, bảo vệ răng
+                                            tối đa có thể.</p>
                                     </div>
                                 </div>
                             </div>
@@ -530,16 +527,15 @@
                                         <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i>
                                         </h5>
                                         <p style="font-family: Arial, Helvetica, sans-serif;" class="mb-0">
-                                            Commitment to
-                                            not incur additional costs.</p>
+                                            Cam kết
+                                            không phát sinh thêm chi phí.</p>
                                     </div>
                                     <div style="background-color: white; border-radius: 15px; padding: 15%; color: rgb(33, 108, 221);height: 40%;"
                                         class="mb-4 d-flex d-inline-block">
                                         <h5 class="mb-3"><i class="fa fa-check text-primary me-2"></i>
                                         </h5>
                                         <p style="font-family: Arial, Helvetica, sans-serif;" class="mb-0">
-                                            One-for-one
-                                            warranty when teeth are cracked, broken, or chipped.
+                                            Bảo hành một đổi một khi răng bị nứt, gãy hoặc sứt mẻ.
                                         </p>
                                     </div>
                                 </div>
@@ -568,42 +564,42 @@
                 <div id="dathen" class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
                     <div style="background-color: white;" class="appointment-form rounded p-5">
                         <h3 style="color: rgb(26, 119, 224); text-align: center;font-family: Arial, Helvetica, sans-serif;"
-                            class="display-5 mb-4">Register to
-                            experience Shark Dental
-                            Services
+                            class="display-5 mb-4">Đăng ký để
+                            trải nghiệm Dịch vụ Shark Dental
                         </h3>
                         <form>
                             <div class="row gy-3 gx-4">
                                 <div class="col-xl-12">
                                     <input type="text"
                                         class="form-control py-3 border-primary bg-transparent text-white"
-                                        placeholder="Your Name">
+                                        placeholder="Họ và tên">
                                 </div>
                                 <div class="col-xl-12">
                                     <input type="text"
                                         class="form-control py-3 border-primary bg-transparent text-white"
-                                        placeholder="Phone Number">
+                                        placeholder="Số điện thoại">
                                 </div>
                                 <div class="col-xl-12">
                                     <input type="email" class="form-control py-3 border-primary bg-transparent"
-                                        placeholder="Your Email">
+                                        placeholder="Email của bạn">
                                 </div>
                                 <div class="col-xl-12">
                                     <input type="text" class="form-control py-3 border-primary bg-transparent"
-                                        placeholder="Your Current Country">
+                                        placeholder="Quốc gia">
                                 </div>
                                 <div class="col-xl-12">
                                     <select class="form-select py-3 border-primary bg-transparent"
                                         aria-label="Default select example">
-                                        <option selected>Your Avialable App</option>
-                                        <option value="1">Physiotherapy</option>
-                                        <option value="2">Physical Helth</option>
-                                        <option value="2">Treatments</option>
+                                        <option selected>Ứng dụng có sẵn </option>
+                                        <option value="1">Facebook</option>
+                                        <option value="2">Zalo</option>
+                                        <option value="3">Instagram</option>
+                                        <option value="4">Zoom</option>
                                     </select>
                                 </div>
                                 <div class="col-xl-12">
                                     <select name="service" class="form-select py-3 border-primary bg-transparent">
-                                        <option value="" disabled selected>Consulting Service</option>
+                                        <option value="" disabled selected>Dịch vụ cần tư vấn</option>
                                         <option style="color:black" value="All on 4">All on 4</option>
                                         <option style="color:black" value="All on 6">All on 6</option>
                                         <option style="color:black" value="Titanium Implant">Titanium Implant</option>
@@ -613,8 +609,7 @@
                                 </div>
 
                                 <div class="col-12">
-                                    <button type="button" class="btn btn-primary text-white w-100 py-3 px-5">REGISTER
-                                        NOW</button>
+                                    <button type="button" class="btn btn-primary text-white w-100 py-3 px-5">ĐĂNG KÝ NGAY</button>
                                 </div>
                             </div>
                         </form>
