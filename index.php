@@ -491,10 +491,14 @@
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2">
                     <div style="color: white;" class="section-title text-start">
-                        <h2 style="color: rgb(241, 238, 15);font-family: Arial, Helvetica, sans-serif;"
-                            class="pe-3 mb-0 display-4 wow fadeInLeft">CAM KẾT CỦA CHÚNG TÔI</h2>
-                        <h6 style="color: white; font-family: Arial, Helvetica, sans-serif;"
-                            class="display-6 mb-4 wow fadeInLeft">TẤT CẢ SỰ NỖ LỰC CỦA CHÚNG TÔI LÀ VÌ SỰ HÀI LÒNG CỦA KHÁCH HÀNG</h6>
+                        <div class="">
+                            <p style="color: white ;font-family: Arial, Helvetica, sans-serif;"
+                                class="pe-3 mb-0 display-6 wow fadeInLeft">CƠ SỞ VẬT CHẤT HIỆN ĐẠI, MÁY MÓC CÔNG NGHỆ TIÊN TIẾN</p>
+                            <h2 style="color: rgb(241, 238, 15); font-family: Arial, Helvetica, sans-serif;"
+                                class="display-3 mb-4 wow fadeInLeft">NHA KHOA ĐẠT CHUẨN QUỐC TẾ</h2>
+                            <p style="color: white ;font-family: Arial, Helvetica, sans-serif;"
+                                class="pe-3 mb-0 display-6 wow fadeInLeft">5 STAR CLASS</p>
+                        </div>
                         <div class="row g-4">
                             <div class="col-sm-6">
                                 <div class="d-flex flex-column h-100">
