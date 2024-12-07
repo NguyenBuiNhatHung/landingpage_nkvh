@@ -188,43 +188,47 @@
             }
         });
         var countDownDate = new Date();
-        countDownDate.setDate(countDownDate.getDate() + 3);
-        var countdownFunction = setInterval(function() {
-                var now = new Date().getTime();
-                var distance = countDownDate - now;
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                document.getElementById("days").innerHTML = days + "<br><span>Days</span>";
-                document.getElementById("hours").innerHTML = hours + "<br><span>Hours</span>";
-                document.getElementById("minutes").innerHTML = minutes + "<br><span>Mins</span>";
-                document.getElementById("seconds").innerHTML = seconds + "<br><span>Secs</span>";
-                if (distance < 0) {
-                    clearInterval(countdownFunction);
-                    document.getElementById("countdown").innerHTML = "EXPIRED";
-                }
-            },
-            1000);
-        var countdownFunction = setInterval(function() {
-                var now = new Date().getTime();
-                var distance = countDownDate - now;
-                var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-                var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-                var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-                var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-                document.getElementById("ngay").innerHTML = days + "<br><span>Ngày</span>";
-                document.getElementById("gio").innerHTML = hours + "<br><span>Giờ</span>";
-                document.getElementById("phut").innerHTML = minutes + "<br><span>Phút</span>";
-                document.getElementById("giay").innerHTML = seconds + "<br><span>Giây</span>";
-                if (distance < 0) {
-                    clearInterval(countdownFunction);
-                    document.getElementById("countdown").innerHTML = "EXPIRED";
-                }
-            },
-            1000);
+        countDownDate.setHours(countDownDate.getHours() + 7);
+        countDownDate.setMinutes(countDownDate.getMinutes() + 15);
 
+        var countdownFunction = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
 
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("hours").innerHTML = hours + "<br><span>Hours</span>";
+            document.getElementById("minutes").innerHTML = minutes + "<br><span>Mins</span>";
+            document.getElementById("seconds").innerHTML = seconds + "<br><span>Secs</span>";
+
+            if (distance < 0) {
+                clearInterval(countdownFunction);
+                document.getElementById("countdown").innerHTML = "EXPIRED";
+            }
+        }, 1000);
+        var countDownDate = new Date();
+        countDownDate.setHours(countDownDate.getHours() + 7);
+        countDownDate.setMinutes(countDownDate.getMinutes() + 15);
+
+        var countdownFunction = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("gio").innerHTML = hours + "<br><span>Giờ</span>";
+            document.getElementById("phut").innerHTML = minutes + "<br><span>Phút</span>";
+            document.getElementById("giay").innerHTML = seconds + "<br><span>Giây</span>";
+
+            if (distance < 0) {
+                clearInterval(countdownFunction);
+                document.getElementById("countdown").innerHTML = "EXPIRED";
+            }
+        }, 1000);
 
         // Back to top button
         $(window).scroll(function() {

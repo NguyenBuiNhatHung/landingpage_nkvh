@@ -42,19 +42,13 @@
     <div id="myPopup" class="popup col-12">
         <div class="popup-content col-10 col-md-5" style="background-image: url('img/popup.jpg')"> <span
                 class="close">&times;</span>
-            <h2><span class="yellow">SCHEDULE</span> A FREE <br> X-RAY AND DENTAL CHECK-UP</h2>
+            <h2><span class="yellow">ĐĂNG KÝ</span><br> NHẬN ƯU ĐÃI NGAY</h2>
             <form class="form-container" method="POST" action="#">
                 <input type="text" name="name" placeholder="Họ và tên" required>
                 <input type="text" name="phone" placeholder="Số điện thoại" required>
                 <input type="email" name="email" placeholder="Email của bạn" required>
                 <input type="text" name="country" placeholder="Quốc gia" required>
-                <select name="app" required>
-                    <option value="" disabled selected>Ứng dụng có sẵn</option>
-                    <option style="color:black" value="Facebook">Facebook</option>
-                    <option style="color:black" value="Zalo">Zalo</option>
-                    <option style="color:black" value="Instagram">Instagram</option>
-                    <option style="color:black" value="Zoom">Zoom</option>
-                </select>
+
                 <select name="service" required>
                     <option value="" disabled selected>Dịch vụ cần tư vấn</option>
                     <option style="color:black" value="All on 4">All on 4</option>
@@ -63,6 +57,8 @@
                     <option style="color:black" value="Zicronium Implant">Zicronium Implant</option>
                     <option style="color:black" value="Full Denture">Full Denture</option>
                 </select>
+                <input type="date" name="timedathen" placeholder="Thời gian đặt hẹn" required>
+                <p style="color: red;">(Thời gian đặt hẹn)</p>
                 <button type="submit">ĐĂNG KÝ NGAY</button>
             </form>
         </div>
@@ -542,7 +538,7 @@
                             </div>
                             <div class="text-center align-items-center col-12 col-md-6 mx-auto my-auto countdown-timer"
                                 style="background-color: white; border-radius: 10px; padding: 20px;">
-                                <h3 style="font-family: Arial, Helvetica, sans-serif; color:red;">CHỈ CÒN 30
+                                <h3 style="font-family: Arial, Helvetica, sans-serif; color:red;">CHỈ CÒN 19
                                     SUẤT ƯU
                                     ĐÃI
                                     CUỐI CÙNG</h3>
@@ -550,7 +546,6 @@
                                 <div class="d-flex flex-row justify-content-around flex-wrap fadeInUp countdown-container"
                                     style="color: green; font-weight: bold;">
                                     <div id="countdown" class="countdown-container">
-                                        <div id="ngay" class="countdown-item">00<br><span>Ngày</span></div>
                                         <div id="gio" class="countdown-item">00<br><span>Giờ</span></div>
                                         <div id="phut" class="countdown-item">00<br><span>Phút</span></div>
                                         <div id="giay" class="countdown-item">00<br><span>Giây</span></div>
@@ -564,8 +559,7 @@
                 <div id="dathen" class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
                     <div style="background-color: white;" class="appointment-form rounded p-5">
                         <h3 style="color: rgb(26, 119, 224); text-align: center;font-family: Arial, Helvetica, sans-serif;"
-                            class="display-5 mb-4">Đăng ký để
-                            trải nghiệm Dịch vụ Shark Dental
+                            class="display-5 mb-4">ĐĂNG KÝ ĐỂ TRẢI NGHIỆM DỊCH VỤ ĐẲNG CẤP TẠI NHA KHOA VIỆT HÀN
                         </h3>
                         <form>
                             <div class="row gy-3 gx-4">
@@ -587,16 +581,7 @@
                                     <input type="text" class="form-control py-3 border-primary bg-transparent"
                                         placeholder="Quốc gia">
                                 </div>
-                                <div class="col-xl-12">
-                                    <select class="form-select py-3 border-primary bg-transparent"
-                                        aria-label="Default select example">
-                                        <option selected>Ứng dụng có sẵn </option>
-                                        <option value="1">Facebook</option>
-                                        <option value="2">Zalo</option>
-                                        <option value="3">Instagram</option>
-                                        <option value="4">Zoom</option>
-                                    </select>
-                                </div>
+
                                 <div class="col-xl-12">
                                     <select name="service" class="form-select py-3 border-primary bg-transparent">
                                         <option value="" disabled selected>Dịch vụ cần tư vấn</option>
@@ -607,9 +592,14 @@
                                         <option style="color:black" value="Full Denture">Full Denture</option>
                                     </select>
                                 </div>
+                                <div class="col-xl-12">
+                                    <input type="date" class="form-control py-3 border-primary bg-transparent"
+                                        placeholder="Thời gian đặt hẹn">
+                                    <p style="color: red;">(Thời gian đặt hẹn)</p>
+                                </div>
 
                                 <div class="col-12">
-                                    <button type="button" class="btn btn-primary text-white w-100 py-3 px-5">ĐĂNG KÝ NGAY</button>
+                                    <button type="button" class="btn btn-primary text-white w-100 py-3 px-5">ĐẶT HẸN VỚI BÁC SĨ NGAY</button>
                                 </div>
                             </div>
                         </form>
@@ -782,6 +772,9 @@
                         <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
                             href="https://www.youtube.com/channel/UCQyVTyBNw_IhF2Dnmpd33NA"><i
                                 class="fab fa-youtube"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                            href="#"><i
+                                class="fab fa-whatsapp"></i></a>
                     </div>
 
                 </div>
@@ -790,12 +783,11 @@
                         <h4 class="mb-4 text-white">Dịch vụ</h4>
                         <a href="#implant"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Trồng răng
                             Implant</a>
-                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i> Niềng răng thẩm
+                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Răng sứ thẩm
                             mỹ</a>
                         <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Phục hình sứ</a>
-                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Tẩy trắng
-                            răng</a>
-                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Nha khoa tổng
+                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Niềng răng Invisaligh</a>
+                        <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Điều trị tổng
                             quát</a>
                     </div>
                 </div>
