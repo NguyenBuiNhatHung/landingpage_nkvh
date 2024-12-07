@@ -225,8 +225,8 @@
         margin: 10% auto;
         padding: 20px;
         border: 1px solid #888;
-        width: 40%;
-        height: 85%;
+        width: 60%;
+        height: 70%;
         max-width: 400px;
         /* Max width */
         position: relative;
@@ -265,13 +265,13 @@
         border: 1px solid #ccc;
         border-radius: 10px;
         /* Rounded corners */
-        color: white;
+        color: black;
         /* Text color */
     }
 
     .form-container input::placeholder,
     .form-container select::placeholder {
-        color: white;
+        color: black;
         /* Placeholder text color */
     }
 
@@ -281,7 +281,7 @@
         /* Slightly less transparent on focus */
         outline: none;
         /* Remove default outline */
-        color: white;
+        color: black;
         /* Text color on focus */
     }
 

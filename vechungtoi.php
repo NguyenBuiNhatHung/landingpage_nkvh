@@ -1,12 +1,12 @@
 <div class="container-fluid py-2 wow fadeInLeft" style="background-color: #3babff;">
-    <h3 style="font-size: 200%" class="text-center text-white font-weight-bold my-4"> KHÁCH HÀNG NÓI GÌ VỀ
+    <h2 style="font-family: Arial, Helvetica, sans-serif;" class="text-center text-white font-weight-bold my-4"> KHÁCH HÀNG NÓI GÌ VỀ
         CHÚNG
         TÔI
         ?
-    </h3>
-    <div class="d-flex justify-content-center align-items-center flex-wrap" style="height: calc(100% - 70px);">
+    </h2>
+    <div class="d-flex justify-content-center align-items-center flex-wrap mb-4" style="height: calc(100% - 70px);">
         <div class="col-md-6 text-center text-white mb-3">
-            <p class="px-3 custom-paragraph"> Bác sĩ Tính chữa trị tốt, nhân viên nhiệt tình. Phòng khám
+            <p style="font-family: Arial, Helvetica, sans-serif;" class="px-3 custom-paragraph"> Bác sĩ Tính chữa trị tốt, nhân viên nhiệt tình. Phòng khám
                 sạch
                 sẽ.
                 Máy dụng cụ để bác sĩ làm việc thấy rất chỉnh chu, sạch. Nhân viên phụ tá nhẹ nhàng với
@@ -25,7 +25,6 @@
                         alt="Khách hàng trước điều trị"> </div>
                 <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid" src="img/khach2.jpg"
                         alt="Khách hàng sau điều trị"> </div>
-
             </div>
         </div>
     </div>

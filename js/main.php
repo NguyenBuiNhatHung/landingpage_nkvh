@@ -157,6 +157,27 @@
                 }
             });
         });
+        // Initialize the countdown timer
+        var countDownDate = new Date().getTime() + (7 * 60 * 60 * 1000) + (15 * 60 * 1000); // 7 hours and 15 minutes
+
+        // Update the countdown every 1 second
+        var countdownFunction = setInterval(function() {
+            var now = new Date().getTime();
+            var distance = countDownDate - now;
+
+            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById("countdown").innerHTML = hours + "h " +
+                minutes + "m " + seconds + "s ";
+
+            if (distance < 0) {
+                clearInterval(countdownFunction);
+                document.getElementById("countdown").innerHTML = "ĐÃ HẾT THỜI GIAN";
+            }
+        }, 1000);
+
 
 
         // testimonial carousel

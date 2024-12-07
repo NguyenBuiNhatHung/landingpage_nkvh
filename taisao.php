@@ -1,7 +1,7 @@
 <div style="background-color:rgb(0, 166, 218);" class="pb-5 fadeInUp pt-1 wow fadeInRight col-12">
-    <h3 style="font-family: Arial, Helvetica, sans-serif;font-size: 2.5rem; color:white;"
+    <h2 style="font-family: Arial, Helvetica, sans-serif;font-size: 1.5rem; color:white;"
         class="col-12 text-center pt-3 pt-md-5"> <b class="wow fadeInLeft">TẠI SAO NÊN CHỌN NHA KHOA VIỆT HÀN ?</b>
-    </h3>
+    </h2>
     <div class="container">
         <div class="row justify-content-around wow fadeInRight">
             <div class="col-lg-5 col-10 mt-5 hover-effect">
