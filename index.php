@@ -196,7 +196,7 @@
 
 
     <div id="gioithieu">
-        <img class="w-100 wow fadeInRight" src="img/carousel-4.jpg" alt="">
+        <img class="w-100 wow fadeInRight" src="img/banner.jpg" alt="">
     </div>
 
 
@@ -496,8 +496,17 @@
                                 class="pe-3 mb-0 display-6 wow fadeInLeft">CƠ SỞ VẬT CHẤT HIỆN ĐẠI, MÁY MÓC CÔNG NGHỆ TIÊN TIẾN</p>
                             <h2 style="color: rgb(241, 238, 15); font-family: Arial, Helvetica, sans-serif;"
                                 class="display-3 mb-4 wow fadeInLeft">NHA KHOA ĐẠT CHUẨN QUỐC TẾ</h2>
-                            <p style="color: white ;font-family: Arial, Helvetica, sans-serif;"
-                                class="pe-3 mb-0 display-6 wow fadeInLeft">5 STAR CLASS</p>
+                            <p style="color: white; font-family: Arial, Helvetica, sans-serif;" class="pe-3 mb-0 display-6 wow fadeInLeft">
+                                5 STAR CLASS
+                                <span style="color: gold;">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </span>
+                            </p>
+
                         </div>
                         <div class="row g-4">
                             <div class="col-sm-6">
