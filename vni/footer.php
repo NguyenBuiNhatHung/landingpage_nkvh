@@ -3,7 +3,7 @@
         <div class="row g-5">
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="footer-item d-flex flex-column">
-                    <img style="height: auto; width: 50%;" src="img/logo.jpg" alt="">
+                    <img style="height: auto; width: 50%;" src="../img/logo.jpg" alt="">
                     <p style="font-family: Arial, Helvetica, sans-serif; text-align: justify;">
                         Nha Khoa Việt Hàn được xây
                         dựng đúng theo

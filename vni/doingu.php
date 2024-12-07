@@ -7,7 +7,7 @@
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="img/bs1.jpg" class="img-fluid rounded-circle w-100" alt="">
+                        <img src="../img/bs1.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
@@ -21,7 +21,7 @@
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="img/bs2.jpg" class="img-fluid rounded-circle w-100" alt="">
+                        <img src="../img/bs2.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
@@ -35,7 +35,7 @@
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="img/bs3.jpg" class="img-fluid rounded-circle w-100" alt="">
+                        <img src="../img/bs3.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
@@ -49,7 +49,7 @@
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="img/bs4.jpg" class="img-fluid rounded-circle w-100" alt="">
+                        <img src="../img/bs4.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
@@ -63,7 +63,7 @@
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="img/bs5.jpg" class="img-fluid rounded-circle w-100" alt="">
+                        <img src="../img/bs5.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
@@ -77,7 +77,7 @@
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="img/bs6.jpg" class="img-fluid rounded-circle w-100" alt="">
+                        <img src="../img/bs6.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>

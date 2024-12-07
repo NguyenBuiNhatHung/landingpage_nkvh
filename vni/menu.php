@@ -2,7 +2,7 @@
     <nav style="background: linear-gradient(to right, #add8e6, white, #add8e6);"
         class="navbar navbar-expand-lg navbar-light px-4 px-lg-5 py-3 py-lg-0">
         <a href="index.php" class="navbar-brand p-0">
-            <img src="img/logo.jpg" alt="Logo">
+            <img src="../img/logo.jpg" alt="Logo">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="fa fa-bars"></span>

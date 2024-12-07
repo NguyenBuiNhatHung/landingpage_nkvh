@@ -5,7 +5,7 @@
             <div class="hotline-phone-ring-circle-fill"></div>
             <div class="hotline-phone-ring-img-circle">
                 <a href="tel:0787505577" class="pps-btn-img">
-                    <img src="img/icon_call.jpg" alt="Gọi điện thoại" width="50">
+                    <img src="../img/icon_call.jpg" alt="Gọi điện thoại" width="50">
                 </a>
             </div>
         </div>
@@ -15,13 +15,13 @@
             <div class="hotline-zalo-ring-circle"></div>
             <div class="hotline-zalo-ring-circle-fill"></div>
             <div class="hotline-zalo-ring-img-circle"> <a href="https://zalo.me/1797913117798518130"
-                    class="pps-btn-img" id="zaloIcon"> <img src="img/icon_zalo.jpg" alt="Chat Zalo" width="50"> </a>
+                    class="pps-btn-img" id="zaloIcon"> <img src="../img/icon_zalo.jpg" alt="Chat Zalo" width="50"> </a>
             </div>
         </div>
     </div> <!-- Message Box -->
     <div id="messageBox" class="container">
         <div class="row no-gutters">
-            <div class="col-auto"> <img class="img-messageBox" src="img/logo.jpg" alt=""> </div>
+            <div class="col-auto"> <img class="img-messageBox" src="../img/logo.jpg" alt=""> </div>
             <div class="col">
                 <div class="header-messageBox"> <span>VIET HAN DENTAL</span> <span class="close"
                         onclick="closeMessageBox()">&times;</span> </div>
@@ -60,7 +60,7 @@
             <div class="hotline-face-ring-circle-fill"></div>
             <div class="hotline-face-ring-img-circle">
                 <a href="https://www.facebook.com/NhakhoaVietHanNhaTrangKhanhHoa" class="pps-btn-img">
-                    <img src="img/icon_messenger.jpg" alt="Chat Messenger" width="50">
+                    <img src="../img/icon_messenger.jpg" alt="Chat Messenger" width="50">
 
                 </a>
             </div>

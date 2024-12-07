@@ -8,42 +8,42 @@
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="img/before_after1.jpg" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../img/before_after1.jpg" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="img/before_after2.jpg" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../img/before_after2.jpg" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="img/before_after3.jpg" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../img/before_after3.jpg" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="img/before_after1.jpg" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../img/before_after1.jpg" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="img/before_after2.jpg" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../img/before_after2.jpg" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="img/before_after3.jpg" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../img/before_after3.jpg" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>

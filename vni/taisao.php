@@ -13,7 +13,7 @@
                         Với nhiều năm kinh nghiệm, liên tục học tập nâng cao nghiệp vụ. Các bác sĩ của chúng tôi làm
                         việc tận tâm với bệnh nhân, đề cao y đức và nhận được rất nhiều sự yêu mến của khách hàng
                         tại Nha Trang, Khánh Hòa cũng như khách hàng Quốc tế.</div>
-                </div> <img src="img/ck1.jpg" class="img-fluid" alt="Ảnh Cam Kết 1">
+                </div> <img src="../img/ck1.jpg" class="img-fluid" alt="Ảnh Cam Kết 1">
             </div>
             <div class="col-lg-5 col-10 mt-5 hover-effect">
                 <div class="overlay">
@@ -24,7 +24,7 @@
                         Với nhiều năm kinh nghiệm, liên tục học tập nâng cao nghiệp vụ. Các bác sĩ của chúng tôi làm
                         việc tận tâm với bệnh nhân, đề cao y đức và nhận được rất nhiều sự yêu mến của khách hàng
                         tại Nha Trang, Khánh Hòa cũng như khách hàng Quốc tế.</div>
-                </div> <img src="img/ck2.jpg" class="img-fluid" alt="Ảnh Cam Kết 2">
+                </div> <img src="../img/ck2.jpg" class="img-fluid" alt="Ảnh Cam Kết 2">
             </div>
         </div>
         <div class="row justify-content-around wow fadeInRight">
@@ -37,7 +37,7 @@
                         Với nhiều năm kinh nghiệm, liên tục học tập nâng cao nghiệp vụ. Các bác sĩ của chúng tôi làm
                         việc tận tâm với bệnh nhân, đề cao y đức và nhận được rất nhiều sự yêu mến của khách hàng
                         tại Nha Trang, Khánh Hòa cũng như khách hàng Quốc tế.</div>
-                </div> <img src="img/ck3.jpg" class="img-fluid" alt="Ảnh Cam Kết 3">
+                </div> <img src="../img/ck3.jpg" class="img-fluid" alt="Ảnh Cam Kết 3">
             </div>
             <div class="col-lg-5 col-10 mt-5 hover-effect">
                 <div class="overlay">
@@ -48,7 +48,7 @@
                         Với nhiều năm kinh nghiệm, liên tục học tập nâng cao nghiệp vụ. Các bác sĩ của chúng tôi làm
                         việc tận tâm với bệnh nhân, đề cao y đức và nhận được rất nhiều sự yêu mến của khách hàng
                         tại Nha Trang, Khánh Hòa cũng như khách hàng Quốc tế.</div>
-                </div> <img src="img/ck4.jpg" class="img-fluid" alt="Ảnh Cam Kết 4">
+                </div> <img src="../img/ck4.jpg" class="img-fluid" alt="Ảnh Cam Kết 4">
             </div>
         </div>
         <div class="row justify-content-around wow fadeInRight mt-5">

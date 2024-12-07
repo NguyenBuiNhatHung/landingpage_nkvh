@@ -1,6 +1,6 @@
 <button id="myBtn" class="d-none">Open Popup</button>
 <div id="myPopup" class="popup col-12">
-    <div class="popup-content col-10 col-md-5" style="background-image: url('img/popup.jpg')"> <span
+    <div class="popup-content col-10 col-md-5" style="background-image: url('../img/popup.jpg')"> <span
             class="close">&times;</span>
         <h2><span class="yellow">ĐĂNG KÝ</span><br> NHẬN ƯU ĐÃI NGAY</h2>
         <form class="form-container" method="POST" action="#">

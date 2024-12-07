@@ -21,9 +21,9 @@
                     <p class="font-weight-bold mb-1">Chú Hoàng Văn Sửu</p>
                     <p class="mb-1">64 tuổi, Nha Trang</p>
                 </div>
-                <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid" src="img/khach1.jpg"
+                <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid" src="../img/khach1.jpg"
                         alt="Khách hàng trước điều trị"> </div>
-                <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid" src="img/khach2.jpg"
+                <div class="col-6 d-flex justify-content-center mb-3"> <img class="img-fluid" src="../img/khach2.jpg"
                         alt="Khách hàng sau điều trị"> </div>
             </div>
         </div>
