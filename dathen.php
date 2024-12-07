@@ -8,7 +8,7 @@
                                 class="pe-3 mb-0 display-6 wow fadeInLeft">CƠ SỞ VẬT CHẤT HIỆN ĐẠI, MÁY MÓC CÔNG NGHỆ TIÊN TIẾN</p>
                             <h2 style="color: rgb(241, 238, 15); font-family: Arial, Helvetica, sans-serif;"
                                 class="display-3 mb-4 wow fadeInLeft">NHA KHOA ĐẠT CHUẨN QUỐC TẾ</h2>
-                            <p style="color: white; font-family: Arial, Helvetica, sans-serif;" class="pe-3 mb-0 display-6 wow fadeInLeft">
+                            <p style="color: white; font-family: Arial, Helvetica, sans-serif;" class="pe-3 mb-5 display-6 wow fadeInLeft">
                                 5 STAR CLASS
                                 <span style="color: gold;">
                                     <i class="fas fa-star"></i>
