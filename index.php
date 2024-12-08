@@ -38,74 +38,74 @@
             <span class="sr-only">Đang tải...</span>
         </div>
     </div>
-    <?php require "popup.php"; ?>
+    <?php require "/vni/popup.php"; ?>
 
-    <?php require "dadat.php"; ?>
+    <?php require "/vni/dadat.php"; ?>
 
-    <?php require "hotro.php"; ?>
+    <?php require "/vni/hotro.php"; ?>
 
     <!-- Spinner End -->
 
     <!-- Navbar & Hero Start -->
-    <?php require "menu.php"; ?>
+    <?php require "/vni/menu.php"; ?>
 
-    <?php require "banner.php"; ?>
+    <?php require "/vni/banner.php"; ?>
 
     <!-- Giá trị cốt lõi -->
-    <?php require "dichvucs.php"; ?>
+    <?php require "/vni/dichvucs.php"; ?>
     
     <div id="rangsu">
-        <img class="w-100 wow fadeInLeft" src="../img/rang-su.jpg" alt="">
+        <img class="w-100 wow fadeInLeft" src="/img/rang-su.jpg" alt="">
     </div>
 
     <div>
-        <img class="w-100 wow fadeInLeft" src="../img/quytrinh.jpg" alt="">
+        <img class="w-100 wow fadeInLeft" src="/img/quytrinh.jpg" alt="">
     </div>
 
     <div id="implant">
-        <img class="w-100 wow fadeInRight" src="../img/implant.jpg" alt="">
+        <img class="w-100 wow fadeInRight" src="/img/implant.jpg" alt="">
     </div>
 
     <div>
-        <img class="w-100 wow fadeInRight" src="../img/implant2.jpg" alt="">
+        <img class="w-100 wow fadeInRight" src="/img/implant2.jpg" alt="">
     </div>
 
-    <?php require "khachhang.php"; ?>
+    <?php require "/vni/khachhang.php"; ?>
     
-    <?php require "cotloi.php"; ?>
+    <?php require "/vni/cotloi.php"; ?>
    
-    <?php require "taisao.php"; ?>
+    <?php require "/vni/taisao.php"; ?>
 
-    <?php require "doingu.php"; ?>
+    <?php require "/vni/doingu.php"; ?>
 
     
     <div>
-        <img class="w-100 wow fadeInRight" src="../img/trongoi.jpg" alt="">
+        <img class="w-100 wow fadeInRight" src="/img/trongoi.jpg" alt="">
     </div>
     <!-- Book Appointment Start -->
     
     <?php require "dathen.php"; ?>
 
     <div>
-        <img class="w-100 wow fadeInLeft" src="../img/experience.jpg" alt="">
+        <img class="w-100 wow fadeInLeft" src="/img/experience.jpg" alt="">
     </div>
     <!-- Book Appointment End -->
     <!-- Modal Video Youtube 3 rows -->
 
     <!-- Testimonial Start -->
     
-    <?php require "nucuoi.php"; ?>
+    <?php require "/vni/nucuoi.php"; ?>
 
-    <?php require "vechungtoi.php"; ?>
+    <?php require "/vni/vechungtoi.php"; ?>
 
     <div>
-        <img class="w-100 wow fadeInRight" src="../img/full_month_restoration_cost.jpg" alt="">
+        <img class="w-100 wow fadeInRight" src="/img/full_month_restoration_cost.jpg" alt="">
     </div>
 
-    <?php require "bayve.php"; ?>
+    <?php require "/vni/bayve.php"; ?>
     <!-- Footer Start -->
     
-    <?php require "footer.php"; ?>
+    <?php require "/vni/footer.php"; ?>
 
     <!-- JavaScript Libraries -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -116,7 +116,7 @@
     <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
     <!-- Template Javascript -->
     <!-- <script src="js/main.js"></script> -->
-    <?php require "../js/main.php"; ?>
+    <?php require "/js/main.php"; ?>
 </body>
 
 </html>
