@@ -28,7 +28,7 @@
         <div class="row g-5 align-items-center">
         <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
     <div style="color: white;" class="section-title text-start">
-        <div>
+        <div style="background-color: red;">
             <p style="color: white; font-family: Arial, Helvetica, sans-serif;"
                class="pe-3 mb-0 display-6 wow fadeInLeft">CƠ SỞ VẬT CHẤT HIỆN ĐẠI, MÁY MÓC CÔNG NGHỆ TIÊN TIẾN</p>
             <h2 style="color: rgb(241, 238, 15); font-family: Arial, Helvetica, sans-serif;"
