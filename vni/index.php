@@ -76,6 +76,8 @@
    
     <?php require "taisao.php"; ?>
 
+    <?php require "doingu.php"; ?>
+
     
     <div>
         <img class="w-100 wow fadeInRight" src="../img/trongoi.jpg" alt="">

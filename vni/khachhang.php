@@ -1,7 +1,7 @@
-<div id="khachhang" class="m-2">
+<div id="khachhang" class="m-3">
 <h2 style="font-family: Arial, Helvetica, sans-serif;font-size: 1.5rem; color:black;line-height: 2;"
         class="col-12 text-center">
-        <b class="wow fadeInLeft">TRẢI NGHIỆM CỦA KHÁCH HÀNG</b>
+        <b class="mt-3  wow fadeInLeft">TRẢI NGHIỆM CỦA KHÁCH HÀNG</b>
     </h2>
     <div class="owl-carousel owl-theme owl-vd wow fadeInRight">
         <div class="item"> <iframe width="100%" height="315" src="https://www.youtube.com/embed/e7RpXUUAEP4"

@@ -169,14 +169,19 @@
             var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
             var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
-            document.getElementById("countdown").innerHTML = hours + "h " +
-                minutes + "m " + seconds + "s ";
+            document.querySelectorAll('.countdown-box')[0].innerHTML = (hours < 10 ? '0' : '') + hours + "h";
+            document.querySelectorAll('.countdown-box')[1].innerHTML = (minutes < 10 ? '0' : '') + minutes + "m";
+            document.querySelectorAll('.countdown-box')[2].innerHTML = (seconds < 10 ? '0' : '') + seconds + "s";
 
             if (distance < 0) {
                 clearInterval(countdownFunction);
-                document.getElementById("countdown").innerHTML = "ĐÃ HẾT THỜI GIAN";
+                document.querySelectorAll('.countdown-box')[0].innerHTML = "00h";
+                document.querySelectorAll('.countdown-box')[1].innerHTML = "00m";
+                document.querySelectorAll('.countdown-box')[2].innerHTML = "00s";
             }
         }, 1000);
+
+
 
 
 

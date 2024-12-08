@@ -28,25 +28,49 @@
 
     .center-button {
         position: absolute;
-        top: 90%;
-        left: 50%;
+        top: 97%;
+        left: 74%;
         transform: translate(-50%, -50%);
         font-family: Arial, Helvetica, sans-serif;
-        font-size: 1em;
-        /* Reduced button size for smaller screens */
+        font-size: 1.25em;
+        color: yellow;
+        background-color: #2ba1f0;
     }
 
     .countdown {
         position: absolute;
-        top: 93%;
-        left: 50%;
+        top: 85%;
+        left: 74%;
         transform: translateX(-50%);
         color: white;
-        font-size: 1.2em;
-        /* Reduced font size for smaller screens */
-        background: rgba(0, 0, 0, 0.5);
-        padding: 10px 20px;
-        border-radius: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .countdown-box {
+        background-color: #007bff;
+        color: yellow;
+        font-size: 1em;
+        padding: 10px;
+        border-radius: 5px;
+        display: inline-block;
+        width: 60px;
+        text-align: center;
+    }
+
+    .uudai {
+        position: absolute;
+        top: 92%;
+        left: 74%;
+        transform: translate(-50%, -50%);
+        font-size: 1.25em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .mx-1 {
+        margin-left: 5px;
+        margin-right: 5px;
     }
 
 
@@ -63,20 +87,24 @@
         .center-button {
             display: none;
         }
-
-        .countdown {
+        .countdown-box{
+            display: none;
+        }
+        .uudai{
             display: none;
         }
 
-        #gioithieu p {
-            display: none;
-        }
+
     }
 </style>
 <div id="gioithieu" class="position-relative bg-banner">
-    <p style="font-family: Arial, Helvetica, sans-serif;" class="h5 text-center">Chỉ dành cho 19 khách hàng đăng ký sớm nhất</p>
-    <div id="countdown" class="countdown position-absolute"></div>
-    <a href="#dathen" class="btn btn-primary btn-lg position-absolute center-button ">ĐĂNG KÝ NHẬN ƯU ĐÃI NGAY</a>
+    <p style="font-family: Arial, Helvetica, sans-serif;color: yellow;" class="text-center uudai ">Chỉ dành cho 19 khách hàng đăng ký sớm nhất</p>
+    <div id="countdown" class="countdown position-absolute d-flex justify-content-center">
+        <div class="countdown-box mx-1">00h</div>
+        <div class="countdown-box mx-1">00m</div>
+        <div class="countdown-box mx-1">00s</div>
+    </div>
+    <a href="#dathen" class="btn  btn-lg position-absolute center-button ">ĐĂNG KÝ NHẬN ƯU ĐÃI NGAY</a>
 </div>
 
 <div style="background:linear-gradient(to right, #add8e6, white, #add8e6);" class="pb-3 fadeInUp pt-3">

@@ -1,3 +1,17 @@
+<style>
+    .team-content {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 150px;
+    }
+
+    .team-description {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+    }
+</style>
 <div id="bacsi" class="container-fluid team py-5">
     <div class="container py-5">
         <div class="section-title mb-5 fadeInUp">
@@ -24,7 +38,7 @@
                         <img src="../img/bs2.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                        <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
+                        <h5 class="team-title">Bác sĩ: Nguyễn Chí Tình</h5>
                         <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ
                             Chí
                             Minh
@@ -38,7 +52,7 @@
                         <img src="../img/bs3.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                        <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
+                        <h5 class="team-title">Bác sĩ: Lê Châu Hưng Thịnh</h5>
                         <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ
                             Chí
                             Minh
@@ -52,10 +66,9 @@
                         <img src="../img/bs4.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                        <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                        <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ
-                            Chí
-                            Minh
+                        <h5 class="team-title">Bác sĩ: Hoàng Thị Thảo Ngân</h5>
+                        <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược Huế
+
                         </p>
                     </div>
                 </div>
@@ -66,10 +79,8 @@
                         <img src="../img/bs5.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                        <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                        <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ
-                            Chí
-                            Minh
+                        <h5 class="team-title">Bác sĩ: Bùi Thị Giang</h5>
+                        <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược Hà Nội
                         </p>
                     </div>
                 </div>
@@ -80,10 +91,8 @@
                         <img src="../img/bs6.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                        <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                        <p class="team-description mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ
-                            Chí
-                            Minh
+                        <h5 class="team-title">Bác sĩ: Văn Thanh Nga</h5>
+                        <p class="team-description mb-0">Tốt nghiệp CChuyên khoa RHM Đại học Chuyên khoa RHM Đại học Vitebsk State Order of Peoples' Friendship Medical
                         </p>
                     </div>
                 </div>

@@ -2,7 +2,7 @@
 <div id="myPopup" class="popup col-12">
     <div class="popup-content col-10 col-md-5" style="background-image: url('../img/popup.jpg')"> <span
             class="close">&times;</span>
-        <h2><span class="yellow">ĐĂNG KÝ</span><br> NHẬN ƯU ĐÃI NGAY</h2>
+        <h2 style="font-family: Arial, Helvetica, sans-serif;"><span class="yellow">ĐĂNG KÝ NHẬN ƯU ĐÃI NGAY</span></h2>
         <form class="form-container" method="POST" action="#">
             <input type="text" name="name" placeholder="Họ và tên" required>
             <input type="text" name="phone" placeholder="Số điện thoại" required>

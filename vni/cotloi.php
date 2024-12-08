@@ -1,6 +1,6 @@
 
 <div style="background:linear-gradient(to right, #add8e6, white, #add8e6);" class="pb-5 fadeInUp">
-    <h2 style="font-family: Arial, Helvetica, sans-serif;font-size: 1.5rem; color:black;line-height: 3;padding-top: 1.5rem;"
+    <h2 style="font-family: Arial, Helvetica, sans-serif;font-size: 1.5rem; color:black;line-height: 2;padding-top: 1.5rem;"
         class="col-12 text-center">
         <b class="wow fadeInLeft">5 GIÁ TRỊ CỐT LÕI TẠI NHA KHOA VIỆT HÀN</b>
     </h2>
