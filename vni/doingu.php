@@ -11,6 +11,19 @@
         display: flex;
         align-items: center;
     }
+    @media (max-width: 768px) {
+        .team-content{
+            font-size: 8px;
+            height: 120px;
+        }
+        
+    }
+    @media (max-width: 576px) {
+        .team-content{
+            font-size: 8px;
+            height: 100px;
+        }
+    }
 </style>
 <div id="bacsi" class="container-fluid team py-5">
     <div class="container py-5">
