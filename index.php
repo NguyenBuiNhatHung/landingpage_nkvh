@@ -1,3 +1,3 @@
-<?php 
-    header("Location:vni/home.php");
+<?php
+    header("Location:view/home/home.php")
 ?>
