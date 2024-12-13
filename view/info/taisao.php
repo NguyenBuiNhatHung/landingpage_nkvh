@@ -100,7 +100,7 @@
     </h2>
     <div class="container">
         <div class="row justify-content-around wow animate__animated animate__fadeInRight">
-            <div class="col-lg-5 col-10 mt-md-5 mt-3 hover-effect">
+            <div class="col-lg-5 col-10 mt-md-5 mt-4 hover-effect">
                 <div class="overlay d-flex flex-column">
                     <div class="icon-key"> <i class="fas fa-user-md"></i> <span>ĐỘI NGŨ BÁC SĨ</span> </div>
                     <div class="overlay-text">Tại Nha Khoa Việt Hàn, Bác sĩ tốt nghiệp chính quy ngành Răng Hàm Mặt
@@ -111,7 +111,7 @@
                         tại Nha Trang, Khánh Hòa cũng như khách hàng Quốc tế.</div>
                 </div> <img src="../../asset/images/ck1.jpg" class="img-fluid" alt="Ảnh Cam Kết 1">
             </div>
-            <div class="col-lg-5 col-10 mt-md-5 mt-3 hover-effect">
+            <div class="col-lg-5 col-10 mt-md-5 mt-4 hover-effect">
                 <div class="overlay d-flex flex-column">
                     <div class="icon-key"> <i class="fas fa-users"></i> <span>CHĂM SÓC KHÁCH HÀNG 24/7</span> </div>
                     <div class="overlay-text"> Tại Nha khoa Việt Hàn, chúng tôi luôn sẵn sàng hỗ trợ khách hàng mọi lúc,
@@ -125,7 +125,7 @@
             </div>
         </div>
         <div class="row justify-content-around wow animate__animated animate__fadeInLeft">
-            <div class="col-lg-5 col-10 mt-md-5 mt-3 hover-effect">
+            <div class="col-lg-5 col-10 mt-md-5 mt-4 hover-effect">
                 <div class="overlay d-flex flex-column">
                     <div class="icon-key"> <i class="fas fa-cogs"></i> <span>CÔNG NGHỆ, MÁY MÓC HIỆN ĐẠI</span> </div>
                     <div class="overlay-text"> Nha khoa Việt Hàn luôn chú trọng học hỏi, cập nhật và ứng dụng kỹ thuật
@@ -134,7 +134,7 @@
                         toàn và thoải mái cho bệnh nhân.</div>
                 </div> <img src="../../asset/images/ck3.jpg" class="img-fluid" alt="Ảnh Cam Kết 3">
             </div>
-            <div class="col-lg-5 col-10 mt-md-5 mt-3 hover-effect">
+            <div class="col-lg-5 col-10 mt-md-5 mt-4 hover-effect">
                 <div class="overlay d-flex flex-column">
                     <div class="icon-key"> <i class="fas fa-money-bill-wave"></i> <span>CHI PHÍ ĐIỀU TRỊ HỢP LÝ</span>
                     </div>
