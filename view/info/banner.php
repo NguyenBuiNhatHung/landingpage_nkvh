@@ -2,7 +2,7 @@
 <img class="d-block d-md-none col-12 animate__animated animate__fadeInUp rounded" src="../../asset/images/banner_dt.jpg" alt="">
 
 
-<div class="pb-3 fadeInUp pt-3">
+<div id="gioithieu" class="pb-3 fadeInUp pt-3">
     <div id="dk"
         class="col-9 col-md-5 row justify-content-center wow fadeInLeft mx-auto d-flex align-items-center justify-content-center margin-vertical">
         <div class="col-12 col-md-auto mb-2 text-center">

@@ -61,8 +61,8 @@
                             <div class="container">
                             <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
                                 <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
-                                    <li class="active"><a href="#" class="nav-link">Giới thiệu</a></li>
-                                    <li><a href="#classes-section" class="nav-link">Bác sĩ</a></li>
+                                    <li class="active"><a href="#gioithieu" class="nav-link">Giới thiệu</a></li>
+                                    <li><a href="#bacsi" class="nav-link">Bác sĩ</a></li>
                                     <!-- <li class="has-children">
                                         <a href="#" class="nav-link">Răng sứ</a>
                                         <ul class="dropdown arrow-top">
@@ -79,10 +79,10 @@
                                             </li>
                                         </ul>
                                     </li> -->
-                                    <li><a href="#about-section" class="nav-link">Răng sứ</a></li>
-                                    <li><a href="#events-section" class="nav-link">Implant</a></li>
-                                    <li><a href="#gallery-section" class="nav-link">Đặt hẹn</a></li>
-                                    <li><a href="#contact-section" class="nav-link">Khách hàng</a></li>
+                                    <li><a href="#rangsu" class="nav-link">Răng sứ</a></li>
+                                    <li><a href="#implant" class="nav-link">Implant</a></li>
+                                    <li><a href="#dathen" class="nav-link">Đặt hẹn</a></li>
+                                    <li><a href="#khachhang" class="nav-link">Khách hàng</a></li>
                                 </ul>
                             </div>
                         </nav>

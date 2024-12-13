@@ -57,7 +57,7 @@
         }
     }
 </style>
-<div class="mt-3 mt-lg-5 wow">
+<div id="khachhang" class="mt-3 mt-lg-5 wow">
     <p id="text-vct" class="text-center">KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI?</p>
     <div class="testimonial-section">
         <div class="col-md-6 d-flex justify-content-center flex-wrap wow animate__animated animate__fadeInLeft">

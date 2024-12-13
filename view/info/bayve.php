@@ -22,7 +22,7 @@
             các
             chuyên
             gia nha khoa hàng đầu của chúng tôi tại đây!</p>
-        <a href="#" style="margin-top: 30px; color:white; height: 50px;" class="btn btn-primary btn-lg">LIÊN HỆ TƯ VẤN
+        <a href="#dathen" style="margin-top: 30px; color:white; height: 50px;" class="btn btn-primary btn-lg">LIÊN HỆ TƯ VẤN
             MIỄN PHÍ</a>
     </div>
 </div>
