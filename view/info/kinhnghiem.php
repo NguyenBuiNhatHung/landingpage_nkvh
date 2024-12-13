@@ -88,7 +88,7 @@
         }
     }
 </style>
-<div class="col-12">
+<div class="col-12 mt-3 mt-lg-5">
     <div class="container">
         <div class="info-banner row justify-content-between">
             <div class="info-item col-4 col-lg-2 wow animate__animated animate__fadeInLeft">

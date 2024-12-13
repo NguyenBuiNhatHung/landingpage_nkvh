@@ -1,6 +1,6 @@
 <div id="bacsi" class="team text-center">
-    <div class="container py-5">
-        <div class="section-title mb-5 fadeInUp">
+    <div class="container py-3">
+        <div class="section-title fadeInUp">
             <p id="text-dn">NỤ CƯỜI TRƯỚC VÀ SAU ĐIỀU TRỊ CỦA KHÁCH HÀNG</p>
         </div>
         <div class="owl-carousel owl-bs mb-3">

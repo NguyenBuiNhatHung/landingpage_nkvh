@@ -94,9 +94,9 @@
         }
     }
 </style>
-<div class="pb-5 pt-1 wow fadeInRight col-12">
+<div class="wow fadeInRight col-12">
     <h2 style="color:white;"
-        class="col-12 text-center pt-3 pt-md-5"> <p id="text-ts">TẠI SAO NÊN CHỌN NHA KHOA VIỆT HÀN</p>
+        class="col-12 text-center"> <p id="text-ts">TẠI SAO NÊN CHỌN NHA KHOA VIỆT HÀN</p>
     </h2>
     <div class="container">
         <div class="row justify-content-around wow animate__animated animate__fadeInRight">

@@ -3,7 +3,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 12px;
         border-radius: 5px;
     }
     .team-content-bs {
@@ -66,9 +65,9 @@
         }
     }
 </style>
-<div id="bacsi" class="team text-center">
-    <div class="container py-5">
-        <div class="section-title mb-5 fadeInUp">
+<div id="bacsi" class="team text-center mt-4 mt-lg-5">
+    <div class="container">
+        <div class="section-title">
             <p id="text-dn">ĐỘI NGŨ BÁC SĨ CHUYÊN SÂU</p>
         </div>
         <div class="owl-carousel owl-bs">

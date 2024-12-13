@@ -37,21 +37,21 @@
         }
     }
 </style>
-<div class="container mt-5">
+<div class="container mt-3 mt-lg-5">
     <div class="row">
         <div class="col-lg-6 my-auto wow animate__animated animate__fadeInUp">
-            <div class="text-center text-white mb-4">
+            <div class="text-center text-white mb-2">
                 <p id="text-ud">ƯU ĐÃI CHỈ CÒN</p>
                 <div class="d-flex justify-content-center">
-                    <div class="mx-3">
+                    <div class="mx-2">
                         <h1 id="hours" class="display-5">22</h1>
                         <p>Giờ</p>
                     </div>
-                    <div class="mx-3">
+                    <div class="mx-2">
                         <h1 id="minutes" class="display-5">09</h1>
                         Phút
                     </div>
-                    <div class="mx-3">
+                    <div class="mx-2">
                         <h1 id="seconds" class="display-5">52</h1>
                         <p>Giây</p>
                     </div>
@@ -61,7 +61,7 @@
 
         <div class="col-lg-6 col-10 mx-auto wow animate__animated animate__fadeInUp">
             <div class="appointment-form">
-                <h5 class="text-center mb-4" style="color: rgb(26, 119, 224);">
+                <h5 class="text-center" style="color: rgb(26, 119, 224);">
                     ĐĂNG KÝ ĐỂ NGHIỆM DỊCH VỤ ĐẲNG CẤP TẠI NHA KHOA VIỆT HÀN
                 </h5>
                 <form>
