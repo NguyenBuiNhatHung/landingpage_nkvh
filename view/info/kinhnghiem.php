@@ -91,41 +91,41 @@
 <div class="col-12">
     <div class="container">
         <div class="info-banner row justify-content-between">
-            <div class="info-item col-4 col-lg-2">
+            <div class="info-item col-4 col-lg-2 wow animate__animated animate__fadeInLeft">
                 <div class="info-icon"> <i class="fas fa-users icon"></i> </div>
                 <div class="info-text">
                     <span class="kn"><span class="counter" data-target="8" data-speed="50">0</span>+</span> <br> NĂM KINH NGHIỆM
                 </div>
             </div>
-            <div class="info-item col-4 col-lg-2">
+            <div class="info-item col-4 col-lg-2 wow animate__animated animate__fadeInLeft">
                 <div class="info-icon"> <i class="fas fa-user icon"></i> </div>
                 <div class="info-text">
                     <span class="kn"><span class="counter" data-target="30000" data-speed="40">0</span>+</span> <br> KHÁCH HÀNG TRONG VÀ
                     NGOÀI NƯỚC
                 </div>
             </div>
-            <div class="info-item col-4 col-lg-2">
+            <div class="info-item col-4 col-lg-2 wow animate__animated animate__fadeInLeft">
                 <div class="info-icon"> <i class="fa-solid fa-user-doctor"></i> </div>
                 <div class="info-text">
                     <span class="kn"><span class="counter" data-target="100" data-speed="60">0</span>%</span> <br> BÁC SĨ RĂNG HÀM MẶT CHÍNH
                     QUY
                 </div>
             </div>
-            <div class="info-item col-4 col-lg-2">
+            <div class="info-item col-4 col-lg-2 wow animate__animated animate__fadeInRight">
                 <div class="info-icon"> <i class="fas fa-building icon"></i> </div>
                 <div class="info-text">
                     <span class="kn"><span class="counter" data-target="100" data-speed="60">0</span>%</span> <br> TRANG THIẾT BỊ VÀ DỊCH VỤ
                     TIÊU CHUẨN QUỐC TẾ
                 </div>
             </div>
-            <div class="info-item col-4 col-lg-2">
+            <div class="info-item col-4 col-lg-2 wow animate__animated animate__fadeInRight">
                 <div class="info-icon"> <i class="fa-solid fa-tooth"></i></div>
                 <div class="info-text">
                     <span class="kn"><span class="counter" data-target="100" data-speed="60">0</span>%</span> <br> NGUYÊN VẬT LIỆU, SẢN PHẨM
                     CAO CẤP
                 </div>
             </div>
-            <div class="info-item col-4 col-lg-2">
+            <div class="info-item col-4 col-lg-2 wow animate__animated animate__fadeInRight">
                 <div class="info-icon"> <i class="fas fa-smile icon" title="Hài lòng"></i> </div>
                 <div class="info-text">
                     <span class="kn"><span class="counter" data-target="98" data-speed="60">0</span>%</span> <br> MỨC ĐỘ HÀI LÒNG CỦA KHÁCH

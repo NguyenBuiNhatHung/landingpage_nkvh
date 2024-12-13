@@ -56,7 +56,7 @@
         right: -8px;
     }
 </style>
-<div class="container mt-5 animate__animated animate__fadeInUp text-center">
+<div class="container mt-5 wow animate__animated animate__fadeInUp text-center">
     <p id="text-tn">TRẢI NGHIỆM CỦA KHÁCH HÀNG</p>
     <div class="owl-carousel owl-vd">
         <div class="item">

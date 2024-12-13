@@ -83,11 +83,11 @@
 
     @media screen and (max-width: 465px) {
         .overlay-text{
-            font-size: 0.7rem;
+            font-size: 0.6rem;
             content: justify;
         }
         .icon-key{
-            font-size: 0.9rem;
+            font-size: 0.8rem;
         }
         #text-ts {
             font-size: 1.2rem; /* Kích thước chữ lớn hơn */
@@ -99,7 +99,7 @@
         class="col-12 text-center pt-3 pt-md-5"> <p id="text-ts">TẠI SAO NÊN CHỌN NHA KHOA VIỆT HÀN</p>
     </h2>
     <div class="container">
-        <div class="row justify-content-around wow fadeInRight">
+        <div class="row justify-content-around wow animate__animated animate__fadeInRight">
             <div class="col-lg-5 col-10 mt-md-5 mt-2 hover-effect">
                 <div class="overlay d-flex flex-column">
                     <div class="icon-key"> <i class="fas fa-user-md"></i> <span>ĐỘI NGŨ BÁC SĨ</span> </div>
@@ -124,7 +124,7 @@
                 </div> <img src="../../asset/images/ck2.jpg" class="img-fluid" alt="Ảnh Cam Kết 2">
             </div>
         </div>
-        <div class="row justify-content-around wow fadeInRight">
+        <div class="row justify-content-around wow animate__animated animate__fadeInLeft">
             <div class="col-lg-5 col-10 mt-md-5 mt-2 hover-effect">
                 <div class="overlay d-flex flex-column">
                     <div class="icon-key"> <i class="fas fa-cogs"></i> <span>CÔNG NGHỆ, MÁY MÓC HIỆN ĐẠI</span> </div>
@@ -145,7 +145,7 @@
                 </div> <img src="../../asset/images/ck4.jpg" class="img-fluid" alt="Ảnh Cam Kết 4">
             </div>
         </div>
-        <div class="row justify-content-around wow fadeInRight mt-md-5 mt-4">
+        <div class="row justify-content-around wow animate__animated animate__fadeInUp mt-md-5 mt-4">
             <div class="col-12 text-center">
                 <div class="col-12 text-center">
                     <a href="#dathen" class="bg-white p-3 p-md-3 rounded font-weight-bolder">

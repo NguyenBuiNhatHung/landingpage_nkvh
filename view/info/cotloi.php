@@ -6,7 +6,7 @@
     }
     .cl{
         color:rgb(0, 166, 218);
-        min-height: 300px;
+        min-height: 330px;
         border-radius: 2%;
         box-shadow: 0 4px 15px rgba(255, 255, 255, 0.8);
     }
@@ -26,7 +26,7 @@
         }
     }
 </style>
-<div class="pb-5 text-center mt-3 mt-md-5 col-12">
+<div class="pb-5 text-center mt-3 mt-md-5 col-12 wow animate__animated animate__fadeInLeft">
     <p id="text-cl">5 GIÁ TRỊ CỐT LÕI TẠI NHA KHOA VIỆT HÀN</p>
     <div class="owl-carousel owl-cl col-10 mx-auto">
         <div class="cl border bg-white p-3 shadow cl custom-margin">

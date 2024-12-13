@@ -39,7 +39,7 @@
 </style>
 <div class="container mt-5">
     <div class="row">
-        <div class="col-lg-6 my-auto">
+        <div class="col-lg-6 my-auto wow animate__animated animate__fadeInUp">
             <div class="text-center text-white mb-4">
                 <p id="text-ud">ƯU ĐÃI CHỈ CÒN</p>
                 <div class="d-flex justify-content-center">
@@ -59,7 +59,7 @@
             </div>
         </div>
 
-        <div class="col-lg-6">
+        <div class="col-lg-6 wow animate__animated animate__fadeInUp">
             <div class="appointment-form">
                 <h5 class="text-center mb-4" style="color: rgb(26, 119, 224);">
                     ĐĂNG KÝ ĐỂ NGHIỆM DỊCH VỤ ĐẲNG CẤP TẠI NHA KHOA VIỆT HÀN
