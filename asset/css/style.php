@@ -84,7 +84,7 @@ a {
       .site-navbar .site-navigation .site-menu > li > a {
         padding: 20px 10px;
         color: rgba(255, 255, 255, 0.6);
-        font-size: 15px;
+        font-size: 19px;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a.active {
           color: #fff; }
