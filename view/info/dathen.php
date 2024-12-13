@@ -59,7 +59,7 @@
             </div>
         </div>
 
-        <div class="col-lg-6 wow animate__animated animate__fadeInUp">
+        <div class="col-lg-6 col-10 mx-auto wow animate__animated animate__fadeInUp">
             <div class="appointment-form">
                 <h5 class="text-center mb-4" style="color: rgb(26, 119, 224);">
                     ĐĂNG KÝ ĐỂ NGHIỆM DỊCH VỤ ĐẲNG CẤP TẠI NHA KHOA VIỆT HÀN

@@ -66,7 +66,7 @@
         }
     }
 </style>
-<div id="bacsi" class="container-fluid team text-center">
+<div id="bacsi" class="team text-center">
     <div class="container py-5">
         <div class="section-title mb-5 fadeInUp">
             <p id="text-dn">ĐỘI NGŨ BÁC SĨ CHUYÊN SÂU</p>
@@ -79,9 +79,8 @@
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="team-title">Bác sĩ: Khổng Văn Quân</h5>
-                        <p class="team-description-bs mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ
-                            Chí
-                            Minh
+                        <p class="team-description-bs mb-0">Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh
+
                         </p>
                     </div>
                 </div>
@@ -93,9 +92,7 @@
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="team-title">Bác sĩ: Nguyễn Chí Tình</h5>
-                        <p class="team-description-bs mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ
-                            Chí
-                            Minh
+                        <p class="team-description-bs mb-0">Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh
                         </p>
                     </div>
                 </div>
@@ -107,9 +104,7 @@
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="team-title">Bác sĩ: Lê Châu Hưng Thịnh</h5>
-                        <p class="team-description-bs mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược TP. Hồ
-                            Chí
-                            Minh
+                        <p class="team-description-bs mb-0">Chuyên khoa RHM Đại học Y dược TP. Hồ Chí Minh
                         </p>
                     </div>
                 </div>
@@ -121,7 +116,7 @@
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="team-title">Bác sĩ: Hoàng Thị Thảo Ngân</h5>
-                        <p class="team-description-bs mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược Huế
+                        <p class="team-description-bs mb-0">Chuyên khoa RHM Đại học Y dược Huế
 
                         </p>
                     </div>
@@ -134,7 +129,7 @@
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="team-title">Bác sĩ: Bùi Thị Giang</h5>
-                        <p class="team-description-bs mb-0">Tốt nghiệp Chuyên khoa RHM Đại học Y dược Hà Nội
+                        <p class="team-description-bs mb-0">Chuyên khoa RHM Đại học Y Hà Nội
                         </p>
                     </div>
                 </div>
@@ -146,7 +141,7 @@
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="team-title">Bác sĩ: Văn Thanh Nga</h5>
-                        <p class="team-description-bs mb-0">Tốt nghiệp CChuyên khoa RHM Đại học Chuyên khoa RHM Đại học Vitebsk State Order of Peoples' Friendship Medical
+                        <p class="team-description-bs mb-0">Chuyên khoa RHM Đại học Chuyên khoa RHM Đại học Vitebsk State Order of Peoples' Friendship Medical
                         </p>
                     </div>
                 </div>

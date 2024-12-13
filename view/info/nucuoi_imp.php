@@ -7,70 +7,70 @@
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="../../asset/images/nc1.png" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../../asset/images/imp1.png" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="../../asset/images/nc2.png" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../../asset/images/imp2.png" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="../../asset/images/nc3.png" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../../asset/images/imp3.png" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="../../asset/images/nc4.png" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../../asset/images/imp4.png" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="../../asset/images/nc5.png" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../../asset/images/imp5.png" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="../../asset/images/nc6.png" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../../asset/images/imp6.png" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="../../asset/images/nc7.png" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../../asset/images/imp7.png" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="../../asset/images/nc8.png" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../../asset/images/imp8.png" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="../../asset/images/nc9.png" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../../asset/images/imp9.png" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="../../asset/images/nc10.png" class="img-fluid rounded-top w-100" alt="">
+                        <img src="../../asset/images/imp10.png" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>
