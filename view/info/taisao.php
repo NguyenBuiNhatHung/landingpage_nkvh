@@ -90,7 +90,7 @@
             font-size: 0.8rem;
         }
         #text-ts {
-            font-size: 1.2rem; /* Kích thước chữ lớn hơn */
+            font-size: 1.1rem; /* Kích thước chữ lớn hơn */
         }
     }
 </style>
@@ -100,7 +100,7 @@
     </h2>
     <div class="container">
         <div class="row justify-content-around wow animate__animated animate__fadeInRight">
-            <div class="col-lg-5 col-10 mt-md-5 mt-4 hover-effect">
+            <div class="col-lg-5 col-10 mt-lg-5 mt-3 hover-effect">
                 <div class="overlay d-flex flex-column">
                     <div class="icon-key"> <i class="fas fa-user-md"></i> <span>ĐỘI NGŨ BÁC SĨ</span> </div>
                     <div class="overlay-text">Tại Nha Khoa Việt Hàn, Bác sĩ tốt nghiệp chính quy ngành Răng Hàm Mặt
