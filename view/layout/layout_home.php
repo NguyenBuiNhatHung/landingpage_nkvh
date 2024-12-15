@@ -11,6 +11,29 @@
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 <?php require "../../asset/css/style.php"; ?>
 
+<style>
+    .hd-icon{
+        font-size: 1.7rem;
+    }
+    .hd-titile{
+        font-size: 16px;
+    }
+    #nk-menu-text{
+        align-items: center;
+    }
+    #nk-logo{
+        height: 60px;
+    }
+    #nk-menu{
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    @media (max-width: 576px) {
+        #nk-logo{
+            height: 45px;
+        }
+    }
+</style>
 <body>
 
     <div class="site-mobile-menu site-navbar-target">
@@ -29,19 +52,19 @@
                     <div class="col-6">
                         <div class="d-flex mr-auto">
                             <a href="#" class="d-flex align-items-center mr-4">
-                                <span class="icon-envelope mr-2"></span>
-                                <span class="d-none d-md-inline-block">booking@nhakhoaviethan.vn</span>
+                                <span class="hd-icon icon-envelope mr-2"></span>
+                                <span class="hd-titile d-none d-lg-inline-block">booking@nhakhoaviethan.vn</span>
                             </a>
                             <a href="#" class="d-flex align-items-center mr-auto">
-                                <span class="icon-phone mr-2"></span>
-                                <span class="d-none d-md-inline-block">+84 787 505 577</span>
+                                <span class="hd-icon icon-phone mr-2"></span>
+                                <span class="hd-titile d-none d-lg-inline-block">+84 787 505 577</span>
                             </a>
                         </div>
                     </div>
                     <div class="col-6 text-right">
                         <div class="mr-auto">
-                            <a href="https://www.youtube.com/channel/UCQyVTyBNw_IhF2Dnmpd33NA" class="p-2 pl-0"><span class="icon-youtube"></span></a>
-                            <a href="https://www.facebook.com/NhakhoaVietHanNhaTrangKhanhHoa/" class="p-2 pl-0"><span class="icon-facebook"></span></a>
+                            <a href="https://www.youtube.com/channel/UCQyVTyBNw_IhF2Dnmpd33NA" class="hd-icon p-2 pl-0"><span class="icon-youtube"></span></a>
+                            <a href="https://www.facebook.com/NhakhoaVietHanNhaTrangKhanhHoa/" class="hd-icon p-2 pl-0"><span class="icon-facebook"></span></a>
                             <!-- <a href="#" class="p-2 pl-0"><span class="icon-linkedin"></span></a> -->
                             <!-- <a href="#" class="p-2 pl-0"><span class="icon-instagram"></span></a> -->
                         </div>
@@ -50,17 +73,17 @@
             </div>
         </div>
 
-        <div class="site-navbar site-navbar-target js-sticky-header">
+        <div id="nk-menu" class="site-navbar site-navbar-target js-sticky-header">
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-2">
-                        <h1 class="my-0 site-logo"><a href="index.html">Brand</a></h1>
+                        <a href="../../index.php"><img id="nk-logo" src="../../asset/images/logo.jpg" alt=""></a>
                     </div>
                     <div class="col-10">
                         <nav class="site-navigation text-right" role="navigation">
                             <div class="container">
                             <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
-                                <ul class="site-menu main-menu js-clone-nav d-none d-lg-block">
+                                <ul id="nk-menu-text" class="site-menu main-menu js-clone-nav d-none d-lg-block">
                                     <li class="active"><a href="#gioithieu" class="nav-link">Giới thiệu</a></li>
                                     <li><a href="#bacsi" class="nav-link">Bác sĩ</a></li>
                                     <!-- <li class="has-children">

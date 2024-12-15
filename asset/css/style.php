@@ -80,11 +80,12 @@ a {
       font-weight: 500; }
     .site-navbar .site-navigation .site-menu > li {
       display: inline-block;
-      padding: 10px 5px; }
+       }
       .site-navbar .site-navigation .site-menu > li > a {
         padding: 20px 10px;
         color: rgba(255, 255, 255, 0.6);
         font-size: 19px;
+        font-weight: 600;
         text-decoration: none !important; }
         .site-navbar .site-navigation .site-menu > li > a.active {
           color: #fff; }

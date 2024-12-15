@@ -1,9 +1,29 @@
+<style>
+    #nk-titile-imp{
+        color:white;
+        font-size: 1.8rem;
+        font-weight: 1000;
+        padding-top: 40px;
+        padding-bottom: 4px;
+    }
+    @media (max-width: 768px) {
+        #nk-titile-imp {
+            font-size: 1.7rem;
+        }
+        
+    }
+    @media (max-width: 576px) {
+        #nk-titile-imp {
+            font-size: 1.2rem;
+        }
+    }
+</style>
 <div class="team text-center">
-    <div class="container py-3">
+    <div class="container">
         <div class="section-title fadeInUp">
-            <p id="text-dn">NỤ CƯỜI TRƯỚC VÀ SAU ĐIỀU TRỊ CỦA KHÁCH HÀNG</p>
+            <p id="nk-titile-imp">NỤ CƯỜI TRƯỚC VÀ SAU ĐIỀU TRỊ CỦA KHÁCH HÀNG TRỒNG RĂNG IMPLANT</p>
         </div>
-        <div class="owl-carousel owl-bs mb-3">
+        <div class="owl-carousel owl-bs">
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">

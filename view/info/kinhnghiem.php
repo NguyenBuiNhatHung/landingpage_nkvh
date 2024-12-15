@@ -32,6 +32,10 @@
         font-size: 20px;
     }
 
+    #kinhnghiem{
+        padding-top: 70px;
+    }
+
     @media (max-width: 1200px) {
         .info-item {
             margin-bottom: 10px;
@@ -88,8 +92,8 @@
         }
     }
 </style>
-<div class="col-12 mt-3 mt-lg-5">
-    <div class="container">
+<div class="col-12">
+    <div id="kinhnghiem" class="container">
         <div class="info-banner row justify-content-between">
             <div class="info-item col-4 col-lg-2 wow animate__animated animate__fadeInLeft">
                 <div class="info-icon"> <i class="fas fa-users icon"></i> </div>

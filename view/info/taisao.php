@@ -70,6 +70,7 @@
         color:white;
         font-size: 2rem;
         font-weight: 1000;
+        padding-top: 40px;
     }
 
     @media screen and (max-width: 768px) {
