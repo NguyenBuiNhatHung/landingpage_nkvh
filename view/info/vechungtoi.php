@@ -91,7 +91,7 @@
                     đây uy tín. Các bác sĩ ở đây đều có bằng cắp và tay nghề giỏi, đặc biệt mình được sắp xếp điều trị
                     với bác sĩ Ngân. Bác sĩ rất nhiệt tình, khuôn mặt phúc hậu và trong suốt quá trình luôn nhẹ nhàng,
                     ân cần. Làm răng tỉ mỉ từng chi tiết, nhân sự ở đây cũng quan tâm mình như người nha, lúc nào cũng
-                    niềm nở và hỏi han. Còn mua giúp mình đồ ăn, nói cung là rất thân thiện. Sau khi làm ở Việt Hàn xong
+                    niềm nở và hỏi han. Còn mua giúp mình đồ ăn, nói chung là rất thân thiện. Sau khi làm ở Việt Hàn xong
                     thì mình ăn uống thoải mái, tươi cười mỗi ngày. Mình có một lời khuyên là ai đang gặp các vấn đề về
                     răng miệng thì nên đến địa chỉ nha khoa này, giá cả đi đôi với chất lượng. Cảm ơn bác sĩ Ngân và các
                     bạn nhân viên đã giúp cô có hàm răng tuyệt vời.</p>
@@ -111,12 +111,12 @@
             <div class="col-lg-6 text-center wow animate__animated animate__fadeInRight">
                 <p class="px-3 custom-paragraph">Trước đây tôi bị mất răng toàn hàm, ăn uống khó khăn. Tôi cũng đã đi
                     nhiều nha khoa để tham khoa tham khảo. Sau đó tôi được ông bạn giới thiệu qua Nha khoa Việt Hàn. Giá
-                    cả ở đây minh bạch, không phát sinh thêm chi phí, nên tôi đã tin chọn Việt Hnaf. May mắn là tôi đã
+                    cả ở đây minh bạch, không phát sinh thêm chi phí, nên tôi đã tin chọn Việt Hàn. May mắn là tôi đã
                     chọn đúng. Cơ sở hiện đại, bác sĩ Quân chuyên nghiệp, cấy răng rất êm. Trước đó tôi sợ đau, nhưng
                     thực hiện xong không đau hay ê gì hết, tôi rất bất ngờ. Phụ tá cũng ân cần, nhiệt tình. Cháu Thủy lễ
                     tân và chăm sóc khách hàng thường gọi điện để thăm hỏi và đặt lịch hẹn kiểm tra định kỳ cho tôi. Sau
                     một thời gian thực hiện trồng răng, hôm nay tôi quay lại tái khám, mọi thứ vẫn tốt và chỉn chu. Cảm
-                    ơn đội ngũ bác sĩ và nhân viên của Việt Hàn rất nhiều. Tôi trẻ, khỏe ra cũng được chục tuổi.</p>
+                    ơn đội ngũ bác sĩ và nhân viên của Việt Hàn rất nhiều. Tôi trẻ và khỏe ra cũng được chục tuổi.</p>
             </div>
         </div>
         <div class="col-12 nk-vct-nd testimonial-section">
@@ -133,7 +133,7 @@
             <div class="col-lg-6 text-center wow animate__animated animate__fadeInRight">
                 <p class="px-3 custom-paragraph">Trước đây răng mình bị hô nhẹ, lại xỉn màu, có vài chiếc bị sâu nên
                     lúc nào cũng ngại cười. Giao tiếp với bạn bè hay đối tác mình đều không tự tin, lúc nào cười cũng
-                    phải che miệng. Sau khi ""nằm vùng"" khoảng 2 năm trong các hội nhóm về răng miệng ở Nha Trang, mình
+                    phải che miệng. Sau khi "nằm vùng" khoảng 2 năm trong các hội nhóm về răng miệng ở Nha Trang, mình
                     thấy Việt Hàn có độ đề xuất cao, trên google maps hay facebook đều có review tốt. Nên mình quyết
                     định đến khám rồi được tư vấn làm dán sứ Veneer Lisi 21 răng.
                     Phải nói là quá trình làm răng rất thoải mái, từ không gian phòng khám, cho đến bác sĩ, tư vấn viên
@@ -141,7 +141,7 @@
                     gương mà cứ ngờ ngợ – răng đều, trắng tự nhiên như răng thật, đẹp hơn mong đợi!
                     Giờ thì tự tin cười thoải mái, gặp bạn bè hay đi làm việc với đối tác cũng chẳng ngại ngần gì nữa.
                     Bạn bè còn bảo mình 'đẹp trai lên mấy level' làm mình rất tự hào! Đi đâu cũng giới thiệu mọi người
-                    đến đây làm răng. Nói chung là từ nhỏ đến lớn mới có trải nghiệm tại nah khoa ứng ý đến như vậy.
+                    đến đây làm răng. Nói chung là từ nhỏ đến lớn mới có trải nghiệm tại nha khoa ứng ý đến như vậy.
                     Thật sự cảm ơn đội ngũ bác sĩ và nhân viên ở Nha khoa Việt Hàn đã giúp mình thay đổi nụ cười, thay
                     đổi cả sự tự tin!</p>
             </div>
@@ -166,7 +166,7 @@
                     lay do tiêu xương. Công việc bận rộn, và cũng đôi phần chủ quan với sức khỏe nên khi chữa trị thì
                     tình trạng đã khá nghiêm trọng.
                     Qua quá trình thăm khám cùng bác sĩ Chuyên khoa, lắng nghe kế hoạch phác đồ điều trị cá nhân hóa, rõ
-                    ràng chi tiết thì tôi an tâm hơn hẳn. Vì ở nước ngoài lâu năm thfi cứ nghĩ cơ sở vật chất cũng như
+                    ràng chi tiết thì tôi an tâm hơn hẳn. Vì ở nước ngoài lâu năm thì cứ nghĩ cơ sở vật chất cũng như
                     bác sĩ bên đó sẽ tốt hơn, Nhưng khi thực hiện rồi mới thấy chất lượng ở đây không kém gì nước ngoài,
                     mà dịch vụ còn thân thiện. Nụ cười hiện tại là ước ao bấy lâu nay, nhờ bác Quân mà giờ đây đã thành
                     hiện thực. Rất biết ơn Nha khoa Việt Hàn.</p>
@@ -187,9 +187,9 @@
                 <p class="px-3 custom-paragraph">Tôi từ Canada trở về, qua sự giới thiệu của bạn bè và nhờ con cái tìm
                     hiểu trên mạng xã hội. Tôi về Việt Nam, đi khám vài nơi nhưng mà chỉ có bác sĩ ở Việt Hàn là giải
                     thích cặn kẽ, các cô tư vấn trả lời mọi thắc mắc rất nhiệt tình nên tôi quyết đinh làm răng ở đây.
-                    14 năm trước tôi từng làm răng sứ hai hàm, tuy nhiên qua thời gian ở nước ngoài không đi tahwm kahsm
-                    định kỳ được, cũng bận rộn nên không chăm sóc được kỹ. Nê là giờ các răng không còn ăn nhai tốt như
-                    trước, về thẩm mỹ thfi cũng không được đẹp lắm nên tôi muốn làm lại. Sau khi được thăm khám và đưa
+                    14 năm trước tôi từng làm răng sứ hai hàm, tuy nhiên qua thời gian ở nước ngoài không đi tái khám
+                    định kỳ được, cũng bận rộn nên không chăm sóc được kỹ. Nên là giờ các răng không còn ăn nhai tốt như
+                    trước, về thẩm mỹ thì cũng không được đẹp lắm nên tôi muốn làm lại. Sau khi được thăm khám và đưa
                     ra phác đồ điều trị cá nhân hóa bởi bác sĩ Tình, tôi làm lại luôn 16 răng sứ. Sau khi làm răng về về
                     ai cũng khen hết, làng xóm ai cũng hỏi làm đâu đẹp vậy, tôi giới thiệu vô Nha khoa Việt Hàn hết.
                 </p>
@@ -237,7 +237,7 @@
                     khôn có ít lần mình tự ti vì hàm răng bị nhiễm màu của mình. Mình cứ ước thầm trong bụng là mong sao
                     lớn thật nhanh để kiếm tiền phục hình lại hàm răng của mình để trông nó đẹp hơn. Khi chia sẻ tâm sự
                     này với gia đình thì rất nhiều họ hàng của mình bảo mình về Việt Nam thực hiện đi vì chất lượng và
-                    gái cả ở đây rất hợp lý hơn nhiều so với ở nước ngoài. Năm ngoái có dịp về Việt Nam mình đã đi khám
+                    giá cả ở đây rất hợp lý hơn nhiều so với ở nước ngoài. Năm ngoái có dịp về Việt Nam mình đã đi khám
                     vài nơi ở cả Sài Gòn và Nha Trang nhưng vẫn còn phân vân. Năm nay khi có dịp nghỉ dài ngày mình đã
                     quyết định quay về nước để tìm nha khoa uy tín, có thể tin tưởng được để khắc phục tình trạng răng
                     nhiễm Tetracycline của mình.

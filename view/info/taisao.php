@@ -101,7 +101,7 @@
         <div class="row justify-content-around wow animate__animated animate__fadeInRight">
             <div class="col-lg-5 col-10 hover-effect">
                 <div class="overlay d-flex flex-column">
-                    <div class="nk-icon-key"> <i class="fas fa-user-md"></i> <span>ĐỘI NGŨ BÁC SĨ</span> </div>
+                    <div class="nk-icon-key nk-font-weight-700"> <i class="fas fa-user-md"></i> <span>ĐỘI NGŨ BÁC SĨ</span> </div>
                     <div class="overlay-text">Tại Nha Khoa Việt Hàn, Bác sĩ tốt nghiệp chính quy ngành Răng Hàm Mặt
                         tại những trường Đại học uy tín nhất tại Việt Nam về ngành y, như Đại Học Y Dược Thành Phố
                         Hồ Chí Minh, Đại Học Y Dược Hà Nội, Đại Học Y Dược Huế.
@@ -112,7 +112,7 @@
             </div>
             <div class="nk-ts-item col-lg-5 col-10 hover-effect">
                 <div class="overlay d-flex flex-column">
-                    <div class="nk-icon-key"> <i class="fas fa-users"></i> <span>CHĂM SÓC KHÁCH HÀNG 24/7</span> </div>
+                    <div class="nk-icon-key nk-font-weight-700"> <i class="fas fa-users"></i> <span>CHĂM SÓC KHÁCH HÀNG 24/7</span> </div>
                     <div class="overlay-text"> Tại Nha khoa Việt Hàn, chúng tôi luôn sẵn sàng hỗ trợ khách hàng mọi lúc,
                         mọi nơi với dịch vụ chăm sóc khách hàng 24/7. Đội ngũ tư vấn viên tận tâm,
                         chuyên nghiệp sẽ giúp bạn giải đáp thắc mắc, đặt lịch hẹn,
@@ -126,7 +126,7 @@
         <div class="nk-ts-item-2 row justify-content-around wow animate__animated animate__fadeInLeft">
             <div class="nk-ts-item col-lg-5 col-10 hover-effect">
                 <div class="overlay d-flex flex-column">
-                    <div class="nk-icon-key"> <i class="fas fa-cogs"></i> <span>CÔNG NGHỆ, MÁY MÓC HIỆN ĐẠI</span> </div>
+                    <div class="nk-icon-key nk-font-weight-700"> <i class="fas fa-cogs"></i> <span>CÔNG NGHỆ, MÁY MÓC HIỆN ĐẠI</span> </div>
                     <div class="overlay-text"> Nha khoa Việt Hàn luôn chú trọng học hỏi, cập nhật và ứng dụng kỹ thuật
                         hiện đại vào quá trình điều trị (như hệ thống máy chụp film CT Conbeam Kavo , máy Piezotome,
                         công nghệ scan răng 3Shape Trios, …) giúp rút ngắn thời gian cũng như đảm bảo tính chính xác, an
@@ -135,7 +135,7 @@
             </div>
             <div class="nk-ts-item col-lg-5 col-10 hover-effect">
                 <div class="overlay d-flex flex-column">
-                    <div class="nk-icon-key"> <i class="fas fa-money-bill-wave"></i> <span>CHI PHÍ ĐIỀU TRỊ HỢP LÝ</span>
+                    <div class="nk-icon-key nk-font-weight-700"> <i class="fas fa-money-bill-wave"></i> <span>CHI PHÍ ĐIỀU TRỊ HỢP LÝ</span>
                     </div>
                     <div class="overlay-text">Nha khoa Việt Hàn cam kết luôn mang đến dịch vụ nha khoa chất lượng cao
                         với chi phí hợp lý, minh bạch và phù hợp với mọi khách hàng. Với bảng giá rõ ràng, hỗ trợ trả

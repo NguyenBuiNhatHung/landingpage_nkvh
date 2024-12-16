@@ -15,6 +15,11 @@
         font-size: 26px;
         margin-top: 20px;
         font-weight: 700;
+        border-radius: 7px;
+    }
+    #nk-title-dk:hover{
+        background-color: white;
+        color:#00a6da;
     }
     @media (max-width: 768px) {
         #nk-title-dk{
@@ -60,11 +65,11 @@
         class="col-9 col-md-5 row justify-content-center wow fadeInLeft mx-auto d-flex align-items-center justify-content-center margin-vertical">
         <div class="col-12 col-md-auto mb-2 text-center">
             <a id="nk-title-dk" href="#dathen" 
-                class=" btn btn-primary fadeInUp button-submit animate__animated animate__fadeInLeft">ĐĂNG
+                class="btn btn-primary fadeInUp button-submit animate__animated animate__fadeInLeft">ĐĂNG
                 KÝ NGAY - NHẬN VÉ MÁY BAY KHỨ HỒI MIỄN PHÍ</a>
         </div>
         <div class="col-12 col-md-auto text-center">
-            <p id="nk-uudai" class="h6 animate__animated animate__fadeInLeft">Thời gian có hạn, chỉ giành cho 19 khách hàng đăng ký sớm nhất</p>
+            <p id="nk-uudai" class="nk-font-weight-700 h6 animate__animated animate__fadeInLeft">Thời gian có hạn, chỉ giành cho 19 khách hàng đăng ký sớm nhất</p>
             <div class="d-flex flex-row justify-content-center time-line animate__animated animate__fadeInLeft">
                 <div class="p-2 border rounded bg-white m-2" id="hours">00</div>
                 <div class="p-2 border rounded bg-white m-2" id="minutes">00</div>

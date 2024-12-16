@@ -27,6 +27,7 @@
     #nk-menu{
         padding-top: 10px;
         padding-bottom: 10px;
+        background-color: #17346b;
     }
     @media (max-width: 576px) {
         #nk-logo{
