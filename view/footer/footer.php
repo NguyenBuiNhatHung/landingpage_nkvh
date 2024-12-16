@@ -47,9 +47,9 @@
     }
     @media (max-width: 450px) {
         .footer-item{
-        padding-left: 12px;
-        padding-right: 12px;
-    }
+            padding-left: 12px;
+            padding-right: 12px;
+        }
 
     }
 
@@ -59,6 +59,7 @@
     }
     #nk-footer-icon{
         justify-content: center;
+        align-items: center;
     }
 
 </style>

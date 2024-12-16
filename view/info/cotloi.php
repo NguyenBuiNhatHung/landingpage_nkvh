@@ -67,12 +67,12 @@
             Chúng tôi cam kết phục vụ khách hàng với sự chân thành, minh bạch. Chăm sóc khách hàng như chính người thân trong gia đình mình.
         </div>
         <div class="cl p-4 border bg-white shadow custom-margin">
-            <h5 class="nk-title-cl nk-font-weight-700">4. Luôn đổi mới và phát triển</h5>
+            <h5 class="nk-title-cl nk-font-weight-700">4. Luôn đổi mới <br> và phát triển</h5>
             Chúng tôi không ngừng học hỏi, cải tiến trang thiết bị và công nghệ.
                 Nâng cao năng lực bản thân để đáp ứng nhu cầu ngày càng cao của khách hàng và thị trường.
         </div>
         <div class="cl p-4 border bg-white shadow custom-margin">
-            <h5 class="nk-title-cl nk-font-weight-700">5. Đề cao trách nhiệm xã hội</h5>
+            <h5 class="nk-title-cl nk-font-weight-700">5. Đề cao trách nhiệm <br> xã hội</h5>
            Chúng tôi tự hào khi được đóng góp tích cực vào cộng đồng và xã hội. Bằng việc thực hiện các hoạt động
                 thiện nguyện, chia sẻ yêu thương với những hoàn cảnh khó khăn.
         </div>
