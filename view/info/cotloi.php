@@ -11,6 +11,7 @@
         min-height: 270px;
         border-radius: 2%;
         box-shadow: 0 4px 15px rgba(255, 255, 255, 0.8);
+        text-align: justify;
     }
     .owl-cl{
         margin-top: -16px;
@@ -48,8 +49,18 @@
     .nk-font-weight-700{
         font-weight: 700;
     }
+    
+    .nk-bg-cl{
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../../asset/images/bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-bottom: 40px;
+    }
 </style>
-<div class="text-center col-12 wow animate__animated animate__fadeInLeft">
+<div class="nk-bg-cl text-center col-12 wow animate__animated animate__fadeInLeft">
     <p id="text-cl">5 GIÁ TRỊ CỐT LÕI TẠI NHA KHOA VIỆT HÀN</p>
     <div class="owl-carousel owl-cl col-10 mx-auto">
         <div class="cl p-4 border bg-white shadow custom-margin">

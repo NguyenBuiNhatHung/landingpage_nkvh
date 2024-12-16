@@ -1,10 +1,9 @@
 <style>
     .info-banner {
         background: white;
-        padding: 20px;
         border-radius: 8px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         text-align: center;
+        width: 100%;
     }
 
     .info-item {
@@ -35,7 +34,9 @@
     #kinhnghiem{
         padding-top: 40px;
     }
-
+    #nk-kn{
+        margin-top: 40px;
+    }
     @media (max-width: 1200px) {
         .info-item {
             margin-bottom: 10px;
@@ -92,7 +93,7 @@
         }
     }
 </style>
-<div class="col-12">
+<div id="nk-kn" class="bg-white col-12">
     <div id="kinhnghiem" class="container">
         <div class="info-banner row justify-content-between">
             <div class="info-item col-4 col-lg-2 wow animate__animated animate__fadeInLeft">

@@ -12,9 +12,8 @@
     .overlay {
         position: absolute;
         top: 0;
-        left: 0;
-        right: 0;
         bottom: 0;
+        width: 94%;
         background: rgba(255, 255, 255, 0.9);
         display: flex;
         align-items: center;
@@ -60,9 +59,20 @@
     }
     #nk-ts-btn{
         margin-top: 40px;
+        padding-bottom: 20px ;
     }
     #nk-ts-btn1{
         padding: 20px;
+        background-color: white;
+        border: 1px solid white;
+    }
+    #nk-ts-btn1:hover{
+        background-color: #00a6da;
+        color:white;
+    }
+
+    .nk-ts-img{
+        padding-left: -10px;
     }
     @media screen and (max-width: 768px) {
         .overlay-text{
@@ -77,7 +87,9 @@
         .nk-ts-item-2{
             margin-top: 0px;
         }
-
+        .overlay {
+            width: 95%;
+        }
     }
 
     @media screen and (max-width: 465px) {
@@ -91,14 +103,21 @@
         #text-ts {
             font-size: 1.1rem;
         }
+        .overlay {
+            width: 91%;
+        }
+    }
+    .nk-bg-ts{
+        background-color: #17346b;
+        padding-bottom: 40px;
     }
 </style>
-<div class="wow fadeInRight col-12">
+<div class="nk-bg-ts wow fadeInRight col-12">
     <h2 style="color:white;"
         class="col-12 text-center"> <p id="text-ts">TẠI SAO NÊN CHỌN NHA KHOA VIỆT HÀN</p>
     </h2>
     <div id="nk-nd-ts" class="container">
-        <div class="row justify-content-around wow animate__animated animate__fadeInRight">
+        <div class="row justify-content-center wow animate__animated animate__fadeInRight">
             <div class="col-lg-5 col-10 hover-effect">
                 <div class="overlay d-flex flex-column">
                     <div class="nk-icon-key nk-font-weight-700"> <i class="fas fa-user-md"></i> <span>ĐỘI NGŨ BÁC SĨ</span> </div>
@@ -108,7 +127,7 @@
                         Với nhiều năm kinh nghiệm, liên tục học tập nâng cao nghiệp vụ. Các bác sĩ của chúng tôi làm
                         việc tận tâm với bệnh nhân, đề cao y đức và nhận được rất nhiều sự yêu mến của khách hàng
                         tại Nha Trang, Khánh Hòa cũng như khách hàng Quốc tế.</div>
-                </div> <img src="../../asset/images/ts4.png" class="img-fluid h-100" alt="Ảnh Cam Kết 1">
+                </div> <img src="../../asset/images/ts4.png" class="nk-ts-img img-fluid h-100" alt="Ảnh Cam Kết 1">
             </div>
             <div class="nk-ts-item col-lg-5 col-10 hover-effect">
                 <div class="overlay d-flex flex-column">
@@ -123,7 +142,7 @@
                 </div> <img src="../../asset/images/ts2.png" class="img-fluid" alt="Ảnh Cam Kết 2">
             </div>
         </div>
-        <div class="nk-ts-item-2 row justify-content-around wow animate__animated animate__fadeInLeft">
+        <div class="nk-ts-item-2 row justify-content-center wow animate__animated animate__fadeInLeft">
             <div class="nk-ts-item col-lg-5 col-10 hover-effect">
                 <div class="overlay d-flex flex-column">
                     <div class="nk-icon-key nk-font-weight-700"> <i class="fas fa-cogs"></i> <span>CÔNG NGHỆ, MÁY MÓC HIỆN ĐẠI</span> </div>
@@ -147,7 +166,7 @@
         <div id="nk-ts-btn" class="nk-ts-item-2 row justify-content-around wow animate__animated animate__fadeInUp">
             <div class="col-12 text-center">
                 <div class="col-12 text-center">
-                    <a id="nk-ts-btn1" href="#dathen" class="bg-white rounded font-weight-bolder">
+                    <a id="nk-ts-btn1" href="#dathen" class="rounded font-weight-bolder">
                       ĐẶT HẸN NGAY
                     </a>
                 </div>

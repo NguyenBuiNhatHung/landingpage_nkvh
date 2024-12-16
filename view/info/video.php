@@ -7,6 +7,7 @@
     .owl-vd {
         max-width: 1300px;
         align-items: center;
+        padding-bottom: 40px;
     }
 
     .item {

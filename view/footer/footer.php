@@ -141,6 +141,6 @@
 <footer class="footer">
     <div class="container">
         <hr>
-        <p class="mb-0">Power by DEVTTT</p>
+        <p class="mb-0">Designed by DEVTTT</p>
     </div>
 </footer>

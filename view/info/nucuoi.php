@@ -17,8 +17,17 @@
             font-size: 1.2rem;
         }
     }
+    .nk-bg-nc{
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../../asset/images/bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-bottom: 40px;
+    }
 </style>
-<div class="nk-rangsu team text-center">
+<div class="nk-bg-nc nk-rangsu team text-center">
     <div class="container">
         <div class="section-title fadeInUp">
             <p id="nk-title-rs">NỤ CƯỜI TRƯỚC VÀ SAU ĐIỀU TRỊ CỦA KHÁCH HÀNG RĂNG SỨ</p>
@@ -35,13 +44,6 @@
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
                         <img src="../../asset/images/nc2.png" class="img-fluid rounded-top w-100" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="team-item rounded overflow-hidden">
-                    <div class="team-img rounded-top h-100">
-                        <img src="../../asset/images/nc3.png" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>
             </div>

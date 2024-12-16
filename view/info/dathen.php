@@ -43,19 +43,19 @@
 <div id="nk-dathen" class="container">
     <div class="row">
         <div class="col-lg-6 my-auto wow animate__animated animate__fadeInUp">
-            <div class="text-center text-white mb-2">
-                <p id="text-ud">ƯU ĐÃI CHỈ CÒN</p>
+            <div class=" text-center text-white mb-2">
+                <p id="text-ud" class="display-4">ƯU ĐÃI CHỈ CÒN</p>
                 <div class="d-flex justify-content-center">
                     <div class="mx-2">
-                        <h1 id="hours1" class="display-5">00</h1>
+                        <h1 id="hours1" class="display-4">00</h1>
                         <p>Giờ</p>
                     </div>
                     <div class="mx-2">
-                        <h1 id="minutes1" class="display-5">00</h1>
+                        <h1 id="minutes1" class="display-4">00</h1>
                         Phút
                     </div>
                     <div class="mx-2">
-                        <h1 id="seconds1" class="display-5">00</h1>
+                        <h1 id="seconds1" class="display-4">00</h1>
                         <p>Giây</p>
                     </div>
                 </div>

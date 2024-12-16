@@ -48,10 +48,20 @@
     }
     #gioithieu{
         padding-top: 40px;
+        padding-bottom: 40px;
     }
     #nk-uudai{
         margin-top: 20px;
         margin-bottom: 10px;
+    }
+    .nk-bg{
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../../asset/images/bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
     }
 
 </style>
@@ -60,7 +70,7 @@
 <img class="nk-banner d-block d-md-none animate__animated animate__fadeInUp rounded" src="../../asset/images/banner_dt.jpg" alt="">
 
 
-<div id="gioithieu" class=" fadeInUp">
+<div id="gioithieu" class="nk-bg fadeInUp">
     <div id="dk"
         class="col-9 col-md-5 row justify-content-center wow fadeInLeft mx-auto d-flex align-items-center justify-content-center margin-vertical">
         <div class="col-12 col-md-auto mb-2 text-center">

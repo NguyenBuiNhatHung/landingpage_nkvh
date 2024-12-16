@@ -5,6 +5,7 @@
         background-color: #0056b3;
         border-radius: 10px;
         padding: 15px;
+        text-align: justify;
     }
 
     .customer-info {
@@ -27,6 +28,7 @@
 
     #khachhang {
         margin-top: 40px;
+        padding-bottom: 20px;
     }
 
     @media (max-width: 768px) {
