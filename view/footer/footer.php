@@ -15,12 +15,12 @@
     }
 
     .footer {
-        background: linear-gradient(rgba(0, 0, 51, 0.9), rgba(0, 0, 51, 0.9)), url(../img/carousel-2.jpg);
-        background-position: center center;
-        background-repeat: no-repeat;
-        background-size: cover;
+        background: linear-gradient(rgba(0, 0, 51, 0.9), rgba(0, 0, 51, 0.9));
+        
     }
-
+    .footer-item{
+        margin-top: 20px;
+    }
 
 
     .footer .footer-item a {
@@ -49,9 +49,13 @@
         height: 250px;
         width: 100%;
     }
+    #nk-footer-icon{
+        justify-content: center;
+    }
+
 </style>
-<div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
-    <div class="container py-5">
+<div class="container-fluid footer wow fadeIn" data-wow-delay="0.2s">
+    <div class="container">
         <div class="row g-5">
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="footer-item d-flex flex-column">
@@ -76,7 +80,7 @@
                         577</a>
                     <a href="tel:0989668818"><i class="bi bi-telephone-fill me-2 text-primary"></i>Tư vấn khách
                         Việt
-                        Kiều:
+                        Kiều: <br>
                         0989 66
                         88 18</a>
                     <a href="mailto:booking@nhakhoaviethan.vn">
@@ -87,7 +91,7 @@
                         18:30</a>
                     <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Chủ nhật: Từ 8:00 - 17:00</a>
                 </div>
-                <!-- <div class="d-flex flex-row mt-3 social-icons">
+                <div id="nk-footer-icon" class="d-flex flex-row mt-3 social-icons">
                     <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
                         href="https://www.facebook.com/NhakhoaVietHanNhaTrangKhanhHoa/"><i
                             class="fab fa-facebook-f"></i></a>
@@ -98,7 +102,7 @@
                             class="fab fa-youtube"></i></a>
                     <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="#"><i
                             class="fab fa-whatsapp"></i></a>
-                </div> -->
+                </div>
 
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">

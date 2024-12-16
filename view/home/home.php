@@ -13,6 +13,7 @@
 <?php require "../info/nucuoi_imp.php" ?>
 
 <?php require "../info/video.php" ?>
+<?php require "../info/vechungtoi.php" ?>
 
 <?php require "../info/cotloi.php" ?>
 
@@ -23,8 +24,6 @@
 <?php require "../info/kinhnghiem.php" ?>
 
 <?php require "../info/dathen.php" ?>
-
-<?php require "../info/vechungtoi.php" ?>
 
 <?php require "../info/bayve.php" ?>
 

@@ -1,10 +1,10 @@
 <style>
     .custom-paragraph {
-        font-size: 1.2rem; /* Kích thước chữ */
+        font-size: 1.2rem;
         margin: 20px 0;
-        background-color: #0056b3; /* Màu nền cho câu nói */
-        border-radius: 10px; /* Bo viền */
-        padding: 15px; /* Khoảng cách bên trong */
+        background-color: #0056b3;
+        border-radius: 10px;
+        padding: 15px;
     }
     .customer-info {
         text-align: center;
@@ -13,30 +13,36 @@
         margin-bottom: 10px;
     }
     .img-fluid {
-        border-radius: 5px; /* Bo viền hình ảnh */
+        border-radius: 5px;
     }
     .testimonial-section {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        flex-wrap: wrap; /* Cho phép gói nội dung */
+        flex-wrap: wrap;
+    }
+    #khachhang{
+        margin-top: 40px;
+    }
+    #nk-vct-nd{
+        margin-top: 20px;
     }
     @media (max-width: 768px) {
         .custom-paragraph {
-            font-size: 1rem; /* Kích thước chữ nhỏ hơn trên di động */
+            font-size: 1rem;
         }
         .testimonial-section {
-            flex-direction: column; /* Chuyển thành cột trên di động */
-            align-items: center; /* Căn giữa nội dung */
+            flex-direction: column;
+            align-items: center;
         }
         .col-md-6 {
-            width: 100%; /* Chiếm toàn bộ chiều rộng */
+            width: 100%;
         }
     }
     @media (min-width: 992px) {
         .testimonial-section {
-            width: 80%; /* Chiều rộng 80% trên máy tính */
-            margin: 0 auto; /* Căn giữa */
+            width: 80%;
+            margin: 0 auto;
         }
     }
     #text-vct{
@@ -46,25 +52,25 @@
     }
     @media screen and (max-width: 768px) {
         #text-vct {
-            font-size: 1.7rem; /* Kích thước chữ lớn hơn */
+            font-size: 1.7rem;
         }
         
        
     }
     @media screen and (max-width: 465px) {
         #text-vct {
-            font-size: 1.2rem; /* Kích thước chữ lớn hơn */
+            font-size: 1.2rem;
         }
     }
 </style>
-<div id="khachhang" class="mt-3 mt-lg-5 wow">
+<div id="khachhang" class="wow">
     <p id="text-vct" class="text-center">KHÁCH HÀNG NÓI GÌ VỀ CHÚNG TÔI?</p>
-    <div class="testimonial-section">
+    <div id="nk-vct-nd" class="testimonial-section">
         <div class="col-md-6 d-flex justify-content-center flex-wrap wow animate__animated animate__fadeInLeft">
-            <div class="col-6 d-flex justify-content-center mb-3">
+            <div class="col-6 d-flex justify-content-center">
                 <img class="img-fluid" src="../../asset/images/khach1.jpg" alt="Khách hàng trước điều trị">
             </div>
-            <div class="col-6 d-flex justify-content-center mb-3">
+            <div class="col-6 d-flex justify-content-center">
                 <img class="img-fluid" src="../../asset/images/khach2.jpg" alt="Khách hàng sau điều trị">
             </div>
         </div>

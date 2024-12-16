@@ -69,7 +69,7 @@
         }
     }
 </style>
-<div id="bacsi" class="team text-center mt-4 mt-lg-5">
+<div id="bacsi" class="team text-center">
     <div class="container">
         <div class="section-title">
             <p id="text-dn">ĐỘI NGŨ BÁC SĨ CHUYÊN SÂU</p>

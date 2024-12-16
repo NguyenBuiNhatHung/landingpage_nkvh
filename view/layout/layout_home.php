@@ -5,7 +5,7 @@
 <link rel="stylesheet" href="../../asset/fonts/icomoon/style.css">
 
 <link rel="stylesheet" href="../../asset/css/owl.carousel.min.css">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <!-- Bootstrap CSS -->
 <link rel="stylesheet" href="../../asset/css/bootstrap.min.css">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
@@ -84,7 +84,7 @@
                             <div class="container">
                             <div class="d-inline-block d-lg-none ml-md-0 mr-auto py-3"><a href="#" class="site-menu-toggle js-menu-toggle text-white"><span class="icon-menu h3"></span></a></div>
                                 <ul id="nk-menu-text" class="site-menu main-menu js-clone-nav d-none d-lg-block">
-                                    <li class="active"><a href="#gioithieu" class="nav-link">Giới thiệu</a></li>
+                                    <li class="active"><a href="#gioithieu1" class="nav-link">Giới thiệu</a></li>
                                     <li><a href="#bacsi" class="nav-link">Bác sĩ</a></li>
                                     <!-- <li class="has-children">
                                         <a href="#" class="nav-link">Răng sứ</a>

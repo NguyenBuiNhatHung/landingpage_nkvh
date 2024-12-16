@@ -1,4 +1,7 @@
 <style>
+    #nk-dathen{
+        margin-top: 40px;
+    }
 
     .appointment-form {
         background-color: white;
@@ -8,17 +11,17 @@
     }
 
     .form-control, .form-select {
-        border: 1px solid #007bff; /* Màu viền */
-        background-color: transparent; /* Nền trong suốt */
-        color: black; /* Màu chữ */
+        border: 1px solid #007bff;
+        background-color: transparent;
+        color: black;
     }
 
     button {
-        background-color: #007bff; /* Màu nút */
+        background-color: #007bff;
     }
 
     button:hover {
-        background-color: #0056b3; /* Màu nút khi hover */
+        background-color: #0056b3;
     }
     #text-ud{
         color:white;
@@ -27,17 +30,17 @@
     }
     @media screen and (max-width: 768px) {
         #text-ud {
-            font-size: 1.7rem; /* Kích thước chữ lớn hơn */
+            font-size: 1.7rem;
         }
     }
 
     @media screen and (max-width: 465px) {
         #text-ud {
-            font-size: 1.2rem; /* Kích thước chữ lớn hơn */
+            font-size: 1.2rem;
         }
     }
 </style>
-<div class="container mt-3 mt-lg-5">
+<div id="nk-dathen" class="container">
     <div class="row">
         <div class="col-lg-6 my-auto wow animate__animated animate__fadeInUp">
             <div class="text-center text-white mb-2">

@@ -2,6 +2,9 @@
     .bayve{
         font-weight: 600;
     }
+    #bayve{
+        margin-top: 40px;
+    }
     @media screen and (max-width: 768px) {
         
     }
@@ -12,7 +15,7 @@
         }
     }
 </style>
-<div id="bayve" style="height: 400px;" class="container-fluid py-5 position-relative mt-3 mt-lg-5">
+<div id="bayve" style="height: 400px;" class="container-fluid py-5 position-relative">
     <img class="w-100 h-100" src="../../asset/images/kientao.png" alt=""
         style="object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
     <div class="overlay position-absolute w-100 h-100"

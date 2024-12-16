@@ -6,7 +6,7 @@
 <style>
     .owl-vd {
         max-width: 1300px;
-        margin: auto;
+        align-items: center;
     }
 
     .item {

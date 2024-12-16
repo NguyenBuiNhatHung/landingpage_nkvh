@@ -50,7 +50,7 @@
     }
 
 </style>
-
+<div id="gioithieu1"></div>
 <img class="nk-banner d-none d-md-block animate__animated animate__fadeInUp rounded" src="../../asset/images/banner.jpg" alt="">
 <img class="nk-banner d-block d-md-none animate__animated animate__fadeInUp rounded" src="../../asset/images/banner_dt.jpg" alt="">
 

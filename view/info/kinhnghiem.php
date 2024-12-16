@@ -33,7 +33,7 @@
     }
 
     #kinhnghiem{
-        padding-top: 70px;
+        padding-top: 40px;
     }
 
     @media (max-width: 1200px) {
