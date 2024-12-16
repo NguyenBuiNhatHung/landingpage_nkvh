@@ -64,7 +64,7 @@
                 KÝ NGAY - NHẬN VÉ MÁY BAY KHỨ HỒI MIỄN PHÍ</a>
         </div>
         <div class="col-12 col-md-auto text-center">
-            <p id="nk-uudai" class="h6 animate__animated animate__fadeInLeft">Thời gian ưu đãi có hạn</p>
+            <p id="nk-uudai" class="h6 animate__animated animate__fadeInLeft">Thời gian có hạn, chỉ giành cho 19 khách hàng đăng ký sớm nhất</p>
             <div class="d-flex flex-row justify-content-center time-line animate__animated animate__fadeInLeft">
                 <div class="p-2 border rounded bg-white m-2" id="hours">00</div>
                 <div class="p-2 border rounded bg-white m-2" id="minutes">00</div>
@@ -75,7 +75,7 @@
 </div>
 
 <script>
-    let countdown = 3600 + 420 + 34;
+    let countdown = 25200 + 420 + 34;
 
     function updateCountdown() {
         const hours = Math.floor(countdown / 3600);

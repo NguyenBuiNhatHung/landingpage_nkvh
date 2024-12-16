@@ -28,7 +28,7 @@
         opacity: 0;
     }
 
-    .icon-key {
+    .nk-icon-key {
         text-align: center;
         color: #0072C6;
         font-size: 1.2rem;
@@ -42,7 +42,7 @@
         text-align: justify;
     }
 
-    .hover-effect:hover .icon-key,
+    .hover-effect:hover .nk-icon-key,
     .hover-effect:hover .overlay-text {
         opacity: 0;
     }
@@ -85,7 +85,7 @@
             font-size: 0.6rem;
             content: justify;
         }
-        .icon-key{
+        .nk-icon-key{
             font-size: 0.8rem;
         }
         #text-ts {
@@ -101,18 +101,18 @@
         <div class="row justify-content-around wow animate__animated animate__fadeInRight">
             <div class="col-lg-5 col-10 hover-effect">
                 <div class="overlay d-flex flex-column">
-                    <div class="icon-key"> <i class="fas fa-user-md"></i> <span>ĐỘI NGŨ BÁC SĨ</span> </div>
+                    <div class="nk-icon-key"> <i class="fas fa-user-md"></i> <span>ĐỘI NGŨ BÁC SĨ</span> </div>
                     <div class="overlay-text">Tại Nha Khoa Việt Hàn, Bác sĩ tốt nghiệp chính quy ngành Răng Hàm Mặt
                         tại những trường Đại học uy tín nhất tại Việt Nam về ngành y, như Đại Học Y Dược Thành Phố
                         Hồ Chí Minh, Đại Học Y Dược Hà Nội, Đại Học Y Dược Huế.
                         Với nhiều năm kinh nghiệm, liên tục học tập nâng cao nghiệp vụ. Các bác sĩ của chúng tôi làm
                         việc tận tâm với bệnh nhân, đề cao y đức và nhận được rất nhiều sự yêu mến của khách hàng
                         tại Nha Trang, Khánh Hòa cũng như khách hàng Quốc tế.</div>
-                </div> <img src="../../asset/images/ck1.jpg" class="img-fluid" alt="Ảnh Cam Kết 1">
+                </div> <img src="../../asset/images/ts4.png" class="img-fluid h-100" alt="Ảnh Cam Kết 1">
             </div>
             <div class="nk-ts-item col-lg-5 col-10 hover-effect">
                 <div class="overlay d-flex flex-column">
-                    <div class="icon-key"> <i class="fas fa-users"></i> <span>CHĂM SÓC KHÁCH HÀNG 24/7</span> </div>
+                    <div class="nk-icon-key"> <i class="fas fa-users"></i> <span>CHĂM SÓC KHÁCH HÀNG 24/7</span> </div>
                     <div class="overlay-text"> Tại Nha khoa Việt Hàn, chúng tôi luôn sẵn sàng hỗ trợ khách hàng mọi lúc,
                         mọi nơi với dịch vụ chăm sóc khách hàng 24/7. Đội ngũ tư vấn viên tận tâm,
                         chuyên nghiệp sẽ giúp bạn giải đáp thắc mắc, đặt lịch hẹn,
@@ -120,28 +120,28 @@
                         Chúng tôi cam kết theo sát hành trình điều trị của khách hàng,
                         nhắc lịch tái khám và lắng nghe ý kiến sau dịch vụ để mang đến trải nghiệm chăm sóc tốt nhất.
                     </div>
-                </div> <img src="../../asset/images/ck2.jpg" class="img-fluid" alt="Ảnh Cam Kết 2">
+                </div> <img src="../../asset/images/ts2.png" class="img-fluid" alt="Ảnh Cam Kết 2">
             </div>
         </div>
         <div class="nk-ts-item-2 row justify-content-around wow animate__animated animate__fadeInLeft">
             <div class="nk-ts-item col-lg-5 col-10 hover-effect">
                 <div class="overlay d-flex flex-column">
-                    <div class="icon-key"> <i class="fas fa-cogs"></i> <span>CÔNG NGHỆ, MÁY MÓC HIỆN ĐẠI</span> </div>
+                    <div class="nk-icon-key"> <i class="fas fa-cogs"></i> <span>CÔNG NGHỆ, MÁY MÓC HIỆN ĐẠI</span> </div>
                     <div class="overlay-text"> Nha khoa Việt Hàn luôn chú trọng học hỏi, cập nhật và ứng dụng kỹ thuật
                         hiện đại vào quá trình điều trị (như hệ thống máy chụp film CT Conbeam Kavo , máy Piezotome,
                         công nghệ scan răng 3Shape Trios, …) giúp rút ngắn thời gian cũng như đảm bảo tính chính xác, an
                         toàn và thoải mái cho bệnh nhân.</div>
-                </div> <img src="../../asset/images/ck3.jpg" class="img-fluid" alt="Ảnh Cam Kết 3">
+                </div> <img src="../../asset/images/ts3.png" class="img-fluid" alt="Ảnh Cam Kết 3">
             </div>
             <div class="nk-ts-item col-lg-5 col-10 hover-effect">
                 <div class="overlay d-flex flex-column">
-                    <div class="icon-key"> <i class="fas fa-money-bill-wave"></i> <span>CHI PHÍ ĐIỀU TRỊ HỢP LÝ</span>
+                    <div class="nk-icon-key"> <i class="fas fa-money-bill-wave"></i> <span>CHI PHÍ ĐIỀU TRỊ HỢP LÝ</span>
                     </div>
                     <div class="overlay-text">Nha khoa Việt Hàn cam kết luôn mang đến dịch vụ nha khoa chất lượng cao
                         với chi phí hợp lý, minh bạch và phù hợp với mọi khách hàng. Với bảng giá rõ ràng, hỗ trợ trả
                         góp 0% lãi suất và nhiều ưu đãi hấp dẫn, giúp Cô Chú/ Anh Chị an tâm chăm sóc răng miệng mà
                         không lo gánh nặng tài chính.</div>
-                </div> <img src="../../asset/images/ck4.jpg" class="img-fluid" alt="Ảnh Cam Kết 4">
+                </div> <img src="../../asset/images/ts1.png" class="img-fluid h-100" alt="Ảnh Cam Kết 4">
             </div>
         </div>
         <div id="nk-ts-btn" class="nk-ts-item-2 row justify-content-around wow animate__animated animate__fadeInUp">

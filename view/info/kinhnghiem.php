@@ -84,7 +84,7 @@
         }
 
         .info-icon i {
-            font-size: 0.8rem;
+            font-size: 1rem;
         }
 
         .info-text {
