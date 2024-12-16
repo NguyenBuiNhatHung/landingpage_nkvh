@@ -28,12 +28,12 @@
     <img class="w-100 h-100" src="../../asset/images/kientao.png" alt=""
         style="object-fit: cover; position: absolute; top: 0; left: 0; z-index: 1;">
     <div class="overlay position-absolute w-100 h-100"
-        style="background: rgba(255, 255, 255, 0.8); top: 0; left: 0; z-index: 2;"></div>
-    <div class="container position-relative text-center text-black" style="z-index: 3;">
+        style="background: rgba(0, 0, 0, 0.7); top: 0; left: 0; z-index: 2;"></div>
+    <div class="container position-relative text-center text-white" style="z-index: 3;">
         <h4 class="bayve">BAY VỀ VIỆT NAM KIẾN TẠO NỤ
             CƯỜI
             RẶNG RỠ CÙNG NHA KHOA VIỆT HÀN</h4>
-        <p class="nk-mt-20 bayve lead text-dark">Đặt lịch hẹn tư vấn chuyên sâu và thăm khám miễn phí với
+        <p class="nk-mt-20 bayve lead text-white">Đặt lịch hẹn tư vấn chuyên sâu và thăm khám miễn phí với
             các
             chuyên
             gia nha khoa hàng đầu của chúng tôi tại đây!</p>
