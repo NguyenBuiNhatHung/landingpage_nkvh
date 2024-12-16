@@ -83,13 +83,6 @@
             <div class="item">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top h-100">
-                        <img src="../../asset/images/nc9.png" class="img-fluid rounded-top w-100" alt="">
-                    </div>
-                </div>
-            </div>
-            <div class="item">
-                <div class="team-item rounded overflow-hidden">
-                    <div class="team-img rounded-top h-100">
                         <img src="../../asset/images/nc10.png" class="img-fluid rounded-top w-100" alt="">
                     </div>
                 </div>

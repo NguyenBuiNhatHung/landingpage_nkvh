@@ -47,15 +47,15 @@
                 <p id="text-ud">ƯU ĐÃI CHỈ CÒN</p>
                 <div class="d-flex justify-content-center">
                     <div class="mx-2">
-                        <h1 id="hours" class="display-5">22</h1>
+                        <h1 id="hours1" class="display-5">00</h1>
                         <p>Giờ</p>
                     </div>
                     <div class="mx-2">
-                        <h1 id="minutes" class="display-5">09</h1>
+                        <h1 id="minutes1" class="display-5">00</h1>
                         Phút
                     </div>
                     <div class="mx-2">
-                        <h1 id="seconds" class="display-5">52</h1>
+                        <h1 id="seconds1" class="display-5">00</h1>
                         <p>Giây</p>
                     </div>
                 </div>

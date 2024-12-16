@@ -74,26 +74,29 @@
     </div>
 </div>
 
-    <script>
-        // Thời gian đếm ngược (ví dụ: 1 giờ, 7 phút, 34 giây)
-        let countdown = 3600 + 420 + 34; // Tổng thời gian tính bằng giây
+<script>
+    let countdown = 3600 + 420 + 34;
 
-        function updateCountdown() {
-            const hours = Math.floor(countdown / 3600);
-            const minutes = Math.floor((countdown % 3600) / 60);
-            const seconds = countdown % 60;
+    function updateCountdown() {
+        const hours = Math.floor(countdown / 3600);
+        const minutes = Math.floor((countdown % 3600) / 60);
+        const seconds = countdown % 60;
 
-            document.getElementById('hours').innerText = String(hours).padStart(2, '0');
-            document.getElementById('minutes').innerText = String(minutes).padStart(2, '0');
-            document.getElementById('seconds').innerText = String(seconds).padStart(2, '0');
+        document.getElementById('hours').innerText = String(hours).padStart(2, '0');
+        document.getElementById('minutes').innerText = String(minutes).padStart(2, '0');
+        document.getElementById('seconds').innerText = String(seconds).padStart(2, '0');
 
-            if (countdown > 0) {
-                countdown--;
-            } else {
-                clearInterval(interval);
-                alert("Thời gian ưu đãi đã kết thúc!");
-            }
+        document.getElementById('hours1').innerText = String(hours).padStart(2, '0');
+        document.getElementById('minutes1').innerText = String(minutes).padStart(2, '0');
+        document.getElementById('seconds1').innerText = String(seconds).padStart(2, '0');
+
+        if (countdown > 0) {
+            countdown--;
+        } else {
+            clearInterval(interval);
+            alert("Thời gian ưu đãi đã kết thúc!");
         }
+    }
 
-        const interval = setInterval(updateCountdown, 1000);
-    </script>
+    const interval = setInterval(updateCountdown, 1000);
+</script>
