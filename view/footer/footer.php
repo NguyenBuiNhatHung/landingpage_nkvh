@@ -38,10 +38,18 @@
         .h-md-25 {
             height: 25%;
         }
-
         .w-md-25 {
             width: 25%;
         }
+        .footer-item{
+        padding-left: 24px;
+        padding-right: 24px;
+    }
+    @media (max-width: 450px) {
+        .footer-item{
+        padding-left: 12px;
+        padding-right: 12px;
+    }
 
     }
 
