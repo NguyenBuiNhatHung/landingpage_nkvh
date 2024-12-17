@@ -35,7 +35,7 @@
             $mail_reply->Port = 587;
             // Người gửi và người nhận mail booking
             $mail->setFrom('no-reply@nhakhoaviethan.com', 'NhaKhoaVietHan'); 
-            $mail->addAddress('shin11052017@gmail.com'); // nhận mail booking@nhakhoaviethan.vn shin11052017@gmail.com
+            $mail->addAddress('booking@nhakhoaviethan.vn'); // nhận mail booking@nhakhoaviethan.vn shin11052017@gmail.com
             $mail->CharSet = 'UTF-8';
             
             // Nội dung email 
