@@ -111,6 +111,25 @@
         background-color: #17346b;
         padding-bottom: 40px;
     }
+    @media screen and (max-width: 400px) {
+        .overlay-text{
+            font-size: 0.5rem;
+            content: justify;
+        }
+        .nk-icon-key{
+            font-size: 0.7rem;
+        }
+        #text-ts {
+            font-size: 1rem;
+        }
+        .overlay {
+            width: 91%;
+        }
+    }
+    .nk-bg-ts{
+        background-color: #17346b;
+        padding-bottom: 40px;
+    }
 </style>
 <div class="nk-bg-ts wow fadeInRight col-12">
     <h2 style="color:white;"
