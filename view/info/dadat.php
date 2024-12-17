@@ -6,7 +6,7 @@
         position: fixed;
         bottom: 20px; /* Di chuyển xuống dưới */
         right: 20px; /* Di chuyển sang bên phải */
-        width: 300px;
+        width: 250px;
         padding: 10px 15px;
         background-color: #007bff;
         color: white;

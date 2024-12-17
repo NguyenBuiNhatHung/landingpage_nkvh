@@ -390,7 +390,7 @@
         }
 
         #messageBox {
-            width: 250px;
+            width: 200px;
             position: fixed;
             bottom: 185px !important;
             left: 10px;
