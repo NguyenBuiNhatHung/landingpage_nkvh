@@ -1,12 +1,24 @@
 <style>
     .nk-bg-imp-vd{
-        background: linear-gradient(to bottom,#0072ab,#008ebb,#00a6da);
+        background: linear-gradient(to right,#286baf,#46b0fc);
     }
 </style>
+
 <?php require "../layout/layout_home.php" ?>
 
 <?php require "../info/popup.php" ?>
 
+
+<?php
+    
+    if(isset($_SESSION['flag']))
+    {
+        echo '<script>
+                alert("Đã gửi email thành công!");
+              </script>';
+        session_destroy();
+    }
+?>
 <?php require "../info/dadat.php" ?>
 
     <?php require "../info/banner.php" ?>
@@ -39,3 +51,5 @@
 <?php require "../info/hotro.php" ?>
 
 <?php require "../footer/footer.php" ?>
+
+

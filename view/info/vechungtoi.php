@@ -203,7 +203,7 @@
                     <img class="img-fluid" src="../../asset/images/kh6.png" alt="Khách hàng trước điều trị">
                 </div>
                 <div class="customer-info my-auto">
-                    <p class="font-weight-bold mb-1">Khách hàng: Vũ Tiền Tuynh</p>
+                    <p class="font-weight-bold mb-1">Khách hàng: Vũ Tiến Tuynh</p>
                     <p class="mb-1">67 tuổi / Nha Trang - Khánh Hòa</p>
                     <p class="mb-1">Điều trị: Dán sứ Veneer Emax 20 răng</p>
                 </div>

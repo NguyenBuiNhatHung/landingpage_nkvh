@@ -20,8 +20,9 @@
     .nk-bg-nc{
         background-image: 
         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url(../../asset/images/bg.jpg);
+        url(../../asset/images/ts2.png);
         background-position: center;
+        background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
         padding-bottom: 40px;

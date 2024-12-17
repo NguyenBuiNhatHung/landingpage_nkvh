@@ -373,11 +373,8 @@
             position: fixed;
             bottom: 20px;
             width: 40px;
-            /* Adjust the size of the icons */
             height: 40px;
-            /* Adjust the size of the icons */
             margin-bottom: 10px;
-            /* Space between the icons */
         }
 
         .hotline-face-ring-wrap {
@@ -394,9 +391,11 @@
 
         #messageBox {
             width: 250px;
+            position: fixed;
+            bottom: 185px !important;
             left: 10px;
-            bottom: 200px;
         }
+
     }
 
 
@@ -448,6 +447,7 @@
     .service .service-item:hover .service-content .service-content-inner h5 {
         color: var(--bs-secondary);
     }
+
     #messageBox {
         position: fixed;
         bottom: 260px;

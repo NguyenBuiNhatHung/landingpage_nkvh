@@ -1,24 +1,32 @@
 <style>
     body {
-        height: 100%; /* Chiều cao 100% cho html và body */
-        margin: 0; /* Bỏ margin mặc định */
+        height: 100%;
+        margin: 0;
     }
 
     .footer {
-        text-align: center; /* Căn giữa nội dung trong footer */
-        padding: 20px 0; /* Padding cho footer */
+        text-align: start;
+        padding: 20px 0;
     }
 
     hr {
-        border-top: 1px solid #ccc; /* Đường gạch ngang */
-        margin: 20px 0; /* Khoảng cách cho đường gạch ngang */
+        border-top: 1px solid #ccc;
+        margin: 20px 0;
     }
 
     .footer {
         background: linear-gradient(rgba(0, 0, 51, 0.9), rgba(0, 0, 51, 0.9));
-        
+
     }
-    .footer-item{
+
+    .footer-map {
+        height: 350px;
+        width: 100%;
+        border: none;
+    }
+
+
+    .footer-item {
         margin-top: 20px;
     }
 
@@ -28,40 +36,56 @@
         color: var(--bs-body);
         transition: 0.5s;
         color: white;
+        text-align: start;
     }
 
     .footer .footer-item p {
         line-height: 35px;
     }
 
+    .btn-gradient-instagram {
+        background: linear-gradient(45deg, #feda75, #fa7e1e, #d62976, #962fbf, #4f5bd5);
+        color: white;
+        border: none;
+    }
+
+    .btn-gradient-instagram:hover {
+        background: linear-gradient(45deg, #fa7e1e, #d62976, #962fbf, #4f5bd5, #feda75);
+        color: white;
+    }
+
     @media (max-width: 768px) {
         .h-md-25 {
             height: 25%;
         }
+
         .w-md-25 {
             width: 25%;
         }
-        .footer-item{
-        padding-left: 24px;
-        padding-right: 24px;
-    }
-    @media (max-width: 450px) {
-        .footer-item{
-            padding-left: 12px;
-            padding-right: 12px;
+
+        .footer-item {
+            padding-left: 24px;
+            padding-right: 24px;
         }
 
-    }
+        @media (max-width: 450px) {
+            .footer-item {
+                padding-left: 12px;
+                padding-right: 12px;
+            }
 
-    .footer-map {
-        height: 250px;
-        width: 100%;
-    }
-    #nk-footer-icon{
-        justify-content: center;
-        align-items: center;
-    }
+        }
 
+        .footer-map {
+            height: 250px;
+            width: 100%;
+        }
+
+        #nk-footer-icon {
+            justify-content: center;
+            align-items: center;
+        }
+    }
 </style>
 <div class="container-fluid footer wow fadeIn" data-wow-delay="0.2s">
     <div class="container">
@@ -82,49 +106,48 @@
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="footer-item d-flex flex-column">
                     <h4 class="mb-4 text-white">Thông tin liên hệ</h4>
-                    <a href=""><i class="bi bi-geo-alt-fill me-2 text-primary"></i>60 Quang Trung - Nha
-                        Trang</a>
-                    <a href="tel:0787505577"><i class="bi bi-telephone-fill me-2 text-primary"></i>Hotline: 0787
-                        505
-                        577</a>
-                    <a href="tel:0989668818"><i class="bi bi-telephone-fill me-2 text-primary"></i>Tư vấn khách
-                        Việt
-                        Kiều: <br>
-                        0989 66
-                        88 18</a>
-                    <a href="mailto:booking@nhakhoaviethan.vn">
-                        <i class="bi bi-envelope-fill me-2 text-primary"></i>
-                        booking@nhakhoaviethan.vn
+                    <a href="">
+                        <i class="fas fa-map-marker-alt me-2 text-primary"></i> 60 Quang Trung - Nha Trang
                     </a>
-                    <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Thứ 2 - Thứ 7: Từ 8:00 -
-                        18:30</a>
-                    <a href=""><i class="bi bi-clock-fill me-2 text-primary"></i>Chủ nhật: Từ 8:00 - 17:00</a>
+                    <a href="tel:0787505577">
+                        <i class="fas fa-phone-alt me-2 text-primary"></i> Hotline: 0787 505 577
+                    </a>
+                    <a href="tel:0989668818">
+                        <i class="fas fa-phone-alt me-2 text-primary"></i> Tư vấn khách Việt Kiều: <br>0989 66 88 18
+                    </a>
+                    <a href="mailto:booking@nhakhoaviethan.vn">
+                        <i class="fas fa-envelope me-2 text-primary"></i> booking@nhakhoaviethan.vn
+                    </a>
+                    <a href="">
+                        <i class="fas fa-clock me-2 text-primary"></i> Thứ 2 - Thứ 7: Từ 8:00 - 18:30
+                    </a>
+                    <a href="">
+                        <i class="fas fa-clock me-2 text-primary"></i> Chủ nhật: Từ 8:00 - 17:00
+                    </a>
+
                 </div>
-                <div id="nk-footer-icon" class="d-flex flex-row mt-3 social-icons">
-                    <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
-                        href="https://www.facebook.com/NhakhoaVietHanNhaTrangKhanhHoa/"><i
-                            class="fab fa-facebook-f"></i></a>
-                    <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
-                        href="https://www.instagram.com/nhakhoaviethan.nhatrang/"><i class="fab fa-instagram"></i></a>
-                    <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
-                        href="https://www.youtube.com/channel/UCQyVTyBNw_IhF2Dnmpd33NA"><i
-                            class="fab fa-youtube"></i></a>
-                    <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href="#"><i
-                            class="fab fa-whatsapp"></i></a>
-                </div>
+
 
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">
                 <div class="footer-item d-flex flex-column">
                     <h4 class="mb-4 text-white">Dịch vụ</h4>
-                    <a href="#implant"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Trồng răng
-                        Implant</a>
-                    <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Răng sứ thẩm
-                        mỹ</a>
-                    <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Phục hình sứ</a>
-                    <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Niềng răng Invisaligh</a>
-                    <a href="#"><i class="bi bi-arrow-right-circle-fill me-2 text-primary"></i>Điều trị tổng
-                        quát</a>
+                    <a href="#implant">
+                        <i class="fas fa-arrow-circle-right me-2 text-primary"></i> Trồng răng Implant
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-arrow-circle-right me-2 text-primary"></i> Răng sứ thẩm mỹ
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-arrow-circle-right me-2 text-primary"></i> Phục hình sứ
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-arrow-circle-right me-2 text-primary"></i> Niềng răng Invisaligh
+                    </a>
+                    <a href="#">
+                        <i class="fas fa-arrow-circle-right me-2 text-primary"></i> Điều trị tổng quát
+                    </a>
+
                 </div>
             </div>
             <div class="col-md-6 col-lg-6 col-xl-3">
@@ -134,6 +157,28 @@
                         class="footer-map" allowfullscreen="" loading="lazy">
                     </iframe>
                 </div>
+                <div id="nk-footer-icon" class="d-flex flex-row mt-3 social-icons">
+                    <a class="btn-square btn btn-primary text-white rounded-circle mx-1"
+                        href="https://www.facebook.com/NhakhoaVietHanNhaTrangKhanhHoa/">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a class="btn-square btn btn-danger text-white rounded-circle mx-1"
+                        href="https://www.youtube.com/channel/UCQyVTyBNw_IhF2Dnmpd33NA">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a class="btn-square btn btn-light text-primary rounded-circle mx-1" href="https://zalo.me/1797913117798518130">
+                        <img src="../../asset/images/zalo.jpg" alt="Zalo" width="20" height="20" style="vertical-align: middle;">
+                    </a>
+                    <a class="btn-square btn btn-dark text-white rounded-circle mx-1" href="https://www.tiktok.com/@nhakhoa.viethan.nhatrang?lang=vi-VN">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+
+                    <a class="btn-square btn btn-gradient-instagram text-white rounded-circle mx-1"
+                        href="https://www.instagram.com/nhakhoaviethan.nhatrang/">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                </div>
+
             </div>
         </div>
     </div>

@@ -14,8 +14,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 12px;
-        background: #004c76;
+        border-radius: 5px;
         border-radius: 5px;
     }
 

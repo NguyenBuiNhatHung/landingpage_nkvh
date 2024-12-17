@@ -13,7 +13,7 @@
     .info-icon i {
         max-width: 60px;
         height: auto;
-        color: red;
+        color: #004c76;
         font-size: 2rem;
     }
 
@@ -27,7 +27,7 @@
         margin: 0;
     }
     .kn{
-        color: red;
+        color: #004c76;
         font-size: 20px;
     }
 

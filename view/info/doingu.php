@@ -68,6 +68,11 @@
             font-size: 0.8rem;
         }
     }
+    @media (max-width: 420px) {
+        .team-title{
+            font-size: 0.7rem;
+        }
+    }
     @media (max-width: 400px) {
         .team-content-bs {
             font-size: 0.5rem;
@@ -88,7 +93,7 @@
                         <img src="../../asset/images/bs1.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                        <h5 class="team-title">Bác sĩ: Khổng Văn Quân
+                        <h5 class="nk-font-weight-700 team-title">Bác sĩ: Khổng Văn Quân
                         <p class="team-description-bs mb-0"></h5>Chuyên khoa RHM <b>Đại học Y dược TP. Hồ Chí Minh</b> 
 
                         </p>
@@ -101,7 +106,7 @@
                         <img src="../../asset/images/bs2.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                        <h5 class="team-title">Bác sĩ: Nguyễn Chí Tình
+                        <h5 class="nk-font-weight-700 team-title">Bác sĩ: Nguyễn Chí Tình
                         <p class="team-description-bs mb-0"></h5>Chuyên khoa RHM <b>Đại học Y dược TP. Hồ Chí Minh</b>
                         </p>
                     </div>
@@ -110,10 +115,10 @@
             <div class="item-bs">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top">
-                        <img src="../../asset/images/bs3.jpg" class="img-fluid rounded-circle w-100" alt="">
+                        <img src="../../asset/images/bs5.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                        <h5 class="team-title">Bác sĩ: Lê Châu Hưng Thịnh
+                        <h5 class="nk-font-weight-700 team-title">Bác sĩ: Lê Châu Hưng Thịnh
                         <p class="team-description-bs mb-0"></h5>Chuyên khoa RHM <b>Đại học Y Hà Nội</b>
                         </p>
                     </div>
@@ -125,7 +130,7 @@
                         <img src="../../asset/images/bs4.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                        <h5 class="team-title">Bác sĩ: Hoàng Thị Thảo Ngân
+                        <h5 class="nk-font-weight-700 team-title">Bác sĩ: Hoàng Thị Thảo Ngân
                         <p class="team-description-bs mb-0"></h5>Chuyên khoa RHM <b>Đại học Y dược Huế</b>
                         </p>
                     </div>
@@ -134,10 +139,10 @@
             <div class="item-bs">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top">
-                        <img src="../../asset/images/bs5.jpg" class="img-fluid rounded-circle w-100" alt="">
+                        <img src="../../asset/images/bs3.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                        <h5 class="team-title">Bác sĩ: Bùi Thị Giang
+                        <h5 class="nk-font-weight-700 team-title">Bác sĩ: Bùi Thị Giang
                         <p class="team-description-bs mb-0"></h5>Chuyên khoa RHM <b>Đại học Y dược TP. Hồ Chí Minh</b> 
                         </p>
                     </div>
@@ -149,8 +154,8 @@
                         <img src="../../asset/images/bs6.jpg" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
-                        <h5 class="team-title">Bác sĩ: Văn Thanh Nga
-                        <p class="team-description-bs mb-0"></h5>Chuyên khoa RHM Đại học Chuyên khoa RHM <b>Đại học Vitebsk State Order of Peoples' Friendship Medical</b>
+                        <h5 class="nk-font-weight-700 team-title">Bác sĩ: Văn Thanh Nga
+                        <p class="team-description-bs mb-0"></h5>Chuyên khoa RHM<b>Đại học Vitebsk State Order of Peoples' Friendship Medical</b>
                         </p>
                     </div>
                 </div>

@@ -57,7 +57,7 @@
     .nk-bg{
         background-image: 
         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url(../../asset/images/bg.jpg);
+        url(../../asset/images/kientao.png);
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -79,7 +79,7 @@
                 KÝ NGAY - NHẬN VÉ MÁY BAY KHỨ HỒI MIỄN PHÍ</a>
         </div>
         <div class="col-12 col-md-auto text-center">
-            <p id="nk-uudai" class="nk-font-weight-700 h6 animate__animated animate__fadeInLeft">Thời gian có hạn, chỉ giành cho 19 khách hàng đăng ký sớm nhất</p>
+            <p id="nk-uudai" class="nk-font-weight-700 h6 animate__animated animate__fadeInLeft">Thời gian có hạn, chỉ dành cho 19 khách hàng đăng ký sớm nhất</p>
             <div class="d-flex flex-row justify-content-center time-line animate__animated animate__fadeInLeft">
                 <div class="p-2 border rounded bg-white m-2" id="hours">00</div>
                 <div class="p-2 border rounded bg-white m-2" id="minutes">00</div>

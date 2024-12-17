@@ -18,8 +18,8 @@
         margin: 10% auto;
         padding: 20px;
         border-radius: 15px;
-        width: 90%;
-        max-width: 500px;
+        width: 100%;
+        max-width: 400px;
         position: relative;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     }
@@ -90,7 +90,7 @@
 
     @media (max-width: 768px) {
         .popup-content {
-            margin-top: 15%; /* Adjusted for mobile spacing */
+            margin-top: 40%; /* Adjusted for mobile spacing */
         }
         
         .popup-content h2 {
@@ -107,48 +107,45 @@
     <div class="popup-content">
         <span class="close">&times;</span>
         <h2><span class="yellow">ĐĂNG KÝ NHẬN ƯU ĐÃI NGAY</span></h2>
-        <form class="form-container" method="POST" action="#">
+        <form class="form-container" method="POST" action="../../controller/register/register.php">
             <input type="text" name="name" placeholder="Họ và tên" required>
             <input type="text" name="phone" placeholder="Số điện thoại" required>
             <input type="email" name="email" placeholder="Email của bạn" required>
             <input type="text" name="country" placeholder="Quốc gia" required>
             <select name="service" required>
                 <option value="" disabled selected>Dịch vụ cần tư vấn</option>
-                <option value="All on 4">All on 4</option>
-                <option value="All on 6">All on 6</option>
-                <option value="Titanium Implant">Titanium Implant</option>
-                <option value="Zicronium Implant">Zicronium Implant</option>
-                <option value="Full Denture">Full Denture</option>
+                <option value="Trồng răng Implant">Trồng răng Implant</option>
+                <option value="Bọc răng sứ">Bọc răng sứ</option>
+                <option value="Dán răng Veneer">Dán răng Veneer</option>
+                <option value="Niềng răng Invisalign">Niềng răng Invisalign</option>
+                <option value="Khám tổng quát">Khám tổng quát</option>
             </select>
             <input type="date" name="timedathen" required>
             <p style="color: red;">(Thời gian đặt hẹn)</p>
-            <button type="submit">ĐĂNG KÝ NGAY</button>
+            <button type="submit" name="submit">ĐĂNG KÝ NGAY</button>
         </form>
     </div>
 </div>
 
 <script>
-    window.onload = function() {
+    document.addEventListener("DOMContentLoaded", function() {
+        // Hiển thị popup sau 10 giây
         setTimeout(function() {
-            document.getElementById("myBtn").click();
-        }, 10); // Show popup after 10 seconds
-    }
+            document.getElementById("myPopup").style.display = "block";
+        }, 10000);
 
-    var popup = document.getElementById("myPopup");
-    var btn = document.getElementById("myBtn");
-    var span = document.getElementsByClassName("close")[0];
+        // Đóng popup khi nhấn vào nút "close"
+        var closeBtn = document.querySelector(".popup .close");
+        closeBtn.addEventListener("click", function() {
+            document.getElementById("myPopup").style.display = "none";
+        });
 
-    btn.onclick = function() {
-        popup.style.display = "block";
-    }
-
-    span.onclick = function() {
-        popup.style.display = "none";
-    }
-
-    window.onclick = function(event) {
-        if (event.target == popup) {
-            popup.style.display = "none";
-        }
-    }
+        // Đóng popup khi nhấn ra ngoài khu vực popup
+        window.addEventListener("click", function(event) {
+            var popup = document.getElementById("myPopup");
+            if (event.target === popup) {
+                popup.style.display = "none";
+            }
+        });
+    });
 </script>

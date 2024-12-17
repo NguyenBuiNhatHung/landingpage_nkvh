@@ -31,8 +31,17 @@
         <span id="notification-text"></span>
     </div>
     <script>
-        const messages = ["Khách hàng Nguyễn Văn đăng ký tư vấn trồng răng Implant",
-            "Khách hàng Jonathan Nguyễn đặt hẹn bọc răng sứ",
+        const messages = ["Khách hàng David Ngo đã đăng ký nhận ưu đãi",
+            "Khách hàng Angela Nguyen đã đặt hẹn khám tư vấn trồng răng Implant",
+            "Khách hàng Pham Vo đã đăng ký trồng răng Implant",
+            "Khách hàng Thanh Phuong Nguyen đã đăng ký bọc răng sứ",
+            "Khách hàng Kimberly Tran đã đăng ký bọc răng sứ",
+            "Khách hàng Nguyen Minh Khoi đã đăng ký trồng răng Implant",
+            "Khách hàng Trinh Hoang đã đăng ký khám tư vấn răng sứ",
+            "Khách hàng Kieu Anh Do đã đăng ký niềng răng Invisalign",
+            "Khách hàng Nhat Nam đã đăng ký trồng răng Implant",
+            "Khách hàng Thuy Trang đã đăng ký dán răng sứ Veneer",
+            "Khách hàng Saphire Dang đã đăng ký khám tư vấn dán răng sứ Veneer",
         ];
 
         function showNotification(message) {

@@ -16,6 +16,9 @@
     .owl-cl{
         margin-top: -16px;
     }
+    .nk-title-cl{
+        text-align: center;
+    }
     @media screen and (max-width: 1700px) {
         .cl{
             min-height: 370px;
@@ -53,8 +56,9 @@
     .nk-bg-cl{
         background-image: 
         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url(../../asset/images/bg.jpg);
+        url(../../asset/images/ts2.png);
         background-position: center;
+        background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
         padding-bottom: 40px;
