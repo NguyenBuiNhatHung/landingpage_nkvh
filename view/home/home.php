@@ -21,16 +21,15 @@
 ?>
 <?php require "../info/dadat.php" ?>
 
-    <?php require "../info/banner.php" ?>
+<?php require "../info/banner.php" ?>
 
-    <?php require "../info/rangsu.php" ?>
-    <?php require "../info/nucuoi.php" ?>
+<?php require "../info/rangsu.php" ?>
+<?php require "../info/nucuoi.php" ?>
 
 <?php require "../info/implant.php" ?>
+<?php require "../info/nucuoi_imp.php" ?>
 
 <div class="col-12 nk-bg-imp-vd">
-    <?php require "../info/nucuoi_imp.php" ?>
-
     <?php require "../info/video.php" ?>
 </div>
 <?php require "../info/vechungtoi.php" ?>

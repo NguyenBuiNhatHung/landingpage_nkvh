@@ -1,4 +1,14 @@
 <style>
+    #nk-nucuoi-imp{
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../../asset/images/nk_bg_an.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        padding-bottom: 40px;
+    }
     #nk-titile-imp{
         color:white;
         font-size: 1.8rem;
@@ -18,7 +28,7 @@
         }
     }
 </style>
-<div class="team text-center">
+<div id="nk-nucuoi-imp" class="team text-center">
     <div class="container">
         <div class="section-title fadeInUp">
             <p id="nk-titile-imp">NỤ CƯỜI TRƯỚC VÀ SAU ĐIỀU TRỊ CỦA KHÁCH HÀNG TRỒNG RĂNG IMPLANT</p>

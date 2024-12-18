@@ -4,6 +4,8 @@
         border-radius: 8px;
         text-align: center;
         width: 100%;
+        align-items: center;
+        justify-items: center;
     }
 
     .info-item {
@@ -33,6 +35,7 @@
 
     #kinhnghiem{
         padding-top: 40px;
+        align-items: center;
     }
     #nk-kn{
         margin-top: 40px;
@@ -94,8 +97,8 @@
     }
 </style>
 <div id="nk-kn" class="bg-white col-12">
-    <div id="kinhnghiem" class="container">
-        <div class="info-banner row justify-content-between">
+    <div id="kinhnghiem" class="col-12 container">
+        <div class="info-banner row">
             <div class="info-item col-4 col-lg-2 wow animate__animated animate__fadeInLeft">
                 <div class="info-icon"> <i class="fas fa-users icon"></i> </div>
                 <div class="info-text">

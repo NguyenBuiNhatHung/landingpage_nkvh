@@ -20,7 +20,7 @@
     .nk-bg-nc{
         background-image: 
         linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-        url(../../asset/images/ts2.png);
+        url(../../asset/images/nk_bg_an.jpg);
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
