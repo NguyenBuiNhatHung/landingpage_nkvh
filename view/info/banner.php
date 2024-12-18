@@ -45,6 +45,10 @@
         .nk-banner{
             padding-top: 35px;
         }
+        #gioithieu{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        }
     }
     #gioithieu{
         padding-top: 40px;
@@ -74,7 +78,7 @@
     <div id="dk"
         class="col-9 col-md-5 row justify-content-center wow fadeInLeft mx-auto d-flex align-items-center justify-content-center margin-vertical">
         <div class="col-12 col-md-auto mb-2 text-center">
-            <a id="nk-title-dk" href="#dathen" 
+            <a id="nk-title-dk" href="#dathen"
                 class="btn btn-primary fadeInUp button-submit animate__animated animate__fadeInLeft">ĐĂNG
                 KÝ NGAY - NHẬN VÉ MÁY BAY KHỨ HỒI MIỄN PHÍ</a>
         </div>

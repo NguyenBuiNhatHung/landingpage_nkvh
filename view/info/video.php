@@ -20,7 +20,7 @@
 
     .item iframe {
         width: 100%;
-        height: auto;
+        height: 300px;
     }
     #text-tn{
         color:white;
@@ -33,6 +33,9 @@
         #text-tn {
             font-size: 1.7rem; /* Kích thước chữ lớn hơn */
         }
+        .item iframe {
+        height: 200px;
+    }
     }
 
     @media screen and (max-width: 465px) {
@@ -99,12 +102,15 @@
             responsive: {
                 0: {
                     items: 1 // Hiển thị 1 item cho màn hình nhỏ 
-                }, 
-                600: { 
+                },
+                500: {
+                    items: 1 // Hiển thị 1 item cho màn hình nhỏ 
+                },
+                700: {
                     items: 2 // Hiển thị 2 items cho màn hình trung bình 
                 }, 
                 1000: { 
-                    items: 3 // Hiển thị 3 items cho màn hình lớn 
+                    items: 2 // Hiển thị 3 items cho màn hình lớn 
                 } 
             }
         });
