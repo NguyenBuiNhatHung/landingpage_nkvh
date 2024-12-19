@@ -12,7 +12,7 @@
     }
 
     .popup-content {
-        background-image: url('../../asset/images/popup.jpg');
+        background-image: url('../../asset/images/popup.png');
         background-size: cover;
         background-position: center;
         margin: 10% auto;

@@ -55,6 +55,10 @@
         }
     }
 </style>
+
+<div class="col-12 text-center">
+    <img class="img-imp col-12 col-md-10 wow animate__animated animate__fadeInUp" src="../../asset/images/csmm.png" alt="">
+</div>
 <div id="nk-dathen" class="container">
     <div class="row">
         <div class="col-lg-6 my-auto wow animate__animated animate__fadeInUp">
@@ -116,4 +120,8 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="col-12 text-center">
+    <img class="img-imp col-12 col-md-10 wow animate__animated animate__fadeInUp" src="../../asset/images/banggia.png" alt="">
 </div>
