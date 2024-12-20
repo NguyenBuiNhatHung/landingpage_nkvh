@@ -1,4 +1,5 @@
 <?php
+    require "../../API/config.php";
     use PHPMailer\PHPMailer\PHPMailer; 
     use PHPMailer\PHPMailer\Exception; 
     require '../../vendor/autoload.php';
@@ -21,21 +22,21 @@
             $mail->isSMTP(); 
             $mail->Host = 'smtp.gmail.com'; 
             $mail->SMTPAuth = true; 
-            $mail->Username = 'hung.nbn.63cntt@ntu.edu.vn'; //tài khoản mk mail
-            $mail->Password = '225774478'; 
+            $mail->Username = $mailuser;
+            $mail->Password = $passmail; 
             $mail->SMTPSecure = 'tls'; 
             $mail->Port = 587; 
             //mail reply cho khách hàng
             $mail_reply->isSMTP(); 
             $mail_reply->Host = 'smtp.gmail.com'; 
             $mail_reply->SMTPAuth = true; 
-            $mail_reply->Username = 'hung.nbn.63cntt@ntu.edu.vn'; //tài khoản mk mail
-            $mail_reply->Password = '225774478';
+            $mail_reply->Username = $mailuser;
+            $mail_reply->Password = $passmail;
             $mail_reply->SMTPSecure = 'tls'; 
             $mail_reply->Port = 587;
             // Người gửi và người nhận mail booking
             $mail->setFrom('no-reply@nhakhoaviethan.com', 'NhaKhoaVietHan'); 
-            $mail->addAddress('booking@nhakhoaviethan.vn'); // nhận mail booking@nhakhoaviethan.vn shin11052017@gmail.com
+            $mail->addAddress('shin11052017@gmail.com'); // nhận mail booking@nhakhoaviethan.vn shin11052017@gmail.com
             $mail->CharSet = 'UTF-8';
             
             // Nội dung email 

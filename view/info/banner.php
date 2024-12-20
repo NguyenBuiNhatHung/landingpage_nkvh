@@ -67,6 +67,99 @@
         background-attachment: fixed;
         background-size: cover;
     }
+    
+    #nk-dv-title{
+        width: 100%;
+        font-weight: 700;
+        text-align: center;
+        color: white;
+        margin-top: 40px;
+        font-size: 30px;
+    }
+    #nk-dv{
+        display: flex;
+        flex: row;
+        width: 100%;
+        height: 500px;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .nk-dv-item-1{
+        display: flex;
+        flex: row;
+        width: 30%;
+        height: 100%;
+        justify-content: center;
+    }
+    .nk-dv-item-2{
+        display: flex;
+        flex:row;
+        width: 50%;
+        justify-content: center;
+    }
+    .nk-dv-item-1l{
+        margin-right: 10px;
+    }
+    .nk-dv-item-1r{
+        margin-left: 10px;
+    }
+    .nk-dv-item-2l{
+        margin-right: 10px;
+    }
+    .nk-dv-item-2r{
+        margin-left: 10px;
+    }
+
+    @media screen and (max-width: 1750px) {
+        .nk-dv-item-1{
+            width: 40%;
+        }
+    }
+
+    @media screen and (max-width: 1300px) {
+        .nk-dv-item-1{
+            width: 45%;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        #nk-dv{
+            height: 400px;
+        }
+    }
+
+    @media screen and (max-width: 800px) {
+        #nk-dv{
+            height: 330px;
+        }
+    }
+
+    @media screen and (max-width: 500px) {
+        #nk-dv{
+            height: 180px;
+        }
+        #nk-dv-title{
+            font-weight: 700;
+            font-size: 20px;
+        }
+        .nk-dv-item-1l{
+        margin-right: 7px;
+        }
+        .nk-dv-item-1r{
+            margin-left: 7px;
+        }
+        .nk-dv-item-2l{
+            margin-right: 7px;
+        }
+        .nk-dv-item-2r{
+            margin-left: 7px;
+        }
+    }
+    @media screen and (max-width: 400px) {
+        #nk-dv{
+            height: 160px;
+        }
+    }
 
 </style>
 <div id="gioithieu1"></div>
@@ -88,6 +181,25 @@
                 <div class="p-2 border rounded bg-white m-2" id="hours">00</div>
                 <div class="p-2 border rounded bg-white m-2" id="minutes">00</div>
                 <div class="p-2 border rounded bg-white m-2" id="seconds">00</div>
+            </div>
+        </div>
+    </div>
+    <h3 id="nk-dv-title">DỊCH VỤ NHA KHOA CHUYÊN SÂU</h3>
+    <div id="nk-dv">
+        <div class="nk-dv-item-1 nk-dv-item-1l">
+            <div class="nk-dv-item-2 nk-dv-item-2l">
+                <img class="w-100" src="../../asset/images/dv1.jpg" alt="">
+            </div>
+            <div class="nk-dv-item-2 nk-dv-item-2r">
+                <img class="w-100" src="../../asset/images/dv2.jpg" alt="">
+            </div>
+        </div>
+        <div class="nk-dv-item-1 nk-dv-item-1r">
+            <div class="nk-dv-item-2 nk-dv-item-2l">
+                <img class="w-100" src="../../asset/images/dv3.jpg" alt="">
+            </div>
+            <div class="nk-dv-item-2 nk-dv-item-2r">
+                <img class="w-100" src="../../asset/images/dv4.jpg" alt="">
             </div>
         </div>
     </div>
