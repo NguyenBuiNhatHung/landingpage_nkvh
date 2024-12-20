@@ -95,6 +95,11 @@
             font-size: 10px;
         }
     }
+    .img-nhaclai{
+        border-radius: 5px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+    }
 </style>
 <div id="nk-kn" class="bg-white col-12">
     <div id="kinhnghiem" class="col-12 container">
@@ -141,6 +146,9 @@
                 </div>
             </div>
         </div>
+    </div>
+    <div class="text-center">
+        <img class="img-nhaclai col-12 col-md-12 wow animate__animated animate__fadeInUp" src="../../asset/images/nhaclai.png" alt="">
     </div>
 </div>
 
