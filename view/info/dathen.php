@@ -158,5 +158,5 @@
 </div>
 
 <div class="col-12 text-center">
-    <img class="img-imp wow animate__animated animate__fadeInUp" src="../../asset/images/banggia.png" alt="Bảng giá">
+    <img class="img-imp col-12 col-md-10 wow animate__animated animate__fadeInUp" src="../../asset/images/banggia.png" alt="Bảng giá">
 </div>
