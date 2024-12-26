@@ -1,8 +1,9 @@
 <?php
+
+    require '../../vendor/autoload.php';
     require "../../API/config.php";
     use PHPMailer\PHPMailer\PHPMailer; 
     use PHPMailer\PHPMailer\Exception; 
-    require '../../vendor/autoload.php';
     echo "đang gửi mail";
     session_start();
     if (isset($_POST['submit'])) {

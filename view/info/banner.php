@@ -109,7 +109,9 @@
     .nk-dv-item-2r{
         margin-left: 10px;
     }
-
+    #nk-dvcs{
+        margin-bottom: 40px;
+    }
     @media screen and (max-width: 1750px) {
         .nk-dv-item-1{
             width: 40%;
@@ -183,7 +185,9 @@
                 <div class="p-2 border rounded bg-white m-2" id="seconds">00</div>
             </div>
         </div>
-    </div>
+    </div>  
+</div>
+<div id="nk-dvcs">
     <h3 id="nk-dv-title">DỊCH VỤ NHA KHOA CHUYÊN SÂU</h3>
     <div id="nk-dv">
         <div class="nk-dv-item-1 nk-dv-item-1l">

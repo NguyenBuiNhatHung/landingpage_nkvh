@@ -90,7 +90,7 @@
             <div class="item-bs">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top">
-                        <img src="../../asset/images/bs1.jpg" class="img-fluid rounded-circle w-100" alt="">
+                        <img src="../../asset/images/bsquan.png" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="nk-font-weight-700 team-title">Bác sĩ: Khổng Văn Quân
@@ -103,7 +103,7 @@
             <div class="item-bs">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top">
-                        <img src="../../asset/images/bs2.jpg" class="img-fluid rounded-circle w-100" alt="">
+                        <img src="../../asset/images/bstinh.png" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="nk-font-weight-700 team-title">Bác sĩ: Nguyễn Chí Tình
@@ -115,11 +115,11 @@
             <div class="item-bs">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top">
-                        <img src="../../asset/images/bs5.jpg" class="img-fluid rounded-circle w-100" alt="">
+                        <img src="../../asset/images/bsthinh.png" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="nk-font-weight-700 team-title">Bác sĩ: Lê Châu Hưng Thịnh
-                        <p class="team-description-bs mb-0"></h5>Chuyên khoa RHM <b>Đại học Y Hà Nội</b>
+                        <p class="team-description-bs mb-0"></h5>Chuyên khoa RHM <b>Đại học Y dược TP. Hồ Chí Minh</b>
                         </p>
                     </div>
                 </div>
@@ -127,7 +127,7 @@
             <div class="item-bs">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top">
-                        <img src="../../asset/images/bs4.jpg" class="img-fluid rounded-circle w-100" alt="">
+                        <img src="../../asset/images/bsngan.png" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="nk-font-weight-700 team-title">Bác sĩ: Hoàng Thị Thảo Ngân
@@ -139,11 +139,11 @@
             <div class="item-bs">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top">
-                        <img src="../../asset/images/bs3.jpg" class="img-fluid rounded-circle w-100" alt="">
+                        <img src="../../asset/images/bsgiang.png" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="nk-font-weight-700 team-title">Bác sĩ: Bùi Thị Giang
-                        <p class="team-description-bs mb-0"></h5>Chuyên khoa RHM <b>Đại học Y dược TP. Hồ Chí Minh</b> 
+                        <p class="team-description-bs mb-0"></h5>Chuyên khoa RHM <b>Đại học Y Hà Nội</b> 
                         </p>
                     </div>
                 </div>
@@ -151,7 +151,7 @@
             <div class="item-bs">
                 <div class="team-item rounded overflow-hidden">
                     <div class="team-img rounded-top">
-                        <img src="../../asset/images/bs6.jpg" class="img-fluid rounded-circle w-100" alt="">
+                        <img src="../../asset/images/bsnga.png" class="img-fluid rounded-circle w-100" alt="">
                     </div>
                     <div class="team-content-bs text-center border border-primary rounded p-4 mt-2 mt-lg-3">
                         <h5 class="nk-font-weight-700 team-title">Bác sĩ: Văn Thanh Nga

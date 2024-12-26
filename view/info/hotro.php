@@ -534,8 +534,8 @@
         <div class="hotline-phone-ring">
             <div class="hotline-zalo-ring-circle"></div>
             <div class="hotline-zalo-ring-circle-fill"></div>
-            <div class="hotline-zalo-ring-img-circle"> <a href="https://zalo.me/1797913117798518130"
-                    class="pps-btn-img" id="zaloIcon"> <img src="../../asset/images/icon_zalo.jpg" alt="Chat Zalo" width="50"> </a>
+            <div class="hotline-zalo-ring-img-circle"> <a href="https://www.facebook.com/NhakhoaVietHanNhaTrangKhanhHoa"
+                    class="pps-btn-img" id="zaloIcon"> <img src="../../asset/images/icon_messenger.jpg" alt="Chat Zalo" width="50"> </a>
             </div>
         </div>
     </div> <!-- Message Box -->
@@ -546,7 +546,7 @@
                 <div class="header-messageBox"> <span>VIET HAN DENTAL</span> <span class="close"
                         onclick="closeMessageBox()">&times;</span> </div>
                 <div class="body-messageBox"> Chào anh/chị, Việt Hàn Dental luôn sẵn sàng hỗ trợ! </div>
-                <a href="https://zalo.me/1797913117798518130">Gửi tin nhắn</a>
+                <a href="https://www.facebook.com/NhakhoaVietHanNhaTrangKhanhHoa">Gửi tin nhắn</a>
             </div>
         </div>
     </div>
@@ -579,8 +579,8 @@
             <div class="hotline-face-ring-circle"></div>
             <div class="hotline-face-ring-circle-fill"></div>
             <div class="hotline-face-ring-img-circle">
-                <a href="https://www.facebook.com/NhakhoaVietHanNhaTrangKhanhHoa" class="pps-btn-img">
-                    <img src="../../asset/images/icon_messenger.jpg" alt="Chat Messenger" width="50">
+                <a href="https://zalo.me/1797913117798518130" class="pps-btn-img">
+                    <img src="../../asset/images/icon_zalo.jpg" alt="Chat Messenger" width="50">
 
                 </a>
             </div>

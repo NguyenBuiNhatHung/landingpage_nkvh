@@ -8,7 +8,7 @@
     }
     .cl{
         color:rgb(0, 166, 218);
-        min-height: 270px;
+        min-height: 275px;
         border-radius: 2%;
         box-shadow: 0 4px 15px rgba(255, 255, 255, 0.8);
         text-align: justify;

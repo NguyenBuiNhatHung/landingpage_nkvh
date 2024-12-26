@@ -1,6 +1,17 @@
 <style>
     #nk-dathen {
         margin-top: 40px;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        width: 100%;
+        background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url(../../asset/images/nk_bg_an.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        
     }
 
     .appointment-form {
@@ -59,9 +70,9 @@
 <div class="col-12 text-center">
     <img class="img-imp col-12 col-md-10 wow animate__animated animate__fadeInUp" src="../../asset/images/csmm.png" alt="">
 </div>
-<div id="nk-dathen" class="container">
-    <div class="row">
-        <div class="col-lg-6 my-auto wow animate__animated animate__fadeInUp">
+<div id="nk-dathen">
+    <div class="row d-flex justify-content-center">
+        <div class="col-lg-3 my-auto wow animate__animated animate__fadeInUp">
             <div id="nk-dathen-uudai" class="col-8 col-md-6 mx-auto text-center mb-2">
                 <div id="text-ud" class="display-4">ƯU ĐÃI CHỈ CÒN</div>
                 <div class="d-flex justify-content-center">
@@ -81,7 +92,7 @@
             </div>
         </div>
 
-        <div id="dathen" class="col-lg-6 col-10 mx-auto wow animate__animated animate__fadeInUp">
+        <div id="dathen" class="col-lg-3 col-10 wow animate__animated animate__fadeInUp">
             <div class="appointment-form">
                 <h5 class="text-center nk-font-weight-700" style="color: rgb(26, 119, 224);">
                     ĐĂNG KÝ ĐỂ NGHIỆM DỊCH VỤ ĐẲNG CẤP TẠI NHA KHOA VIỆT HÀN
