@@ -39,6 +39,7 @@
     }
     #nk-kn{
         margin-top: 40px;
+        width: 100%;
     }
     @media (max-width: 1200px) {
         .info-item {
@@ -96,12 +97,11 @@
         }
     }
     .img-nhaclai{
-        border-radius: 5px;
+        width: 100%;
         margin-top: 20px;
-        margin-bottom: 40px;
     }
 </style>
-<div id="nk-kn" class="bg-white col-12">
+<div id="nk-kn" class="bg-white">
     <div id="kinhnghiem" class="col-12 container">
         <div class="info-banner row">
             <div class="info-item col-4 col-lg-2 wow animate__animated animate__fadeInLeft">
@@ -148,7 +148,7 @@
         </div>
     </div>
     <div class="text-center">
-        <img class="img-nhaclai col-12 col-md-12 wow animate__animated animate__fadeInUp" src="../../asset/images/nhaclai.png" alt="">
+        <img class="img-nhaclai wow animate__animated animate__fadeInUp" src="../../asset/images/nhaclai.png" alt="">
     </div>
 </div>
 

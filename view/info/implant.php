@@ -1,7 +1,6 @@
 <style>
     .img-imp{
-        border-radius: 2%;
-        margin-top: 40px;
+        width: 100%;
     }
     .nk-mb-40{
         margin-bottom: 40px;
@@ -10,7 +9,7 @@
         background-color: #f9fcff;
     }
 </style>
-<div id="implant" class="nk-bg-color-1 col-12 text-center">
-    <img class="img-imp col-12 col-md-10 wow animate__animated animate__fadeInUp" src="../../asset/images/implant2.svg" alt="">
-    <img class="nk-mb-40 img-imp col-12 col-md-10 wow animate__animated animate__fadeInUp" src="../../asset/images/IMPLANTS-1.svg" alt="">
+<div id="implant" class="nk-bg-color-1text-center">
+    <img class="img-imp wow animate__animated animate__fadeInUp" src="../../asset/images/implant1.png" alt="">
+    <img class="img-imp wow animate__animated animate__fadeInUp" src="../../asset/images/implant2.png" alt="">
 </div>

@@ -106,7 +106,7 @@
 <div id="myPopup" class="popup">
     <div class="popup-content">
         <span class="close">&times;</span>
-        <h2><span class="yellow">ĐĂNG KÝ NHẬN ƯU ĐÃI NGAY</span></h2>
+        <h2><span style="color:white;font-weight:700" class="yellow">ĐĂNG KÝ NHẬN ƯU ĐÃI NGAY</span></h2>
         <form class="form-container" method="POST" action="../../controller/register/register.php">
             <input type="text" name="name" placeholder="Họ và tên" required>
             <input type="text" name="phone" placeholder="Số điện thoại" required>

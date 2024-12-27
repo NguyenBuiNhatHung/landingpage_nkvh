@@ -10,7 +10,6 @@
     }
 
     #nk-dathen {
-        margin-top: 40px;
         padding: 40px 20px;
         width: 100%;
         background-image: 
@@ -88,9 +87,9 @@
     }
 </style>
 
-<div class="col-12 text-center">
+<div style="width:100%;" class="text-center">
 
-<img class="img-imp col-12 col-md-10 wow animate__animated animate__fadeInUp" src="../../asset/images/csmm.png" alt="">
+<img class="img-imp wow animate__animated animate__fadeInUp" src="../../asset/images/csmm.png" alt="">
 
 </div>
 
@@ -157,6 +156,6 @@
     </div>
 </div>
 
-<div class="col-12 text-center">
-    <img class="img-imp col-12 col-md-10 wow animate__animated animate__fadeInUp" src="../../asset/images/banggia.png" alt="Bảng giá">
+<div class="text-center">
+    <img class="img-imp wow animate__animated animate__fadeInUp" src="../../asset/images/banggia.png" alt="Bảng giá">
 </div>
