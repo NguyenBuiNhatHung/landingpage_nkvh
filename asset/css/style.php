@@ -56,7 +56,7 @@ a {
     font-size: 0.8rem; }
 
 .site-navbar-top {
-  border-bottom: 1px solid rgba(255, 255, 255, 0.4); }
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);}
 
 .site-navbar {
   margin-bottom: 0px;

@@ -2,7 +2,7 @@
     .popup {
         display: none;
         position: fixed;
-        z-index: 9;
+        z-index: 1000;
         left: 0;
         top: 0;
         width: 100%;
@@ -15,7 +15,7 @@
         background-image: url('../../asset/images/popup.png');
         background-size: cover;
         background-position: center;
-        margin: 5% auto;
+        margin: 10% auto;
         padding: 20px;
         border-radius: 15px;
         width: 100%;
