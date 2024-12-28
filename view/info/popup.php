@@ -90,7 +90,7 @@
 
     @media (max-width: 768px) {
         .popup-content {
-            margin:20% auto; /* Adjusted for mobile spacing */
+            margin:10% auto; /* Adjusted for mobile spacing */
         }
         
         .popup-content h2 {
