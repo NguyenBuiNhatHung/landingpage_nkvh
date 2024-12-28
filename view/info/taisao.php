@@ -146,7 +146,7 @@
                         Với nhiều năm kinh nghiệm, liên tục học tập nâng cao nghiệp vụ. Các bác sĩ của chúng tôi làm
                         việc tận tâm với bệnh nhân, đề cao y đức và nhận được rất nhiều sự yêu mến của khách hàng
                         tại Nha Trang, Khánh Hòa cũng như khách hàng Quốc tế.</div>
-                </div> <img src="../../asset/images/ts4.png" class="nk-ts-img img-fluid h-100" alt="Ảnh Cam Kết 1">
+                </div> <img src="../../asset/images/ts4.png" class="img-fluid" alt="Ảnh Cam Kết 1">
             </div>
             <div class="nk-ts-item col-lg-5 col-10 hover-effect">
                 <div class="overlay d-flex flex-column">
@@ -179,7 +179,7 @@
                         với chi phí hợp lý, minh bạch và phù hợp với mọi khách hàng. Với bảng giá rõ ràng, hỗ trợ trả
                         góp 0% lãi suất và nhiều ưu đãi hấp dẫn, giúp Cô Chú/ Anh Chị an tâm chăm sóc răng miệng mà
                         không lo gánh nặng tài chính.</div>
-                </div> <img src="../../asset/images/ts1.png" class="img-fluid h-100" alt="Ảnh Cam Kết 4">
+                </div> <img src="../../asset/images/ts1.png" class="img-fluid" alt="Ảnh Cam Kết 4">
             </div>
         </div>
         <div id="nk-ts-btn" class="nk-ts-item-2 row justify-content-around wow animate__animated animate__fadeInUp">
