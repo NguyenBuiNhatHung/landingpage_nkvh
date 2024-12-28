@@ -15,13 +15,13 @@
         background-image: url('../../asset/images/popup.png');
         background-size: cover;
         background-position: center;
-        margin:auto;
+        margin:7% auto;
         padding: 20px;
         border-radius: 15px;
         max-width: 400px;
         position: relative;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-        height: 940px;
+        height: 730px;
     }
 
     .close {
@@ -46,7 +46,7 @@
 
     .form-container input,
     .form-container select {
-        padding: 12px;
+        padding: 3px;
         font-size: 16px;
         background-color: rgba(255, 255, 255, 0.8);
         border: 1px solid #ccc;
@@ -66,7 +66,7 @@
     }
 
     .form-container button {
-        padding: 12px 20px;
+        padding: 7px 10px;
         background-color: white; /* Changed button color */
         color: #003a64; /* Text color for button */
         border: 1px solid #003a64; /* Border for the button */
@@ -89,7 +89,8 @@
     }
 
     @media (max-width: 768px) {
-        .popup-content { /* Adjusted for mobile spacing */
+        .popup-content {
+            margin:20% auto; /* Adjusted for mobile spacing */
         }
         
         .popup-content h2 {
