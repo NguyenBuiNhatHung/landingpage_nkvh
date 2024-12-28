@@ -15,13 +15,14 @@
         background-image: url('../../asset/images/popup.png');
         background-size: cover;
         background-position: center;
-        margin: 10% auto;
+        margin: 5% auto;
         padding: 20px;
         border-radius: 15px;
         width: 100%;
         max-width: 400px;
         position: relative;
         box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        height: 940px;
     }
 
     .close {
