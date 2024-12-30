@@ -15,7 +15,7 @@
         background-image: url('../../asset/images/popup.png');
         background-size: cover;
         background-position: center;
-        margin:7% auto;
+        margin: 7% auto;
         padding: 20px;
         border-radius: 15px;
         max-width: 400px;
@@ -51,7 +51,8 @@
         background-color: rgba(255, 255, 255, 0.8);
         border: 1px solid #ccc;
         border-radius: 10px;
-        color: #003a64; /* Adjusted text color */
+        color: #003a64;
+        /* Adjusted text color */
     }
 
     .form-container input::placeholder,
@@ -67,9 +68,12 @@
 
     .form-container button {
         padding: 7px 10px;
-        background-color: white; /* Changed button color */
-        color: #003a64; /* Text color for button */
-        border: 1px solid #003a64; /* Border for the button */
+        background-color: white;
+        /* Changed button color */
+        color: #003a64;
+        /* Text color for button */
+        border: 1px solid #003a64;
+        /* Border for the button */
         cursor: pointer;
         border-radius: 15px;
         font-weight: bold;
@@ -78,26 +82,34 @@
     }
 
     .form-container button:hover {
-        background-color: #f0f0f0; /* Light background on hover */
+        background-color: #f0f0f0;
+        /* Light background on hover */
     }
 
     .popup-content h2 {
         text-align: center;
-        color: #003a64; /* Adjusted header color */
+        color: #003a64;
+        /* Adjusted header color */
         font-size: 1.5rem;
         margin-bottom: 20px;
     }
 
     @media (max-width: 768px) {
         .popup-content {
-            margin:10% auto; /* Adjusted for mobile spacing */
+            margin: 10% auto;
+            /* Adjusted for mobile spacing */
         }
-        
+
         .popup-content h2 {
             font-size: 1.2rem;
         }
+
         .form-container button {
             font-size: 1rem;
+        }
+
+        .popup-content {
+            max-width: 340px;
         }
     }
 </style>
@@ -128,20 +140,20 @@
 </div>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener("DOMContentLoaded", function () {
         // Hiển thị popup sau 10 giây
-        setTimeout(function() {
+        setTimeout(function () {
             document.getElementById("myPopup").style.display = "block";
         }, 10000);
 
         // Đóng popup khi nhấn vào nút "close"
         var closeBtn = document.querySelector(".popup .close");
-        closeBtn.addEventListener("click", function() {
+        closeBtn.addEventListener("click", function () {
             document.getElementById("myPopup").style.display = "none";
         });
 
         // Đóng popup khi nhấn ra ngoài khu vực popup
-        window.addEventListener("click", function(event) {
+        window.addEventListener("click", function (event) {
             var popup = document.getElementById("myPopup");
             if (event.target === popup) {
                 popup.style.display = "none";
