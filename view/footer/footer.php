@@ -15,7 +15,7 @@
     }
 
     .footer {
-        background: linear-gradient(rgba(0, 0, 51, 0.9), rgba(0, 0, 51, 0.9));
+        background-color: #17346b;
 
     }
 

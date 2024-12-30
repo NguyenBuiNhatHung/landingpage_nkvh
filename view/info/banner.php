@@ -72,15 +72,15 @@
         width: 100%;
         font-weight: 700;
         text-align: center;
-        color: white;
-        margin-top: 40px;
+        color: #00a6da;
+        padding-top: 40px;
         font-size: 30px;
     }
     #nk-dv{
         display: flex;
         flex: row;
         width: 100%;
-        height: 500px;
+        height: 430px;
         justify-content: center;
         margin-top: 20px;
     }
@@ -96,6 +96,8 @@
         flex:row;
         width: 50%;
         justify-content: center;
+        border-radius: 1%;
+        overflow: hidden;
     }
     .nk-dv-item-1l{
         margin-right: 10px;
@@ -110,7 +112,8 @@
         margin-left: 10px;
     }
     #nk-dvcs{
-        margin-bottom: 40px;
+        padding-bottom: 40px;
+        background-color: white;
     }
     @media screen and (max-width: 1750px) {
         .nk-dv-item-1{
@@ -132,13 +135,13 @@
 
     @media screen and (max-width: 800px) {
         #nk-dv{
-            height: 330px;
+            height: 280px;
         }
     }
 
     @media screen and (max-width: 500px) {
         #nk-dv{
-            height: 180px;
+            height: 150px;
         }
         #nk-dv-title{
             font-weight: 700;
