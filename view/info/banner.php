@@ -192,18 +192,18 @@
     <div id="nk-dv">
         <div class="nk-dv-item-1 nk-dv-item-1l">
             <div class="nk-dv-item-2 nk-dv-item-2l">
-                <img class="w-100" src="../../asset/images/dv1.jpg" alt="">
+                <img class="w-100" src="../../asset/images/dichvu1.jpg" alt="">
             </div>
             <div class="nk-dv-item-2 nk-dv-item-2r">
-                <img class="w-100" src="../../asset/images/dv2.jpg" alt="">
+                <img class="w-100" src="../../asset/images/dichvu2.jpg" alt="">
             </div>
         </div>
         <div class="nk-dv-item-1 nk-dv-item-1r">
             <div class="nk-dv-item-2 nk-dv-item-2l">
-                <img class="w-100" src="../../asset/images/dv3.jpg" alt="">
+                <img class="w-100" src="../../asset/images/dichvu3.jpg" alt="">
             </div>
             <div class="nk-dv-item-2 nk-dv-item-2r">
-                <img class="w-100" src="../../asset/images/dv4.jpg" alt="">
+                <img class="w-100" src="../../asset/images/dichvu4.jpg" alt="">
             </div>
         </div>
     </div>
