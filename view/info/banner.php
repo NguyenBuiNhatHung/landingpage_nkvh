@@ -168,7 +168,7 @@
 
 </style>
 <div id="gioithieu1"></div>
-<img class="nk-banner animate__animated animate__fadeInUp rounded" src="../../asset/images/banner4.png" alt="">
+<img class="nk-banner animate__animated animate__fadeInUp rounded" src="../../asset/images/banner5.png" alt="">
 <!-- <img class="nk-banner d-block d-md-none animate__animated animate__fadeInUp rounded" src="../../asset/images/banner_dienthoai.jpg" alt=""> -->
 
 
