@@ -89,7 +89,7 @@
 
 <div style="width:100%;" class="text-center">
 
-<img class="img-imp wow animate__animated animate__fadeInUp" src="../../asset/images/csmm.png" alt="">
+<img class="img-imp wow animate__animated animate__fadeInUp" src="../../asset/images/csmm1.png" alt="">
 
 </div>
 
@@ -157,5 +157,5 @@
 </div>
 
 <div class="text-center">
-    <img class="img-imp wow animate__animated animate__fadeInUp" src="../../asset/images/banggia.png" alt="Bảng giá">
+    <img class="img-imp wow animate__animated animate__fadeInUp" src="../../asset/images/banggia1.png" alt="Bảng giá">
 </div>
