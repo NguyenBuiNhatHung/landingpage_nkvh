@@ -80,14 +80,14 @@
         display: flex;
         flex: row;
         width: 100%;
-        height: 430px;
+        height: 570px;
         justify-content: center;
         margin-top: 20px;
     }
     .nk-dv-item-1{
         display: flex;
         flex: row;
-        width: 30%;
+        width: 40%;
         height: 100%;
         justify-content: center;
     }
@@ -119,17 +119,24 @@
         .nk-dv-item-1{
             width: 40%;
         }
+        
+        #nk-dv{
+            height: 480px;
+        }
     }
 
     @media screen and (max-width: 1300px) {
         .nk-dv-item-1{
             width: 45%;
         }
+        #nk-dv{
+            height: 370px;
+        }
     }
 
     @media screen and (max-width: 1000px) {
         #nk-dv{
-            height: 400px;
+            height: 300px;
         }
     }
 
@@ -141,7 +148,7 @@
 
     @media screen and (max-width: 500px) {
         #nk-dv{
-            height: 150px;
+            height: 140px;
         }
         #nk-dv-title{
             font-weight: 700;
