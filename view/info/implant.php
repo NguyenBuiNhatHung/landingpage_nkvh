@@ -11,5 +11,5 @@
 </style>
 <div id="implant" class="nk-bg-color-1text-center">
     <img class="img-imp wow animate__animated animate__fadeInUp" src="../../asset/images/implan2.png" alt="">
-    <img class="img-imp wow animate__animated animate__fadeInUp" src="../../asset/images/implant2.png" alt="">
+    <img class="img-imp wow animate__animated animate__fadeInUp" src="../../asset/images/implant21.png" alt="">
 </div>
