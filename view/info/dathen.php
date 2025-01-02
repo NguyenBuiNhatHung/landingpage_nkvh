@@ -18,7 +18,7 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
-        background-attachment: fixed;
+        /* background-attachment: fixed; */
     }
 
     .img-imp {
