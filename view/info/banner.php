@@ -64,8 +64,11 @@
         url(../../asset/images/kientao.png);
         background-position: center;
         background-repeat: no-repeat;
+        background-attachment: fixed;
         background-size: cover;
-        background-size: -webkit-cover;
+        -webkit-background-size: cover;
+        background-origin: border-box;
+        -webkit-background-origin: border-box;
     }
     
     #nk-dv-title{
