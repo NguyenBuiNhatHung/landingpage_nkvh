@@ -65,6 +65,7 @@
         background-position: center;
         background-repeat: no-repeat;
         background-attachment: fixed;
+        -webkit-background-attachment: fixed;
         background-size: cover;
         -webkit-background-size: cover;
         background-origin: border-box;
