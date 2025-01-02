@@ -66,6 +66,7 @@
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
+        background-size: -webkit-cover;
     }
     
     #nk-dv-title{
