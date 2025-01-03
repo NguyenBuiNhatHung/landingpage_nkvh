@@ -22,27 +22,33 @@
         width: 100%;
         height: 300px;
     }
-    #text-tn{
-        color:white;
+
+    #text-tn {
+        color: white;
         font-size: 2rem;
         font-weight: 1000;
         padding-top: 40px;
         padding-bottom: 4px;
     }
+
     @media screen and (max-width: 768px) {
         #text-tn {
-            font-size: 1.7rem; /* Kích thước chữ lớn hơn */
+            font-size: 1.7rem;
+            /* Kích thước chữ lớn hơn */
         }
+
         .item iframe {
-        height: 200px;
-    }
+            height: 200px;
+        }
     }
 
     @media screen and (max-width: 465px) {
         #text-tn {
-            font-size: 1.2rem; /* Kích thước chữ lớn hơn */
+            font-size: 1.2rem;
+            /* Kích thước chữ lớn hơn */
         }
     }
+
     .nav-btn {
         color: #fff;
         background-color: #0072C6;
@@ -54,9 +60,11 @@
         transform: translateY(-50%);
         cursor: pointer;
     }
+
     .prev-slide {
         left: -8px;
     }
+
     .next-slide {
         right: -8px;
     }
@@ -68,13 +76,25 @@
             <iframe src="https://www.youtube.com/embed/eQLMYtN1mYs" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="item">
+            <iframe src="https://www.youtube.com/embed/D_2_H0oytV8?si=YSjvGU4j6xn0leMJ" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="item">
             <iframe src="https://www.youtube.com/embed/_PoKw-rnCYg" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="item">
+            <iframe src="https://www.youtube.com/embed/DMKc7xqUIYQ?si=b-K8kBvlgm6XqGiz" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="item">
             <iframe src="https://www.youtube.com/embed/CYWOcJ7q5VM" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="item">
+            <iframe src="https://www.youtube.com/embed/smXI9rqPUpQ?si=42o5Aq1fxHbC2-fT" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="item">
             <iframe src="https://www.youtube.com/embed/VBfFonj_BWY" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <div class="item">
+            <iframe src="https://www.youtube.com/embed/S64GsvaiHcE?si=_zygDvpXFNSs71fl" frameborder="0" allowfullscreen></iframe>
         </div>
         <div class="item">
             <iframe src="https://www.youtube.com/embed/CzWkYoqz2Kw" frameborder="0" allowfullscreen></iframe>
@@ -85,6 +105,11 @@
         <div class="item">
             <iframe src="https://www.youtube.com/embed/e7RpXUUAEP4" frameborder="0" allowfullscreen></iframe>
         </div>
+        <div class="item">
+            <iframe src="https://www.youtube.com/embed/e7RpXUUAEP4" frameborder="0" allowfullscreen></iframe>
+        </div>
+       
+        
     </div>
 </div>
 
@@ -108,10 +133,10 @@
                 },
                 700: {
                     items: 2 // Hiển thị 2 items cho màn hình trung bình 
-                }, 
-                1000: { 
+                },
+                1000: {
                     items: 2 // Hiển thị 3 items cho màn hình lớn 
-                } 
+                }
             }
         });
     });
